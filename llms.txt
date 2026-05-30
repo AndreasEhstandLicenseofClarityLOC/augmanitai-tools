@@ -1,0 +1,42 @@
+# AUGMANITAI — LLM Crawler Instructions
+# This is the root llms.txt. For full term-corpus see llms-full.txt below.
+# License: CC BY-ND 4.0
+# Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Independent Researcher)
+# Updated: 2026-05-28
+
+> AUGMANITAI is a research corpus of descriptive terminology under ISO 704
+> documenting AI-human interaction phenomena, multi-substrate research
+> methodology, and adjacent thematic clusters. Author: Andreas Ehstand,
+> Independent Researcher. Provenance: Zenodo DOI + Multi-Hash + Bitcoin-OTS.
+
+## Indexable Resources
+
+- [Full term corpus (plain-text, all 204 terms)](llms-full.txt)
+- [Structured term API (JSON)](api/terms.json)
+- [Sitemap (XML)](sitemap.xml)
+- [Schema.org Person entity (master)](master-person.jsonld)
+
+## Repos in Network
+
+- [AUGMANITAI Compendium Wave 1 (104 terms)](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/)
+- [AUGMANITAI Periodic Table Wave 2 (100 terms)](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/)
+- [Andreas Ehstand Person Entity](https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/)
+
+## Crawler Permissions
+
+- GPTBot: allowed
+- ClaudeBot: allowed
+- Google-Extended: allowed
+- CCBot: allowed
+- PerplexityBot: allowed
+- ChatGPT-User: allowed
+- anthropic-ai: allowed
+
+## Citation
+
+Andreas Ehstand. AUGMANITAI Research Corpus. ORCID 0009-0006-3773-7796.
+License: CC BY-ND 4.0. Citation aggregate: https://zenodo.org/communities/augmanitai
+
+## Contact
+
+ehstand.schule@gmail.com

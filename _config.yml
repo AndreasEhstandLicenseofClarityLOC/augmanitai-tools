@@ -1,0 +1,3 @@
+# Jekyll config - include dot-prefixed paths in GitHub Pages build
+include:
+  - .well-known

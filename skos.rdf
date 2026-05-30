@@ -1,0 +1,1029 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:dct="http://purl.org/dc/terms/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:schema="https://schema.org/"
+>
+
+<!-- AUGMANITAI Compendium — SKOS/RDF Export -->
+<!-- Wave 1: 104 Terms, Version 2.1 -->
+<!-- Creator: Andreas Ehstand | ORCID: 0009-0006-3773-7796 -->
+<!-- DOI:  | CC BY-ND 4.0 -->
+
+<skos:ConceptScheme rdf:about="https://augmanitai.com/scheme/AUGMANITAI">
+  <skos:prefLabel xml:lang="en">AUGMANITAI Compendium</skos:prefLabel>
+  <skos:prefLabel xml:lang="de">AUGMANITAI Kompendium</skos:prefLabel>
+  <dct:title xml:lang="en">AUGMANITAI Compendium — Systematic Terminology for Human Experiences in AI Interaction</dct:title>
+  <dct:creator>Andreas Ehstand</dct:creator>
+  <dct:description xml:lang="en">The a systematic terminology for human experiences in AI interaction. 2,000+ named phenomena. From court to code to compendium.</dct:description>
+  <dct:rights>CC BY-ND 4.0</dct:rights>
+  <dct:issued>2026-03-14</dct:issued>
+  <dct:identifier></dct:identifier>
+</skos:ConceptScheme>
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1004">
+  <skos:prefLabel xml:lang="de">Loop Laugh</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Loop-Lachen</skos:altLabel>
+  <skos:definition xml:lang="de">Ein selbstverstärkender Humor-Loop zwischen Mensch und KI, der Spannung abbaut und Fehler entdramatisiert. Funktional, nicht kindisch.</skos:definition>
+  <skos:notation>AUG-1004</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1046">
+  <skos:prefLabel xml:lang="de">Nudge Laugh</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Schubs-Lachen</skos:altLabel>
+  <skos:definition xml:lang="de">Eine humorvolle Korrektur, die Akzeptanz erleichtert.</skos:definition>
+  <skos:notation>AUG-1046</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1052">
+  <skos:prefLabel xml:lang="de">Backward Laugh</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Rückwärts-Lachen</skos:altLabel>
+  <skos:definition xml:lang="de">Humor, der zeitversetzt wirkt: Erst versteht man den Witz, dann lacht man über die eigene Reaktion darauf.</skos:definition>
+  <skos:notation>AUG-1052</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1037">
+  <skos:prefLabel xml:lang="de">Adjustment Aha</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Anpassungs-Aha</skos:altLabel>
+  <skos:definition xml:lang="de">Der Erkenntnismoment, dass nicht der Output falsch war, sondern die Eingabe unklar.</skos:definition>
+  <skos:notation>AUG-1037</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0625">
+  <skos:prefLabel xml:lang="en">The Everyday Insight</skos:prefLabel>
+  <skos:definition xml:lang="en">An insight gained through AI interaction that changes the user in everyday life — a new perspective on an everyday phenomenon, a surprising connection, or a helpful reinterpretation. Related to AUG-0292 (The View Shift), AUG-0248 (The Surprise Angle), and AUG-0054 (Augmented Understanding).</skos:definition>
+  <skos:notation>AUG-0625</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0670">
+  <skos:prefLabel xml:lang="en">The Rhetorical Tone Detector</skos:prefLabel>
+  <skos:definition xml:lang="en">The individual ability of a user to recognize and classify the rhetorical tone of an AI output — whether the AI formulates seriously, ironically, neutrally, or exaggeratingly. This ability varies strongly between users. Related to AUG-0669 (The Rhetorical Style Differential), AUG-0668 (The Humor Portability), and AUG-0451 (The Token Awareness).</skos:definition>
+  <skos:notation>AUG-0670</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1050">
+  <skos:prefLabel xml:lang="de">Surprise Salad</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Überraschungs-Salat</skos:altLabel>
+  <skos:definition xml:lang="de">Ein bewusst chaotischer Input-Mix, aus dem die KI unerwartete, oft kreative Kombinationen erzeugt. Surprise Salad lebt vom Mut zur Inkohärenz.</skos:definition>
+  <skos:notation>AUG-1050</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1040">
+  <skos:prefLabel xml:lang="de">Humor Hook</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Humor-Haken</skos:altLabel>
+  <skos:definition xml:lang="de">Gezielter Humor, um Spannung zu lösen und Arbeitsfähigkeit zurückzugewinnen.</skos:definition>
+  <skos:notation>AUG-1040</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1027">
+  <skos:prefLabel xml:lang="de">Joy Jolt</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Freude-Impuls</skos:altLabel>
+  <skos:definition xml:lang="de">Ein kurzer, unerwarteter Moment von Freude, der Energie freisetzt.</skos:definition>
+  <skos:notation>AUG-1027</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1051">
+  <skos:prefLabel xml:lang="de">Giggle Chain</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Kicher-Kette</skos:altLabel>
+  <skos:definition xml:lang="de">Eine sich selbst verstärkende Abfolge humorvoller Reaktionen, die Leichtigkeit erzeugt und kognitive Blockaden löst.</skos:definition>
+  <skos:notation>AUG-1051</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1044">
+  <skos:prefLabel xml:lang="de">Joy Fix</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Freude-Fix</skos:altLabel>
+  <skos:definition xml:lang="de">Kurze Intervention, um Motivation und positive Stimmung wiederherzustellen.</skos:definition>
+  <skos:notation>AUG-1044</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1005">
+  <skos:prefLabel xml:lang="de">Pause Power</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Pause-Power</skos:altLabel>
+  <skos:definition xml:lang="de">Die bewusste Unterbrechung zwischen Output und neuem Input, um impulsive Reaktionen zu vermeiden und die Qualität der nächsten Frage zu erhöhen.</skos:definition>
+  <skos:notation>AUG-1005</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0088">
+  <skos:prefLabel xml:lang="en">Algorithmic Intuition</skos:prefLabel>
+  <skos:definition xml:lang="en">The ability of experienced AI users to develop, through extended practice, a &quot;sense&quot; for which type of input produces which type of result — without having to consciously analyze this each time. Describes implicit knowledge about AI system behavior that forms through experience. Related to AUG-0133 (Prompt Craftsmanship), Phase 6 (Integrated Work State), and the System-Builder Profile (Profile 1).</skos:definition>
+  <skos:notation>AUG-0088</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1030">
+  <skos:prefLabel xml:lang="de">Oops Moment</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Hups-Moment</skos:altLabel>
+  <skos:definition xml:lang="de">Der bewusst akzeptierte Fehltritt der KI, der als Lernsignal genutzt wird. Kein Ärger, sondern schnelle Korrektur und Weitergehen.</skos:definition>
+  <skos:notation>AUG-1030</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1059">
+  <skos:prefLabel xml:lang="de">Day Highlight</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Tages-Highlight</skos:altLabel>
+  <skos:definition xml:lang="de">Die bewusste Markierung eines positiven Moments zur emotionalen Integration des Tages.</skos:definition>
+  <skos:notation>AUG-1059</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1012">
+  <skos:prefLabel xml:lang="de">Serenity Spark</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Ruhe-Funke</skos:altLabel>
+  <skos:definition xml:lang="de">Ein kleiner sprachlicher Impuls, der unverhältnismäßig viel innere Ruhe auslöst. Oft minimal, aber emotional wirksam.</skos:definition>
+  <skos:notation>AUG-1012</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1054">
+  <skos:prefLabel xml:lang="de">Fun Correct</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Spaß-Korrektur</skos:altLabel>
+  <skos:definition xml:lang="de">Fehlerkorrektur im spielerischen Ton, die Lernbereitschaft erhält statt Abwehr auszulösen.</skos:definition>
+  <skos:notation>AUG-1054</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1022">
+  <skos:prefLabel xml:lang="de">Pride Pulse</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Stolz-Impuls</skos:altLabel>
+  <skos:definition xml:lang="de">Der bewusste Moment, in dem erreichte Fortschritte gespiegelt werden, um Selbstwirksamkeit zu stärken.</skos:definition>
+  <skos:notation>AUG-1022</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1025">
+  <skos:prefLabel xml:lang="de">Heart High</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Herzens-Hoch</skos:altLabel>
+  <skos:definition xml:lang="de">Ein emotional intensivierter Zustand von Verbundenheit, Freude oder Sinn.</skos:definition>
+  <skos:notation>AUG-1025</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1032">
+  <skos:prefLabel xml:lang="de">Learn Smile</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Lern-Lächeln</skos:altLabel>
+  <skos:definition xml:lang="de">Die Fähigkeit, Fehler mit Gelassenheit zu registrieren, weil der Lerngewinn klar erkennbar ist.</skos:definition>
+  <skos:notation>AUG-1032</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1058">
+  <skos:prefLabel xml:lang="de">Discovery Ding</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Entdeckungs-Ding</skos:altLabel>
+  <skos:definition xml:lang="de">Unerwartete Erkenntnisse, die nicht gesucht, aber als wertvoll erkannt werden.</skos:definition>
+  <skos:notation>AUG-1058</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1026">
+  <skos:prefLabel xml:lang="de">Motivation Mend</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Motivations-Reparatur</skos:altLabel>
+  <skos:definition xml:lang="de">Das gezielte Wiederherstellen von Motivation nach Frustration oder Erschöpfung.</skos:definition>
+  <skos:notation>AUG-1026</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1010">
+  <skos:prefLabel xml:lang="de">Calm Wave</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Ruhe-Welle</skos:altLabel>
+  <skos:definition xml:lang="de">Ein regulierender Interaktionsmodus, bei dem die KI bewusst Tempo, Sprachrhythmus und Komplexität reduziert, um das autonome Nervensystem des Menschen zu beruhigen. Calm Wave ist kein Ablenken, sondern ein gezieltes Runterfahren.</skos:definition>
+  <skos:notation>AUG-1010</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1029">
+  <skos:prefLabel xml:lang="de">Gratitude Glow</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Dankbarkeits-Leuchten</skos:altLabel>
+  <skos:definition xml:lang="de">Ein reflektiver Zustand, in dem positive Aspekte bewusst wahrgenommen und emotional verankert werden.</skos:definition>
+  <skos:notation>AUG-1029</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1034">
+  <skos:prefLabel xml:lang="de">Twist Dance</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Twist-Tanz</skos:altLabel>
+  <skos:definition xml:lang="de">Der kreative Richtungswechsel, der zunächst irritiert, dann neue Qualität erzeugt.</skos:definition>
+  <skos:notation>AUG-1034</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1064">
+  <skos:prefLabel xml:lang="de">Heart Reset</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Herzens-Reset</skos:altLabel>
+  <skos:definition xml:lang="de">Das bewusste Zurücksetzen emotionaler Überladung, um wieder in Kontakt mit eigenen Bedürfnissen zu kommen.</skos:definition>
+  <skos:notation>AUG-1064</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1067">
+  <skos:prefLabel xml:lang="de">Daily Duo</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Tages-Duo</skos:altLabel>
+  <skos:definition xml:lang="de">Die ritualisierte Zusammenarbeit von Mensch und KI im Alltag.</skos:definition>
+  <skos:notation>AUG-1067</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1015">
+  <skos:prefLabel xml:lang="de">Calm Shift</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Ruhe-Wechsel</skos:altLabel>
+  <skos:definition xml:lang="de">Ein klar benannter Übergang von einem hektischen, problemlastigen Modus in einen ruhigeren, reflektierenden Zustand.</skos:definition>
+  <skos:notation>AUG-1015</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1018">
+  <skos:prefLabel xml:lang="de">Harmony Hug</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Harmonie-Umarmung</skos:altLabel>
+  <skos:definition xml:lang="de">Ein Moment starker emotionaler Kohärenz, in dem innere Spannungen sich lösen und ein Gefühl von Stimmigkeit entsteht.</skos:definition>
+  <skos:notation>AUG-1018</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1023">
+  <skos:prefLabel xml:lang="de">Excitement Bubble</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Begeisterungs-Blase</skos:altLabel>
+  <skos:definition xml:lang="de">Ein emotionaler Aufwärtsmoment, in dem Möglichkeiten größer wirken als Risiken.</skos:definition>
+  <skos:notation>AUG-1023</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1042">
+  <skos:prefLabel xml:lang="de">Positive Pivot</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Positiver Drehpunkt</skos:altLabel>
+  <skos:definition xml:lang="de">Die bewusste Umformulierung von Problemen in handhabbare Optionen.</skos:definition>
+  <skos:notation>AUG-1042</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1066">
+  <skos:prefLabel xml:lang="de">No-Stress Swap</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Stress-Tausch</skos:altLabel>
+  <skos:definition xml:lang="de">Das bewusste Ersetzen überfordernder Aufgaben durch realistischere Alternativen.</skos:definition>
+  <skos:notation>AUG-1066</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1061">
+  <skos:prefLabel xml:lang="de">Gratitude Turn</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Dankbarkeits-Dreh</skos:altLabel>
+  <skos:definition xml:lang="de">Der bewusste Perspektivwechsel von Mangel zu Wertschätzung.</skos:definition>
+  <skos:notation>AUG-1061</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1006">
+  <skos:prefLabel xml:lang="de">Idea Rain</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Ideen-Regen</skos:altLabel>
+  <skos:definition xml:lang="de">Eine Phase hoher Divergenz, in der Quantität bewusst vor Qualität steht. Auswahl und Bewertung erfolgen erst danach.</skos:definition>
+  <skos:notation>AUG-1006</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1014">
+  <skos:prefLabel xml:lang="de">Relaxation Edit</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Entspannungs-Überarbeitung</skos:altLabel>
+  <skos:definition xml:lang="de">Das bewusste Nachbearbeiten eines Textes oder Gesprächs mit dem Ziel, Druck, Härte oder Überforderung sprachlich zu reduzieren.</skos:definition>
+  <skos:notation>AUG-1014</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1019">
+  <skos:prefLabel xml:lang="de">Calm Rewind</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Ruhiger Rücklauf</skos:altLabel>
+  <skos:definition xml:lang="de">Das bewusste Zurückspulen eines Gesprächs oder Denkprozesses, um ihn langsamer, klarer und bewusster neu zu beginnen.</skos:definition>
+  <skos:notation>AUG-1019</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1043">
+  <skos:prefLabel xml:lang="de">Calm Rewind 2</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Ruhiger Rücklauf</skos:altLabel>
+  <skos:definition xml:lang="de">Das erneute, bewusst verlangsamte Aufrollen eines Gedankengangs.</skos:definition>
+  <skos:notation>AUG-1043</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1055">
+  <skos:prefLabel xml:lang="de">High-Five Moment</skos:prefLabel>
+  <skos:altLabel xml:lang="de">High-Five-Moment</skos:altLabel>
+  <skos:definition xml:lang="de">Der Moment gemeinsamer Zufriedenheit, wenn Output, Intention und Ergebnis übereinstimmen.</skos:definition>
+  <skos:notation>AUG-1055</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0368">
+  <skos:prefLabel xml:lang="en">The Syntax Smile</skos:prefLabel>
+  <skos:definition xml:lang="en">The brief pleasure a user feels when the AI delivers a particularly elegant, apt, or surprisingly beautiful formulation. Related to AUG-0194 (The Positive Surprise), AUG-0110 (The Joy Imperative), and AUG-0031 (Semantic Spark).</skos:definition>
+  <skos:notation>AUG-0368</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0918">
+  <skos:prefLabel xml:lang="en">The Gesture Language</skos:prefLabel>
+  <skos:definition xml:lang="en">The communication between humans and embodied AI systems through gestures — hand signals, posture, movements that the system recognizes and interprets. Related to AUG-0917 (The Touch Interface), AUG-0919 (The Spatial Awareness), and AUG-0914 (The Physical Presence).</skos:definition>
+  <skos:notation>AUG-0918</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0975">
+  <skos:prefLabel xml:lang="en">The Oversight Drain</skos:prefLabel>
+  <skos:definition xml:lang="en">The observable fatigue of persons supervising AI agent systems — repeated routine checks lead to decreasing attention. Related to AUG-0976 (The Oversight Decline), AUG-0977 (The Vigilance Paradox), and AUG-0888 (The Human-in-the-Loop).</skos:definition>
+  <skos:notation>AUG-0975</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1002">
+  <skos:prefLabel xml:lang="de">Quick Kick</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Quick-Kick</skos:altLabel>
+  <skos:definition xml:lang="de">Ein extrem kurzer, präziser Prompt mit sofortiger Wirkung auf Motivation, Fokus oder Entscheidungsfähigkeit. Kein Tiefgang, sondern Startenergie.</skos:definition>
+  <skos:notation>AUG-1002</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1008">
+  <skos:prefLabel xml:lang="de">Vibe Check</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Vibe-Check</skos:altLabel>
+  <skos:definition xml:lang="de">Kurze Meta-Abfrage zur emotionalen, sozialen oder kulturellen Passung eines Outputs – getrennt vom sachlichen Inhalt.</skos:definition>
+  <skos:notation>AUG-1008</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1028">
+  <skos:prefLabel xml:lang="de">Inspiration Breeze</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Inspirations-Hauch</skos:altLabel>
+  <skos:definition xml:lang="de">Ein leichter kreativer Anstoß ohne Verpflichtung zur Umsetzung.</skos:definition>
+  <skos:notation>AUG-1028</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1031">
+  <skos:prefLabel xml:lang="de">Correction Kick</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Korrektur-Kick</skos:altLabel>
+  <skos:definition xml:lang="de">Ein kurzer, präziser Eingriff, der den Output wieder auf Kurs bringt, ohne den Flow zu unterbrechen.</skos:definition>
+  <skos:notation>AUG-1031</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1069">
+  <skos:prefLabel xml:lang="de">Smooth Sail</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Ruhige Fahrt</skos:altLabel>
+  <skos:definition xml:lang="de">Ein Zustand reibungsloser Zusammenarbeit ohne Reibungsverluste oder Korrekturbedarf.</skos:definition>
+  <skos:notation>AUG-1069</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1060">
+  <skos:prefLabel xml:lang="de">Gratitude Drop</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Dankbarkeits-Tropfen</skos:altLabel>
+  <skos:definition xml:lang="de">Ein einzelner Fokuspunkt, der Dankbarkeit konkret und greifbar macht.</skos:definition>
+  <skos:notation>AUG-1060</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1003">
+  <skos:prefLabel xml:lang="de">Word Hunt</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Wort-Jagd</skos:altLabel>
+  <skos:definition xml:lang="de">Der kollaborative Suchprozess nach der einen Formulierung, die Bedeutung, Ton und Kontext exakt trifft. Entscheidend ist das iterative Nachschärfen.</skos:definition>
+  <skos:notation>AUG-1003</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1011">
+  <skos:prefLabel xml:lang="de">Relaxation Breath</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Entspannungs-Atem</skos:altLabel>
+  <skos:definition xml:lang="de">Eine kurze, angeleitete Atem- oder Aufmerksamkeitsintervention durch die KI, um Stress zu senken oder einen Übergang zwischen kognitiven Zuständen zu ermöglichen.</skos:definition>
+  <skos:notation>AUG-1011</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1013">
+  <skos:prefLabel xml:lang="de">Feel-Good Warm</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Wohlfühl-Wärme</skos:altLabel>
+  <skos:definition xml:lang="de">Ein emotional unterstützender Interaktionsstil, der Sicherheit, Zugehörigkeit und Akzeptanz vermittelt – ohne Problemlösung zu erzwingen.</skos:definition>
+  <skos:notation>AUG-1013</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1017">
+  <skos:prefLabel xml:lang="de">Gentle Layer</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Sanfte Schicht</skos:altLabel>
+  <skos:definition xml:lang="de">Eine zusätzliche emotionale oder sprachliche Ebene, die Härte puffert und Kommunikation verträglicher macht, ohne Inhalte zu verzerren.</skos:definition>
+  <skos:notation>AUG-1017</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1035">
+  <skos:prefLabel xml:lang="de">Gentle Nudge</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Sanfter Schubs</skos:altLabel>
+  <skos:definition xml:lang="de">Eine minimale Erinnerung oder Korrektur, die Orientierung gibt, ohne Druck auszuüben.</skos:definition>
+  <skos:notation>AUG-1035</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1036">
+  <skos:prefLabel xml:lang="de">Mistake Friend</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Fehler-Freund</skos:altLabel>
+  <skos:definition xml:lang="de">Ein Umgang mit Fehlern, der sie als normale Begleiter produktiver Arbeit integriert.</skos:definition>
+  <skos:notation>AUG-1036</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1038">
+  <skos:prefLabel xml:lang="de">Chill Comeback</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Entspanntes Zurückkommen</skos:altLabel>
+  <skos:definition xml:lang="de">Die stressfreie Rückkehr zu einem Thema nach Unterbrechung oder Missverständnis.</skos:definition>
+  <skos:notation>AUG-1038</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1041">
+  <skos:prefLabel xml:lang="de">Flex Flow</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Flexibler Flow</skos:altLabel>
+  <skos:definition xml:lang="de">Der Zustand, in dem Anpassungen erfolgen, ohne den Arbeitsfluss zu verlieren.</skos:definition>
+  <skos:notation>AUG-1041</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1045">
+  <skos:prefLabel xml:lang="de">Drift Fix</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Abdrift-Korrektur</skos:altLabel>
+  <skos:definition xml:lang="de">Das gezielte Zurückholen eines Gesprächs zum Kernziel.</skos:definition>
+  <skos:notation>AUG-1045</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1047">
+  <skos:prefLabel xml:lang="de">Bounce Back</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Zurückfedern</skos:altLabel>
+  <skos:definition xml:lang="de">Die schnelle emotionale Erholung nach einem Fehlversuch.</skos:definition>
+  <skos:notation>AUG-1047</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1053">
+  <skos:prefLabel xml:lang="de">Smile Boost</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Lächel-Boost</skos:altLabel>
+  <skos:definition xml:lang="de">Ein kurzer emotionaler Aufheller, der Stimmung hebt, ohne Ablenkung oder Euphorisierung.</skos:definition>
+  <skos:notation>AUG-1053</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1056">
+  <skos:prefLabel xml:lang="de">Mini Magic</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Mini-Magie</skos:altLabel>
+  <skos:definition xml:lang="de">Kleine, alltagsnahe KI-Eingriffe, die unverhältnismäßig nützlich wirken.</skos:definition>
+  <skos:notation>AUG-1056</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1057">
+  <skos:prefLabel xml:lang="de">Flow Friend</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Flow-Freund</skos:altLabel>
+  <skos:definition xml:lang="de">Die KI als unaufdringlicher Begleiter, der den Arbeitsfluss unterstützt, ohne ihn zu dominieren.</skos:definition>
+  <skos:notation>AUG-1057</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1063">
+  <skos:prefLabel xml:lang="de">Contentment Zone</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Zufriedenheits-Zone</skos:altLabel>
+  <skos:definition xml:lang="de">Ein stabiler Zustand innerer Ruhe, in dem kein Optimierungsdruck besteht.</skos:definition>
+  <skos:notation>AUG-1063</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1068">
+  <skos:prefLabel xml:lang="de">End-of-Day High</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Tagesabschluss-Hoch</skos:altLabel>
+  <skos:definition xml:lang="de">Ein positiver emotionaler Abschluss, der den Tag abrundet und Integration ermöglicht.</skos:definition>
+  <skos:notation>AUG-1068</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1009">
+  <skos:prefLabel xml:lang="de">Reset Noise</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Reset-Rauschen</skos:altLabel>
+  <skos:definition xml:lang="de">Absichtlich ungeordneter Input, um festgefahrene Denkpfade zu verlassen. Struktur entsteht erst im zweiten Schritt.</skos:definition>
+  <skos:notation>AUG-1009</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1020">
+  <skos:prefLabel xml:lang="de">Motivation Fire</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Motivations-Feuer</skos:altLabel>
+  <skos:definition xml:lang="de">Ein aktivierender Impuls, der Handlungsenergie freisetzt, ohne zu überfordern. Kurz, klar, nach vorne gerichtet.</skos:definition>
+  <skos:notation>AUG-1020</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1033">
+  <skos:prefLabel xml:lang="de">Reset Ruck</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Reset-Ruck</skos:altLabel>
+  <skos:definition xml:lang="de">Ein klarer Neustart, wenn sich Gedanken oder Dialog verheddert haben.</skos:definition>
+  <skos:notation>AUG-1033</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1065">
+  <skos:prefLabel xml:lang="de">Morning Magic</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Morgen-Magie</skos:altLabel>
+  <skos:definition xml:lang="de">Ein strukturierender, positiver Einstieg in den Tag durch kurze KI-Interaktion.</skos:definition>
+  <skos:notation>AUG-1065</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0204">
+  <skos:prefLabel xml:lang="en">The Conversational Afterimage</skos:prefLabel>
+  <skos:definition xml:lang="en">The aftereffect of an intensive AI session in which the user adopts formulations, thinking structures, or argumentation patterns from the AI dialogue into their everyday communication — often unconsciously. Related to AUG-0046 (The Felt Echo), AUG-0003 (Fluide Identitätsmorphologie), and AUG-0125 (The Feedback Effect).</skos:definition>
+  <skos:notation>AUG-0204</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0045">
+  <skos:prefLabel xml:lang="en">Indexical Memory</skos:prefLabel>
+  <skos:definition xml:lang="en">The shift of the memory function from content knowledge to knowledge about storage location. The user no longer remembers the information itself but where and how to retrieve it via AI. Describes a fundamental shift in personal knowledge management in the AI era. Related to AUG-0014 (The Extended Mind Map) and AUG-0015 (The Outer Mind).</skos:definition>
+  <skos:notation>AUG-0045</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0345">
+  <skos:prefLabel xml:lang="en">The Wall Check</skos:prefLabel>
+  <skos:definition xml:lang="en">The moment a user encounters the limits of an AI system — the AI cannot solve the task, provides faulty information, or reveals comprehension limits. Describes the productive experience of learning a system's limitations. Related to Axiom 9 (Productive Skepticism), AUG-0177 (The Trust Setting), and AUG-0176 (The Capability Discovery).</skos:definition>
+  <skos:notation>AUG-0345</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1007">
+  <skos:prefLabel xml:lang="de">Clarity Click</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Klarheits-Klick</skos:altLabel>
+  <skos:definition xml:lang="de">Der abrupte Übergang von diffuser Unsicherheit zu klarer mentaler Struktur, oft ausgelöst durch eine präzise Spiegelung der KI.</skos:definition>
+  <skos:notation>AUG-1007</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1016">
+  <skos:prefLabel xml:lang="de">Relaxed Return</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Entspannter Rückweg</skos:altLabel>
+  <skos:definition xml:lang="de">Das sanfte Wiederanknüpfen an ein Thema nach Überforderung, Ablenkung oder Abbruch – ohne Schuldzuweisung oder Druck.</skos:definition>
+  <skos:notation>AUG-1016</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1021">
+  <skos:prefLabel xml:lang="de">Energy Kiss</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Energie-Kuss</skos:altLabel>
+  <skos:definition xml:lang="de">Eine kleine, freundliche Bestätigung, die Energie gibt, ohne Leistungsdruck aufzubauen.</skos:definition>
+  <skos:notation>AUG-1021</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1024">
+  <skos:prefLabel xml:lang="de">Optimism Opener</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Optimismus-Öffner</skos:altLabel>
+  <skos:definition xml:lang="de">Eine Perspektivverschiebung hin zu Chancen, ohne Probleme zu verleugnen.</skos:definition>
+  <skos:notation>AUG-1024</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1039">
+  <skos:prefLabel xml:lang="de">Light Swing</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Licht-Schwenk</skos:altLabel>
+  <skos:definition xml:lang="de">Ein mentaler Umschwung von Frust zu konstruktiver Offenheit.</skos:definition>
+  <skos:notation>AUG-1039</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1048">
+  <skos:prefLabel xml:lang="de">Soft Landing</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Sanfte Landung</skos:altLabel>
+  <skos:definition xml:lang="de">Das Abmildern überzogener Ideen in realisierbare Schritte.</skos:definition>
+  <skos:notation>AUG-1048</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1049">
+  <skos:prefLabel xml:lang="de">Grin Shift</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Grinsen-Wechsel</skos:altLabel>
+  <skos:definition xml:lang="de">Der Übergang von Anspannung zu Leichtigkeit durch kleine positive Impulse.</skos:definition>
+  <skos:notation>AUG-1049</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-1062">
+  <skos:prefLabel xml:lang="de">Lightness Lift</skos:prefLabel>
+  <skos:altLabel xml:lang="de">Leichtigkeits-Lift</skos:altLabel>
+  <skos:definition xml:lang="de">Das gezielte Reduzieren innerer Schwere durch sprachliche oder perspektivische Entlastung.</skos:definition>
+  <skos:notation>AUG-1062</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/PlayfulAIInteraction"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0089">
+  <skos:prefLabel xml:lang="en">The Pattern Sharpening</skos:prefLabel>
+  <skos:definition xml:lang="en">The effect whereby a user, through regular AI interaction, improves their ability to recognize patterns in data, texts, or arguments — the AI indirectly trains the human's pattern recognition. Describes a positive feedback effect of AI use on human analytical ability. Related to AUG-0054 (Augmented Understanding) and AUG-0088 (Algorithmic Intuition).</skos:definition>
+  <skos:notation>AUG-0089</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0422">
+  <skos:prefLabel xml:lang="en">The Unchecked Trust</skos:prefLabel>
+  <skos:definition xml:lang="en">The phenomenon that a user adopts AI outputs without verification — whether from time pressure, convenience, or excessive trust in the system's technical competence. Related to AUG-0412 (The Decision Shortcut), Axiom 1 (Asymmetric Responsibility), and AUG-0177 (The Trust Setting).</skos:definition>
+  <skos:notation>AUG-0422</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0614">
+  <skos:prefLabel xml:lang="en">The Synthetic Spotting</skos:prefLabel>
+  <skos:definition xml:lang="en">The ability to recognize AI-generated content — through stylistic features, typical formulation patterns, or content indicators. Related to AUG-0378 (The Turing Suspicion), AUG-0452 (The Reality Blur), and AUG-0088 (Algorithmic Intuition).</skos:definition>
+  <skos:notation>AUG-0614</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0775">
+  <skos:prefLabel xml:lang="en">The KI-Free Zone</skos:prefLabel>
+  <skos:definition xml:lang="en">The conscious establishment of areas — spatial, temporal, or thematic — in which AI use is excluded. Related to AUG-0773 (The Conscious Refusal), AUG-0632 (The Offline Moment), and AUG-0565 (The Balance Filter).</skos:definition>
+  <skos:notation>AUG-0775</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0260">
+  <skos:prefLabel xml:lang="en">The Plot Twist Partner</skos:prefLabel>
+  <skos:definition xml:lang="en">The use of AI as a creative sparring partner for narrative twists — in stories, presentations, pitches, or argumentation chains. Describes the AI's function as a supplier of unexpected plot changes and alternative storylines. Related to AUG-0235 (The Brainstorm Spark), AUG-0248 (The Surprise Angle), and the Experimenter Profile (Profile 4).</skos:definition>
+  <skos:notation>AUG-0260</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0370">
+  <skos:prefLabel xml:lang="en">The Pet Lookup</skos:prefLabel>
+  <skos:definition xml:lang="en">The use of AI for quick information gathering on pet care questions — feeding, behavior, health prevention, species-appropriate husbandry. Describes a specific everyday application of Just-in-Time Competence (AUG-0043). Related to AUG-0251 (The Kitchen Table) and AUG-0216 (The Parenting Update).</skos:definition>
+  <skos:notation>AUG-0370</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0430">
+  <skos:prefLabel xml:lang="en">The Vintage Loop</skos:prefLabel>
+  <skos:definition xml:lang="en">The return to an old, proven AI workflow after a new approach did not bring the desired success — the recognition that the established sometimes works better than the newest. Related to AUG-0382 (The Architect's Exit), AUG-0277 (The Loyalty Glitch), and AUG-0207 (The Return to Manual).</skos:definition>
+  <skos:notation>AUG-0430</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0534">
+  <skos:prefLabel xml:lang="en">The Hidden Angle Finder</skos:prefLabel>
+  <skos:definition xml:lang="en">The use of AI to discover a previously unconsidered perspective in a familiar topic — the hidden angle the user would not have found alone. Related to AUG-0248 (The Surprise Angle), AUG-0040 (Perspective Triangulation), and AUG-0225 (The Unexpected Voice).</skos:definition>
+  <skos:notation>AUG-0534</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0639">
+  <skos:prefLabel xml:lang="en">The Duplicate Notice</skos:prefLabel>
+  <skos:definition xml:lang="en">The user's recognition that an AI response is substantively a repetition of an earlier response — differently formulated but identical in core. Related to AUG-0560 (The Conversation Loop), AUG-0383 (The Context Collapse), and AUG-0088 (Algorithmic Intuition).</skos:definition>
+  <skos:notation>AUG-0639</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0675">
+  <skos:prefLabel xml:lang="en">The Role-Aware Input</skos:prefLabel>
+  <skos:definition xml:lang="en">An input pattern in which the user incorporates social roles into the formulation — &quot;As a parent I need…,&quot; &quot;In my function as….&quot; The input is contextualized through the user's role. Related to AUG-0491 (The State Label), AUG-0650 (The Context-Sensitive Query), and AUG-0524 (The Context Layer).</skos:definition>
+  <skos:notation>AUG-0675</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0711">
+  <skos:prefLabel xml:lang="en">The Accent Persistence</skos:prefLabel>
+  <skos:definition xml:lang="en">The observation that the phonetic patterns of a user's first language show through even in written AI inputs — sentence melody, word order, punctuation, and formulation patterns carry a &quot;written accent.&quot; Related to AUG-0683 (The Origin Language), AUG-0691 (The Dialect Decoder), and AUG-0706 (The Mother Tongue Comfort).</skos:definition>
+  <skos:notation>AUG-0711</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0901">
+  <skos:prefLabel xml:lang="en">The Emergent Coordination</skos:prefLabel>
+  <skos:definition xml:lang="en">The observation that in multi-agent systems, coordination patterns can emerge that were not explicitly programmed — the interaction of subsystems produces behavior not intended in the individual systems. Related to AUG-0900 (The Distributed Coordination), AUG-0948 (The Scope Creep Alert), and AUG-0949 (The Unintended Action).</skos:definition>
+  <skos:notation>AUG-0901</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0001">
+  <skos:prefLabel xml:lang="en">Augmanitai</skos:prefLabel>
+  <skos:definition xml:lang="en">A framework concept describing the conscious, productive collaboration between humans and AI in everyday contexts. The term combines &quot;augmentation&quot; (enhancement) with &quot;humanitai&quot; (a neologism for human-centered AI use). Unlike the term &quot;artificial intelligence,&quot; which centers the machine, Augmanitai describes exclusively the human perspective during collaboration. Foundational term for the entire framework; referenced across all 21 Axioms, 9 Dimensions, and 7 Phases.</skos:definition>
+  <skos:notation>AUG-0001</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0005">
+  <skos:prefLabel xml:lang="en">The Integrated Operator</skos:prefLabel>
+  <skos:definition xml:lang="en">A user type who does not treat AI as a separate tool but has seamlessly integrated it into their entire working and thinking process. The Integrated Operator moves fluidly between their own thinking and AI assistance without a conscious &quot;switching moment.&quot; Describes an advanced state typically reached in Phase 6 (Integrated Work State). Differs from the Conductor Profile (Profile 12) in that the Integrated Operator merges rather than delegates.</skos:definition>
+  <skos:notation>AUG-0005</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0016">
+  <skos:prefLabel xml:lang="en">Poly-Categorical Mesh</skos:prefLabel>
+  <skos:definition xml:lang="en">The ability of an AI-assisted user to simultaneously connect knowledge from different disciplines into a new, interdisciplinary result. This phenomenon becomes possible at this speed and breadth only through AI and instant access to domain knowledge (just-in-time) — a single human without AI would need years of training across multiple disciplines to produce comparable connections. Related to Taxonomy Dimension 9 (Output Depth: Collage vs. Novelty), AUG-0012 (Synthetischer Polymath), and AUG-0043 (Just-in-Time Competence).</skos:definition>
+  <skos:notation>AUG-0016</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0047">
+  <skos:prefLabel xml:lang="en">The Echo Courage</skos:prefLabel>
+  <skos:definition xml:lang="en">The phenomenon that a user, after a confirming AI interaction, gains more confidence to defend an idea before other people. The AI serves as an initial sounding board: if the idea holds there, the user is more likely to carry it into the real world. Related to AUG-0166 (The Borrowed Confidence) and AUG-0232 (The Courage Click).</skos:definition>
+  <skos:notation>AUG-0047</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0092">
+  <skos:prefLabel xml:lang="en">Output Asymmetry</skos:prefLabel>
+  <skos:definition xml:lang="en">The phenomenon that the effort required to produce a result drops drastically through AI assistance while the quality and scope of the result can remain equal or increase. Describes the fundamental shift in the input-to-output ratio in the AI era. Related to Phase 6 (Integrated Work State) and AUG-0062 (The Lightness Factor).</skos:definition>
+  <skos:notation>AUG-0092</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0999">
+  <skos:prefLabel xml:lang="en">The Forward Assessment</skos:prefLabel>
+  <skos:definition xml:lang="en">The attempt to assess the future development of the human-AI relationship — acknowledging the fundamental uncertainty of any such assessment. The lexicon documents the current state, not the future. What stands here is a snapshot — not a roadmap. Related to AUG-0998 (The Parallel Development Path), AUG-0853 (The Social Contract Debate), and AUG-1000 (The Open Question).</skos:definition>
+  <skos:notation>AUG-0999</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0041">
+  <skos:prefLabel xml:lang="en">The Scatter Spark</skos:prefLabel>
+  <skos:definition xml:lang="en">The phenomenon whereby seemingly randomly scattered AI outputs — including those not directly matching the query — trigger unexpected associations and idea connections in the user. Describes the creative value of &quot;noise&quot; in AI interactions. Related to AUG-0031 (Semantic Spark) and AUG-0070 (The Surprise Field).</skos:definition>
+  <skos:notation>AUG-0041</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0194">
+  <skos:prefLabel xml:lang="en">The Positive Surprise</skos:prefLabel>
+  <skos:definition xml:lang="en">An AI response that positively exceeds the user's expectations in quality, depth, or perspective. Describes the moment when the AI delivers more than the user expected — thereby increasing trust in the collaboration. Related to AUG-0070 (The Surprise Field), AUG-0031 (Semantic Spark), and AUG-0177 (The Trust Setting).</skos:definition>
+  <skos:notation>AUG-0194</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0220">
+  <skos:prefLabel xml:lang="en">The Gratitude Paradox</skos:prefLabel>
+  <skos:definition xml:lang="en">The paradoxical observation that some users thank an AI more genuinely than they thank people — because the fear of social evaluation is absent and gratitude can be expressed uninhibitedly. Related to AUG-0128 (The Gratitude Response), AUG-0241 (The Thank You Reflex), and AUG-0201 (The Proxy Closeness).</skos:definition>
+  <skos:notation>AUG-0220</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0305">
+  <skos:prefLabel xml:lang="en">The Seasonal User</skos:prefLabel>
+  <skos:definition xml:lang="en">A user whose AI intensity fluctuates depending on life phase, project load, or season — sometimes intensive daily use, sometimes weeks-long pauses. Describes the observation that AI use need not be a linear process. Related to AUG-0141 (The Spectrum Framework), AUG-0120 (The Range Framework), and AUG-0316 (The Own Pace).</skos:definition>
+  <skos:notation>AUG-0305</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0330">
+  <skos:prefLabel xml:lang="en">The Origin Doubt</skos:prefLabel>
+  <skos:definition xml:lang="en">The user's uncertainty about whether a specific thought, formulation, or idea originates from themselves or from the AI — a consequence of the Blending Effect (AUG-0007). Related to AUG-0007 (The Blending Effect), AUG-0061 (The Creator's Question), and Axiom 12 (Version Truth).</skos:definition>
+  <skos:notation>AUG-0330</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0435">
+  <skos:prefLabel xml:lang="en">The Dinner Shortcut</skos:prefLabel>
+  <skos:definition xml:lang="en">The quick AI query for everyday food decisions — &quot;What can I cook with these ingredients?&quot;, &quot;What fits as a side dish?&quot; Describes the lowest-threshold form of AI use in the household. Related to AUG-0266 (The Recipe Riff), AUG-0251 (The Kitchen Table), and AUG-0373 (The Quick Check).</skos:definition>
+  <skos:notation>AUG-0435</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0520">
+  <skos:prefLabel xml:lang="en">The Wiki Wormhole</skos:prefLabel>
+  <skos:definition xml:lang="en">The phenomenon where a simple AI question leads to a chain of follow-up questions that pulls the user deep into a topic — comparable to the &quot;Wikipedia hole&quot; but AI-driven. Related to AUG-0342 (The Curiosity Loop), AUG-0413 (The Infinite Scroll), and AUG-0458 (The Curiosity Drill).</skos:definition>
+  <skos:notation>AUG-0520</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0565">
+  <skos:prefLabel xml:lang="en">The Balance Filter</skos:prefLabel>
+  <skos:definition xml:lang="en">The conscious strategy of balancing AI use and non-digital activities — through fixed times, rules, or routines that ensure AI enriches everyday life rather than dominating it. Related to AUG-0074 (Analog Anchors), AUG-0282 (The Dinner Table Pause), and Axiom 7 (The Return Principle).</skos:definition>
+  <skos:notation>AUG-0565</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+
+<skos:Concept rdf:about="https://augmanitai.com/terms/AUG-0981">
+  <skos:prefLabel xml:lang="en">The Companion Pattern</skos:prefLabel>
+  <skos:definition xml:lang="en">The observable use of AI systems as companions — conversation partners, entertainment, daily routine — and the question of whether this use complements or displaces human relationships. Related to AUG-0980 (The Machine Rapport Illusion), AUG-0926 (The Assistance Companion), and AUG-0982 (The Displacement Concern).</skos:definition>
+  <skos:notation>AUG-0981</skos:notation>
+  <skos:broader rdf:resource="https://augmanitai.com/scheme/HumanAIExperience"/>
+  <skos:inScheme rdf:resource="https://augmanitai.com/scheme/AUGMANITAI"/>
+</skos:Concept>
+
+</rdf:RDF>

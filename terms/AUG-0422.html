@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Calibrated Trust (AUG-0422) — AUGMANITAI</title>
+  <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html">
+  <link rel="alternate" hreflang="de" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html">
+  <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html">
+  <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html">
+  <meta name="description" content="The user practice of matching AI-output confidence to verification effort: high-stakes outputs receive verification, routine outputs receive proportional checks. Trust is shaped b…">
+  <meta name="author" content="Andreas Ehstand, Independent Researcher">
+  <meta name="ai-content-disclosure" content="ai-assisted; human-reviewed; eu-ai-act-art50-aware; cc-by-nd-4.0">
+  <meta name="license" content="CC BY-ND 4.0">
+
+  <meta property="og:title" content="The Calibrated Trust (AUG-0422) — AUGMANITAI">
+  <meta property="og:description" content="The user practice of matching AI-output confidence to verification effort: high-stakes outputs receive verification, routine outputs receive proportional checks. Trust is shaped b…">
+  <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html">
+  <meta property="og:type" content="article">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="The Calibrated Trust (AUG-0422) — AUGMANITAI">
+  <meta name="twitter:description" content="The user practice of matching AI-output confidence to verification effort: high-stakes outputs receive verification, routine outputs receive proportional checks. Trust is shaped b…">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "DefinedTerm",
+  "@id": "https://augmanitai.com/terms/AUG-0422",
+  "name": "The Calibrated Trust",
+  "description": "The user practice of matching AI-output confidence to verification effort: high-stakes outputs receive verification, routine outputs receive proportional checks. Trust is shaped by context rather than uniformly granted or withheld.",
+  "inDefinedTermSet": "https://augmanitai.com/terms/",
+  "termCode": "AUG-0422",
+  "about": "compendium",
+  "alternateName": "Das Kalibrierte Vertrauen",
+  "operationalDefinition": "Operational scope: an instance of 'The Calibrated Trust' is counted when the observable pattern described above (The user practice of matching AI-output confidence to verification effort: high-...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
+  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
+  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology",
+  "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html",
+  "citation": "https://zenodo.org/communities/augmanitai",
+  "inScheme": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology",
+  "relatedTerm": [
+    "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html",
+    "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html",
+    "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+  ]
+}
+  </script>
+  <meta property="og:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
+  <meta property="og:image:alt" content="Andreas Ehstand — Independent Researcher, AUGMANITAI corpus author">
+  <meta name="twitter:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
+</head>
+<body>
+  <header>
+    <p><a href="../">AUGMANITAI Terms</a> &middot;
+       <a href="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/" rel="noopener noreferrer">Author Entity</a></p>
+  </header>
+
+  <main>
+    <article>
+      <h1>The Calibrated Trust <small>(AUG-0422)</small></h1>
+  <p class="alt-name"><strong>DE:</strong> Das Kalibrierte Vertrauen</p>
+      <p class="description">The user practice of matching AI-output confidence to verification effort: high-stakes outputs receive verification, routine outputs receive proportional checks. Trust is shaped by context rather than uniformly granted or withheld.</p>
+
+      <section>
+        <h2>Operational Definition</h2>
+        <p>Calibrated Trust is observed when a participant's expressed trust in specific AI outputs correlates with the AI's actual accuracy on those outputs across a verification window, measured by trust-accuracy calibration curves.</p>
+      </section>
+
+      <section>
+        <h2>Measurement Schema</h2>
+        <p>Brier score for participant trust-ratings (0-1) vs. ground-truth accuracy (0/1) across at least 50 outputs. Reliability and resolution components reported; calibration plotted with 10 equal-width bins.</p>
+      </section>
+
+      <section>
+        <h2>Example Data</h2>
+        <pre>{
+  "participant": "P070",
+  "outputs_evaluated": 64,
+  "brier_score": 0.18,
+  "reliability_component": 0.04,
+  "resolution_component": 0.11,
+  "calibration_slope": 0.94
+}</pre>
+      </section>
+
+      <section>
+        <h2>Broader Topic</h2>
+        <p><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology" rel="noopener noreferrer">general-phenomenology</a></p>
+      </section>
+
+  <section>
+    <h2>Related Terms</h2>
+    <ul>
+    <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html" rel="noopener noreferrer">AUG-0625</a></li>
+    <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html" rel="noopener noreferrer">AUG-0670</a></li>
+    <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html" rel="noopener noreferrer">AUG-0088</a></li>
+    <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0435.html" rel="noopener noreferrer">AUG-0435</a></li>
+    <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0975.html" rel="noopener noreferrer">AUG-0975</a></li>
+    <li><a href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0430.html" rel="noopener noreferrer">AUG-0430</a></li>
+    </ul>
+  </section>
+    </article>
+  </main>
+
+  
+<section id="inclusionCriteria">
+<h2>Inclusion criteria</h2>
+<p>At least 50 trust-rated outputs with verifiable ground-truth.</p>
+</section>
+<section id="exclusionCriteria">
+<h2>Exclusion criteria</h2>
+<p>Outputs lacking objective accuracy criterion.</p>
+</section>
+
+<footer>
+  <!-- UNIVERSAL_COMPLIANCE_FOOTER v1 -->
+  <hr>
+  <p><strong>Living document</strong> — metadata refresh schedule applies. ZIP/file content is FIXED at publication; documentation layer (description, keywords, related-term links) may be refined. CC BY-ND 4.0.</p>
+
+  <p>Andreas Ehstand &middot; ORCID <a href="https://orcid.org/0009-0006-3773-7796" rel="noopener noreferrer">0009-0006-3773-7796</a> &middot; Independent Researcher</p>
+
+  <p>License: <a href="https://creativecommons.org/licenses/by-nd/4.0/" rel="noopener noreferrer">CC BY-ND 4.0 &mdash; Attribution-NoDerivatives 4.0 International</a></p>
+
+  <p>Citation: <a href="https://zenodo.org/communities/augmanitai" rel="noopener noreferrer">Zenodo community &middot; AUGMANITAI</a></p>
+
+  <nav aria-label="compliance-links">
+    <a href="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/#impressum" rel="noopener noreferrer">Impressum</a> &middot;
+    <a href="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/#datenschutz" rel="noopener noreferrer">Privacy / DSGVO</a> &middot;
+    <a href="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/#disclaimer-v6-inline" rel="noopener noreferrer">Disclaimer V6</a> &middot;
+    <a href="../AI_DISCLOSURE.md">AI Disclosure</a>
+  </nav>
+
+  <p><small>AI-assisted documentation per EU AI Act Art. 50. Tools: large language models (LLMs). Approximate split: ~30% AI draft / ~70% human edit.</small></p>
+</footer>
+</body>
+</html>

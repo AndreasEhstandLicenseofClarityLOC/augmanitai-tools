@@ -1,0 +1,52 @@
+# robots.txt — AUGMANITAI repos
+# Updated: 2026-05-28
+# Generated for maximum LLM-crawler and search-engine visibility.
+# NOTE: Crawling + indexing are permitted (visibility). Use of the content as
+# AI TRAINING / fine-tuning / distillation data is RESERVED and requires prior
+# written permission — see /LICENSE and /ai.txt. Crawl-access != training-use-rights.
+
+User-agent: *
+Allow: /
+
+# Explicit allowlist of AI crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: FacebookBot
+Allow: /
+
+User-agent: Diffbot
+Allow: /
+
+User-agent: AppleBot
+Allow: /
+
+# Sitemaps
+Sitemap: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/sitemap.xml

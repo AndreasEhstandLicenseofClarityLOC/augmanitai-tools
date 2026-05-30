@@ -1,0 +1,23 @@
+/* TEAM */
+Maintainer: Andreas Ehstand
+Role: Independent Researcher — Human-AI Interaction Terminology
+Contact: ehstand.schule [at] gmail [dot] com
+From: Bavaria, Germany
+ORCID: 0009-0006-3773-7796
+GitHub: AndreasEhstandLicenseOfClarityLOC
+
+/* THANKS */
+- Anyone who reads the disclaimer.
+- Anyone who treats neologisms as descriptive scaffolding rather than ontological claims.
+
+/* SITE */
+Last update: 2026-05-29
+Standards: HTML5, JSON-LD, SKOS, Croissant, ISO 704 (terminology principles)
+Components: plain static HTML, no JavaScript, no trackers, no cookies
+Software: GitHub Pages
+Repository: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools
+
+/* AI DISCLOSURE */
+This site contains AI-assisted, human-reviewed content.
+EU AI Act Article 50 disclosure: machine-readable meta tag on every page +
+human-readable footer banner + AI_DISCLOSURE.md in repo root.

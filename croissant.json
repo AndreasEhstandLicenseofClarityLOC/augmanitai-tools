@@ -1,0 +1,247 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "dct": "http://purl.org/dc/terms/",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": {
+      "@id": "cr:key",
+      "@type": "@json"
+    },
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "sc": "https://schema.org/",
+    "separator": "cr:separator",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "augmanitai-compendium-wave1",
+  "description": "AUGMANITAI Compendium Wave 1: 104 descriptive terms documenting human experiences in AI interaction. Bilingual EN/DE. Inspired by ISO 704/1087/30042.",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/",
+  "version": "2.1",
+  "datePublished": "2026-05-28",
+  "creator": {
+    "@type": "sc:Person",
+    "name": "Andreas Ehstand",
+    "url": "https://orcid.org/0009-0006-3773-7796",
+    "jobTitle": "Independent Researcher",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q138634675",
+      "https://orcid.org/0009-0006-3773-7796"
+    ]
+  },
+  "publisher": {
+    "@type": "sc:Person",
+    "name": "Andreas Ehstand",
+    "url": "https://orcid.org/0009-0006-3773-7796"
+  },
+  "citeAs": "Ehstand, A. (2026). augmanitai-compendium-wave1. ORCID 0009-0006-3773-7796. https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/",
+  "keywords": [
+    "human-AI interaction",
+    "phenomenology",
+    "applied terminology",
+    "ISO 704",
+    "AI interaction phenomena",
+    "EN+DE bilingual",
+    "descriptive terminology",
+    "SKOS"
+  ],
+  "inLanguage": [
+    "en",
+    "de"
+  ],
+  "isLiveDataset": false,
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "jsonld-terms",
+      "name": "augmanitai_wave1_104_ENRICHED.jsonld",
+      "description": "JSON-LD source file with 104 DefinedTerm records (schema.org + AUGMANITAI extensions).",
+      "contentUrl": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/augmanitai_wave1_104_ENRICHED.jsonld",
+      "encodingFormat": "application/ld+json"
+    }
+  ],
+  "recordSet": [
+    {
+      "@type": "cr:RecordSet",
+      "@id": "terms",
+      "name": "terms",
+      "description": "104 descriptive AUGMANITAI terms documenting AI-human interaction phenomena.",
+      "field": [
+        {
+          "@type": "cr:Field",
+          "@id": "terms/termCode",
+          "name": "termCode",
+          "description": "Stable AUGMANITAI term identifier (format: AUG-NNNN).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "jsonld-terms"
+            },
+            "extract": {
+              "jsonPath": "$.hasDefinedTerm[*].termCode"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "terms/name",
+          "name": "name",
+          "description": "Canonical term name (English).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "jsonld-terms"
+            },
+            "extract": {
+              "jsonPath": "$.hasDefinedTerm[*].name"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "terms/alternateName",
+          "name": "alternateName",
+          "description": "Alternate term name (German or abbreviation).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "jsonld-terms"
+            },
+            "extract": {
+              "jsonPath": "$.hasDefinedTerm[*].alternateName"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "terms/description",
+          "name": "description",
+          "description": "ISO-704-style descriptive definition of the term.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "jsonld-terms"
+            },
+            "extract": {
+              "jsonPath": "$.hasDefinedTerm[*].description"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "terms/operationalDefinition",
+          "name": "operationalDefinition",
+          "description": "Operational counting/observation rule for empirical research.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "jsonld-terms"
+            },
+            "extract": {
+              "jsonPath": "$.hasDefinedTerm[*].operationalDefinition"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "terms/measurementSchema",
+          "name": "measurementSchema",
+          "description": "Recommended measurement schema (Likert, count, inter-rater agreement).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "jsonld-terms"
+            },
+            "extract": {
+              "jsonPath": "$.hasDefinedTerm[*].measurementSchema"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "terms/exampleData",
+          "name": "exampleData",
+          "description": "Synthetic example data row in JSON encoding.",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "jsonld-terms"
+            },
+            "extract": {
+              "jsonPath": "$.hasDefinedTerm[*].exampleData"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "terms/broader",
+          "name": "broader",
+          "description": "URL of the broader topic cluster this term belongs to.",
+          "dataType": "sc:URL",
+          "source": {
+            "fileObject": {
+              "@id": "jsonld-terms"
+            },
+            "extract": {
+              "jsonPath": "$.hasDefinedTerm[*].broader"
+            }
+          }
+        },
+        {
+          "@type": "cr:Field",
+          "@id": "terms/inLanguage",
+          "name": "inLanguage",
+          "description": "Primary language code of the description (en or de).",
+          "dataType": "sc:Text",
+          "source": {
+            "fileObject": {
+              "@id": "jsonld-terms"
+            },
+            "extract": {
+              "jsonPath": "$.hasDefinedTerm[*].inLanguage"
+            }
+          }
+        }
+      ],
+      "key": {
+        "@id": "terms/termCode"
+      }
+    }
+  ]
+}

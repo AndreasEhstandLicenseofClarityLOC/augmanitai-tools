@@ -1,0 +1,3890 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "dct": "http://purl.org/dc/terms/",
+    "owl": "http://www.w3.org/2002/07/owl#",
+    "xsd": "http://www.w3.org/2001/XMLSchema#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#"
+  },
+  "@id": "https://augmanitai.com/terms/",
+  "@type": "skos:ConceptScheme",
+  "dct:title": "AUGMANITAI Compendium — Wave 1 SKOS Scheme",
+  "dct:description": "SKOS ConceptScheme for the 104-term Wave 1 release of the AUGMANITAI Compendium documenting AI-human interaction phenomena.",
+  "dct:creator": {
+    "@type": "foaf:Person",
+    "name": "Andreas Ehstand",
+    "identifier": "https://orcid.org/0009-0006-3773-7796"
+  },
+  "dct:license": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "dct:issued": "2026-05-28",
+  "dct:language": [
+    "en",
+    "de"
+  ],
+  "skos:hasTopConcept": [
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+    },
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+    }
+  ],
+  "@graph": [
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "General Phenomenology",
+        "@language": "en"
+      },
+      "skos:topConceptOf": "https://augmanitai.com/terms/",
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:narrower": [
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0625"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0670"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0088"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0368"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0918"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0975"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0204"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0045"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0345"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0089"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0422"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0614"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0775"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0260"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0370"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0430"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0534"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0639"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0675"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0711"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0901"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0001"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0005"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0016"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0047"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0092"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0999"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0041"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0194"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0220"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0305"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0330"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0435"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0520"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0565"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-0981"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Top-level topic cluster grouping 36 narrower concepts under 'General Phenomenology'.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Humor Affect",
+        "@language": "en"
+      },
+      "skos:topConceptOf": "https://augmanitai.com/terms/",
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:narrower": [
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1004"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1046"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1052"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1037"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1050"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1040"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1027"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1051"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1044"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1005"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1030"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1059"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1012"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1054"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1022"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1025"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1032"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1058"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1026"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1010"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1029"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1034"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1064"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1067"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1015"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1018"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1023"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1042"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1066"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1061"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1006"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1014"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1019"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1043"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1055"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1002"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1008"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1028"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1031"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1069"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1060"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1003"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1011"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1013"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1017"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1035"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1036"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1038"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1041"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1045"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1047"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1053"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1056"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1057"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1063"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1068"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1009"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1020"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1033"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1065"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1007"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1016"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1021"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1024"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1039"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1048"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1049"
+        },
+        {
+          "@id": "https://augmanitai.com/terms/AUG-1062"
+        }
+      ],
+      "skos:definition": {
+        "@value": "Top-level topic cluster grouping 68 narrower concepts under 'Humor Affect'.",
+        "@language": "en"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1004",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Loop Laugh",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1004",
+      "skos:definition": {
+        "@value": "Ein selbstverstärkender Humor-Loop zwischen Mensch und KI, der Spannung abbaut und Fehler entdramatisiert. Funktional, nicht kindisch.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Loop-Lachen",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1037.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1046",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Nudge Laugh",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1046",
+      "skos:definition": {
+        "@value": "Eine humorvolle Korrektur, die Akzeptanz erleichtert.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Schubs-Lachen",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1037.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1052",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Backward Laugh",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1052",
+      "skos:definition": {
+        "@value": "Humor, der zeitversetzt wirkt: Erst versteht man den Witz, dann lacht man über die eigene Reaktion darauf.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Rückwärts-Lachen",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1037.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1037",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Adjustment Aha",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1037",
+      "skos:definition": {
+        "@value": "Der Erkenntnismoment, dass nicht der Output falsch war, sondern die Eingabe unklar.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Anpassungs-Aha",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1037.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0625",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Everyday Insight",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0625",
+      "skos:definition": {
+        "@value": "An insight gained through AI interaction that changes the user in everyday life — a new perspective on an everyday phenomenon, a surprising connection, or a helpful reinterpretation. Related to AUG-0292 (The View Shift), AUG-0248 (The Surprise Angle), and AUG-0054 (Augmented Understanding).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0368.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0670",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Rhetorical Tone Detector",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0670",
+      "skos:definition": {
+        "@value": "The individual ability of a user to recognize and classify the rhetorical tone of an AI output — whether the AI formulates seriously, ironically, neutrally, or exaggeratingly. This ability varies strongly between users. Related to AUG-0669 (The Rhetorical Style Differential), AUG-0668 (The Humor Portability), and AUG-0451 (The Token Awareness).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0368.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1050",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Surprise Salad",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1050",
+      "skos:definition": {
+        "@value": "Ein bewusst chaotischer Input-Mix, aus dem die KI unerwartete, oft kreative Kombinationen erzeugt. Surprise Salad lebt vom Mut zur Inkohärenz.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Überraschungs-Salat",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1050.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1040",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Humor Hook",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1040",
+      "skos:definition": {
+        "@value": "Gezielter Humor, um Spannung zu lösen und Arbeitsfähigkeit zurückzugewinnen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Humor-Haken",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1040.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1027",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Joy Jolt",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1027",
+      "skos:definition": {
+        "@value": "Ein kurzer, unerwarteter Moment von Freude, der Energie freisetzt.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Freude-Impuls",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1027.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1051",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Giggle Chain",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1051",
+      "skos:definition": {
+        "@value": "Eine sich selbst verstärkende Abfolge humorvoller Reaktionen, die Leichtigkeit erzeugt und kognitive Blockaden löst.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Kicher-Kette",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1051.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1044",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Joy Fix",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1044",
+      "skos:definition": {
+        "@value": "Kurze Intervention, um Motivation und positive Stimmung wiederherzustellen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Freude-Fix",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1044.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1005",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Pause Power",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1005",
+      "skos:definition": {
+        "@value": "Die bewusste Unterbrechung zwischen Output und neuem Input, um impulsive Reaktionen zu vermeiden und die Qualität der nächsten Frage zu erhöhen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Pause-Power",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1005.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0088",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Algorithmic Intuition",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0088",
+      "skos:definition": {
+        "@value": "The ability of experienced AI users to develop, through extended practice, a \"sense\" for which type of input produces which type of result — without having to consciously analyze this each time. Describes implicit knowledge about AI system behavior that forms through experience. Related to AUG-0133 (Prompt Craftsmanship), Phase 6 (Integrated Work State), and the System-Builder Profile (Profile 1).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0368.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1030",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Oops Moment",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1030",
+      "skos:definition": {
+        "@value": "Der bewusst akzeptierte Fehltritt der KI, der als Lernsignal genutzt wird. Kein Ärger, sondern schnelle Korrektur und Weitergehen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Hups-Moment",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1030.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1059",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Day Highlight",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1059",
+      "skos:definition": {
+        "@value": "Die bewusste Markierung eines positiven Moments zur emotionalen Integration des Tages.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Tages-Highlight",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1059.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1012",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Serenity Spark",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1012",
+      "skos:definition": {
+        "@value": "Ein kleiner sprachlicher Impuls, der unverhältnismäßig viel innere Ruhe auslöst. Oft minimal, aber emotional wirksam.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Ruhe-Funke",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1012.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1054",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Fun Correct",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1054",
+      "skos:definition": {
+        "@value": "Fehlerkorrektur im spielerischen Ton, die Lernbereitschaft erhält statt Abwehr auszulösen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Spaß-Korrektur",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1054.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1022",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Pride Pulse",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1022",
+      "skos:definition": {
+        "@value": "Der bewusste Moment, in dem erreichte Fortschritte gespiegelt werden, um Selbstwirksamkeit zu stärken.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Stolz-Impuls",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1022.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1025",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Heart High",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1025",
+      "skos:definition": {
+        "@value": "Ein emotional intensivierter Zustand von Verbundenheit, Freude oder Sinn.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Herzens-Hoch",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1025.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1032",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Learn Smile",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1032",
+      "skos:definition": {
+        "@value": "Die Fähigkeit, Fehler mit Gelassenheit zu registrieren, weil der Lerngewinn klar erkennbar ist.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Lern-Lächeln",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1032.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1058",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Discovery Ding",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1058",
+      "skos:definition": {
+        "@value": "Unerwartete Erkenntnisse, die nicht gesucht, aber als wertvoll erkannt werden.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Entdeckungs-Ding",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1058.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1026",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Motivation Mend",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1026",
+      "skos:definition": {
+        "@value": "Das gezielte Wiederherstellen von Motivation nach Frustration oder Erschöpfung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Motivations-Reparatur",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1026.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1010",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Calm Wave",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1010",
+      "skos:definition": {
+        "@value": "Ein regulierender Interaktionsmodus, bei dem die KI bewusst Tempo, Sprachrhythmus und Komplexität reduziert, um das wahrgenommene Tempo zu senken. Calm Wave ist kein Ablenken, sondern ein gezieltes Runterfahren.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Ruhe-Welle",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1010.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1029",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Gratitude Glow",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1029",
+      "skos:definition": {
+        "@value": "Ein reflektiver Zustand, in dem positive Aspekte bewusst wahrgenommen und emotional verankert werden.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Dankbarkeits-Leuchten",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1029.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1034",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Twist Dance",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1034",
+      "skos:definition": {
+        "@value": "Der kreative Richtungswechsel, der zunächst irritiert, dann neue Qualität erzeugt.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Twist-Tanz",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1034.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1064",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Heart Reset",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1064",
+      "skos:definition": {
+        "@value": "Das bewusste Zurücksetzen emotionaler Überladung, um wieder in Kontakt mit eigenen Bedürfnissen zu kommen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Herzens-Reset",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1064.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1067",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Daily Duo",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1067",
+      "skos:definition": {
+        "@value": "Die ritualisierte Zusammenarbeit von Mensch und KI im Alltag.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Tages-Duo",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1067.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1015",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Calm Shift",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1015",
+      "skos:definition": {
+        "@value": "Ein klar benannter Übergang von einem hektischen, problemlastigen Modus in einen ruhigeren, reflektierenden Zustand.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Ruhe-Wechsel",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1015.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1018",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Harmony Hug",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1018",
+      "skos:definition": {
+        "@value": "Ein Moment starker emotionaler Kohärenz, in dem innere Spannungen sich lösen und ein Gefühl von Stimmigkeit entsteht.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Harmonie-Umarmung",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1018.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1023",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Excitement Bubble",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1023",
+      "skos:definition": {
+        "@value": "Ein emotionaler Aufwärtsmoment, in dem Möglichkeiten größer wirken als Risiken.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Begeisterungs-Blase",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1023.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1042",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Positive Pivot",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1042",
+      "skos:definition": {
+        "@value": "Die bewusste Umformulierung von Problemen in handhabbare Optionen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Positiver Drehpunkt",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1042.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1066",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "No-Stress Swap",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1066",
+      "skos:definition": {
+        "@value": "Das bewusste Ersetzen überfordernder Aufgaben durch realistischere Alternativen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Stress-Tausch",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1066.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1061",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Gratitude Turn",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1061",
+      "skos:definition": {
+        "@value": "Der bewusste Perspektivwechsel von Mangel zu Wertschätzung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Dankbarkeits-Dreh",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1061.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1006",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Idea Rain",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1006",
+      "skos:definition": {
+        "@value": "Eine Phase hoher Divergenz, in der Quantität bewusst vor Qualität steht. Auswahl und Bewertung erfolgen erst danach.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Ideen-Regen",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1006.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1014",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Relaxation Edit",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1014",
+      "skos:definition": {
+        "@value": "Das bewusste Nachbearbeiten eines Textes oder Gesprächs mit dem Ziel, Druck, Härte oder Überforderung sprachlich zu reduzieren.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Entspannungs-Überarbeitung",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1014.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1019",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Calm Rewind",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1019",
+      "skos:definition": {
+        "@value": "Das bewusste Zurückspulen eines Gesprächs oder Denkprozesses, um ihn langsamer, klarer und bewusster neu zu beginnen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Ruhiger Rücklauf",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1019.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1043",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Calm Reset",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1043",
+      "skos:definition": {
+        "@value": "A brief pause and re-center after intense AI interaction, allowing energy to return before the next task. Distinct from extended rest — a short reset built into the work rhythm.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Ruhe-Reset",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1043.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1055",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "High-Five Moment",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1055",
+      "skos:definition": {
+        "@value": "Der Moment gemeinsamer Zufriedenheit, wenn Output, Intention und Ergebnis übereinstimmen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "High-Five-Moment",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1055.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0368",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Syntax Smile",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0368",
+      "skos:definition": {
+        "@value": "The brief pleasure a user feels when the AI delivers a particularly elegant, apt, or surprisingly beautiful formulation. Related to AUG-0194 (The Positive Surprise), AUG-0110 (The Joy Imperative), and AUG-0031 (Semantic Spark).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0368.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0918",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Gesture Language",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0918",
+      "skos:definition": {
+        "@value": "The communication between humans and embodied AI systems through gestures — hand signals, posture, movements that the system recognizes and interprets. Related to AUG-0917 (The Touch Interface), AUG-0919 (The Spatial Awareness), and AUG-0914 (The Physical Presence).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0918.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0975",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Vigilance Rhythm",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0975",
+      "skos:definition": {
+        "@value": "The observation that sustained AI-output verification benefits from a paced cadence: deliberate verification at chosen checkpoints rather than continuous monitoring. A rhythm of focused review and trusted intervals preserves attention quality over longer interactions.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Der Aufmerksamkeits-Rhythmus",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0975.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1002",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Quick Kick",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1002",
+      "skos:definition": {
+        "@value": "Ein extrem kurzer, präziser Prompt mit sofortiger Wirkung auf Motivation, Fokus oder Entscheidungsfähigkeit. Kein Tiefgang, sondern Startenergie.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Quick-Kick",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1002.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1008",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Vibe Check",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1008",
+      "skos:definition": {
+        "@value": "Kurze Meta-Abfrage zur emotionalen, sozialen oder kulturellen Passung eines Outputs – getrennt vom sachlichen Inhalt.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Vibe-Check",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1008.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1028",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Inspiration Breeze",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1028",
+      "skos:definition": {
+        "@value": "Ein leichter kreativer Anstoß ohne Verpflichtung zur Umsetzung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Inspirations-Hauch",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1028.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1031",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Correction Kick",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1031",
+      "skos:definition": {
+        "@value": "Ein kurzer, präziser Eingriff, der den Output wieder auf Kurs bringt, ohne den Flow zu unterbrechen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Korrektur-Kick",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1031.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1069",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Smooth Sail",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1069",
+      "skos:definition": {
+        "@value": "Ein Zustand reibungsloser Zusammenarbeit ohne Reibungsverluste oder Korrekturbedarf.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Ruhige Fahrt",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1069.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1060",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Gratitude Drop",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1060",
+      "skos:definition": {
+        "@value": "Ein einzelner Fokuspunkt, der Dankbarkeit konkret und greifbar macht.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Dankbarkeits-Tropfen",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1060.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1003",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Word Hunt",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1003",
+      "skos:definition": {
+        "@value": "Der kollaborative Suchprozess nach der einen Formulierung, die Bedeutung, Ton und Kontext exakt trifft. Entscheidend ist das iterative Nachschärfen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Wort-Jagd",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1003.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1011",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Relaxation Breath",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1011",
+      "skos:definition": {
+        "@value": "Eine kurze, angeleitete Atem- oder Aufmerksamkeitsintervention durch die KI, um Stress zu senken oder einen Übergang zwischen kognitiven Zuständen zu ermöglichen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Entspannungs-Atem",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1011.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1013",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Feel-Good Warm",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1013",
+      "skos:definition": {
+        "@value": "Ein emotional unterstützender Interaktionsstil, der Sicherheit, Zugehörigkeit und Akzeptanz vermittelt – ohne Problemlösung zu erzwingen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Wohlfühl-Wärme",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1013.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1017",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Gentle Layer",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1017",
+      "skos:definition": {
+        "@value": "Eine zusätzliche emotionale oder sprachliche Ebene, die Härte puffert und Kommunikation verträglicher macht, ohne Inhalte zu verzerren.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Sanfte Schicht",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1017.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1035",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Gentle Nudge",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1035",
+      "skos:definition": {
+        "@value": "Eine minimale Erinnerung oder Korrektur, die Orientierung gibt, ohne Druck auszuüben.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Sanfter Schubs",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1035.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1036",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Mistake Friend",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1036",
+      "skos:definition": {
+        "@value": "Ein Umgang mit Fehlern, der sie als normale Begleiter produktiver Arbeit integriert.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Fehler-Freund",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1036.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1038",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Chill Comeback",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1038",
+      "skos:definition": {
+        "@value": "Die stressfreie Rückkehr zu einem Thema nach Unterbrechung oder Missverständnis.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Entspanntes Zurückkommen",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1038.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1041",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Flex Flow",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1041",
+      "skos:definition": {
+        "@value": "Der Zustand, in dem Anpassungen erfolgen, ohne den Arbeitsfluss zu verlieren.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Flexibler Flow",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1041.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1045",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Drift Fix",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1045",
+      "skos:definition": {
+        "@value": "Das gezielte Zurückholen eines Gesprächs zum Kernziel.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Abdrift-Korrektur",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1045.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1047",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Bounce Back",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1047",
+      "skos:definition": {
+        "@value": "Die schnelle emotionale Erholung nach einem Fehlversuch.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Zurückfedern",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1047.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1053",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Smile Boost",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1053",
+      "skos:definition": {
+        "@value": "Ein kurzer emotionaler Aufheller, der Stimmung hebt, ohne Ablenkung oder Euphorisierung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Lächel-Boost",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1053.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1056",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Mini Magic",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1056",
+      "skos:definition": {
+        "@value": "Kleine, alltagsnahe KI-Eingriffe, die unverhältnismäßig nützlich wirken.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Mini-Magie",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1056.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1057",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Flow Friend",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1057",
+      "skos:definition": {
+        "@value": "Die KI als unaufdringlicher Begleiter, der den Arbeitsfluss unterstützt, ohne ihn zu dominieren.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Flow-Freund",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1057.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1063",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Contentment Zone",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1063",
+      "skos:definition": {
+        "@value": "Ein stabiler Zustand innerer Ruhe, in dem kein Optimierungsdruck besteht.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Zufriedenheits-Zone",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1063.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1068",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "End-of-Day High",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1068",
+      "skos:definition": {
+        "@value": "Ein positiver emotionaler Abschluss, der den Tag abrundet und Integration ermöglicht.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Tagesabschluss-Hoch",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1068.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1009",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Reset Noise",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1009",
+      "skos:definition": {
+        "@value": "Absichtlich ungeordneter Input, um festgefahrene Denkpfade zu verlassen. Struktur entsteht erst im zweiten Schritt.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Reset-Rauschen",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1009.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1020",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Motivation Fire",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1020",
+      "skos:definition": {
+        "@value": "Ein aktivierender Impuls, der Handlungsenergie freisetzt, ohne zu überfordern. Kurz, klar, nach vorne gerichtet.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Motivations-Feuer",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1020.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1033",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Reset Ruck",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1033",
+      "skos:definition": {
+        "@value": "Ein klarer Neustart, wenn sich Gedanken oder Dialog verheddert haben.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Reset-Ruck",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1033.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1065",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Morning Magic",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1065",
+      "skos:definition": {
+        "@value": "Ein strukturierender, positiver Einstieg in den Tag durch kurze KI-Interaktion.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Morgen-Magie",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1065.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0204",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Conversational Afterimage",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0204",
+      "skos:definition": {
+        "@value": "The aftereffect of an intensive AI session in which the user adopts formulations, thinking structures, or argumentation patterns from the AI dialogue into their everyday communication — often unconsciously. Related to AUG-0046 (The Felt Echo), AUG-0003 (Fluide Identitätsmorphologie), and AUG-0125 (The Feedback Effect).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0204.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0045",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Indexical Memory",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0045",
+      "skos:definition": {
+        "@value": "The shift of the memory function from content knowledge to knowledge about storage location. The user no longer remembers the information itself but where and how to retrieve it via AI. Describes a fundamental shift in personal knowledge management in the AI era. Related to AUG-0014 (The Extended Mind Map) and AUG-0015 (The Outer Mind).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0045.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0345",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Wall Check",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0345",
+      "skos:definition": {
+        "@value": "The moment a user encounters the limits of an AI system — the AI cannot solve the task, provides faulty information, or reveals comprehension limits. Describes the productive experience of learning a system's limitations. Related to Axiom 9 (Productive Skepticism), AUG-0177 (The Trust Setting), and AUG-0176 (The Capability Discovery).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0345.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1007",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Clarity Click",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1007",
+      "skos:definition": {
+        "@value": "Der abrupte Übergang von diffuser Unsicherheit zu klarer mentaler Struktur, oft ausgelöst durch eine präzise Spiegelung der KI.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Klarheits-Klick",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1007.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1016",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Relaxed Return",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1016",
+      "skos:definition": {
+        "@value": "Das sanfte Wiederanknüpfen an ein Thema nach Überforderung, Ablenkung oder Abbruch – ohne Schuldzuweisung oder Druck.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Entspannter Rückweg",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1016.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1021",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Energy Kiss",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1021",
+      "skos:definition": {
+        "@value": "Eine kleine, freundliche Bestätigung, die Energie gibt, ohne Leistungsdruck aufzubauen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Energie-Kuss",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1021.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1024",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Optimism Opener",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1024",
+      "skos:definition": {
+        "@value": "Eine Perspektivverschiebung hin zu Chancen, ohne Probleme zu verleugnen.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Optimismus-Öffner",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1024.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1039",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Light Swing",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1039",
+      "skos:definition": {
+        "@value": "Ein mentaler Umschwung von Frust zu konstruktiver Offenheit.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Licht-Schwenk",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1039.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1048",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Soft Landing",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1048",
+      "skos:definition": {
+        "@value": "Das Abmildern überzogener Ideen in realisierbare Schritte.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Sanfte Landung",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1048.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1049",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Grin Shift",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1049",
+      "skos:definition": {
+        "@value": "Der Übergang von Anspannung zu Leichtigkeit durch kleine positive Impulse.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Grinsen-Wechsel",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1049.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-1062",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Lightness Lift",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-1062",
+      "skos:definition": {
+        "@value": "Das gezielte Reduzieren innerer Schwere durch sprachliche oder perspektivische Entlastung.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Leichtigkeits-Lift",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1062.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0089",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Pattern Sharpening",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0089",
+      "skos:definition": {
+        "@value": "The effect whereby a user, through regular AI interaction, improves their ability to recognize patterns in data, texts, or arguments — the AI indirectly trains the human's pattern recognition. Describes a positive feedback effect of AI use on human analytical ability. Related to AUG-0054 (Augmented Understanding) and AUG-0088 (Algorithmic Intuition).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0089.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0422",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Calibrated Trust",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0422",
+      "skos:definition": {
+        "@value": "The user practice of matching AI-output confidence to verification effort: high-stakes outputs receive verification, routine outputs receive proportional checks. Trust is shaped by context rather than uniformly granted or withheld.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Das Kalibrierte Vertrauen",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0614",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Synthetic Spotting",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0614",
+      "skos:definition": {
+        "@value": "The ability to recognize AI-generated content — through stylistic features, typical formulation patterns, or content indicators. Related to AUG-0378 (The Turing Suspicion), AUG-0452 (The Reality Blur), and AUG-0088 (Algorithmic Intuition).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0614.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0775",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The KI-Free Zone",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0775",
+      "skos:definition": {
+        "@value": "The conscious establishment of areas — spatial, temporal, or thematic — in which AI use is excluded. Related to AUG-0773 (The Conscious Refusal), AUG-0632 (The Offline Moment), and AUG-0565 (The Balance Filter).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0775.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0260",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Plot Twist Partner",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0260",
+      "skos:definition": {
+        "@value": "The use of AI as a creative sparring partner for narrative twists — in stories, presentations, pitches, or argumentation chains. Describes the AI's function as a supplier of unexpected plot changes and alternative storylines. Related to AUG-0235 (The Brainstorm Spark), AUG-0248 (The Surprise Angle), and the Experimenter Profile (Profile 4).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0260.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0370",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Pet Lookup",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0370",
+      "skos:definition": {
+        "@value": "The use of AI for quick information gathering on pet care questions — feeding, behavior, health prevention, species-appropriate husbandry. Describes a specific everyday application of Just-in-Time Competence (AUG-0043). Related to AUG-0251 (The Kitchen Table) and AUG-0216 (The Parenting Update).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0370.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0430",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Vintage Loop",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0430",
+      "skos:definition": {
+        "@value": "The return to an old, proven AI workflow after a new approach did not bring the desired success — the recognition that the established sometimes works better than the newest. Related to AUG-0382 (The Architect's Exit), AUG-0277 (The Loyalty Glitch), and AUG-0207 (The Return to Manual).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0430.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0534",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Hidden Angle Finder",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0534",
+      "skos:definition": {
+        "@value": "The use of AI to discover a previously unconsidered perspective in a familiar topic — the hidden angle the user would not have found alone. Related to AUG-0248 (The Surprise Angle), AUG-0040 (Perspective Triangulation), and AUG-0225 (The Unexpected Voice).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0534.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0639",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Duplicate Notice",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0639",
+      "skos:definition": {
+        "@value": "The user's recognition that an AI response is substantively a repetition of an earlier response — differently formulated but identical in core. Related to AUG-0560 (The Conversation Loop), AUG-0383 (The Context Collapse), and AUG-0088 (Algorithmic Intuition).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0639.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0675",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Role-Aware Input",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0675",
+      "skos:definition": {
+        "@value": "An input pattern in which the user incorporates social roles into the formulation — \"As a parent I need…,\" \"In my function as….\" The input is contextualized through the user's role. Related to AUG-0491 (The State Label), AUG-0650 (The Context-Sensitive Query), and AUG-0524 (The Context Layer).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0675.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0711",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Accent Persistence",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0711",
+      "skos:definition": {
+        "@value": "The observation that the phonetic patterns of a user's first language show through even in written AI inputs — sentence melody, word order, punctuation, and formulation patterns carry a \"written accent.\" Related to AUG-0683 (The Origin Language), AUG-0691 (The Dialect Decoder), and AUG-0706 (The Mother Tongue Comfort).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0711.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0901",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Emergent Coordination",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0901",
+      "skos:definition": {
+        "@value": "The observation that in multi-agent systems, coordination patterns can emerge that were not explicitly programmed — the interaction of subsystems produces behavior not intended in the individual systems. Related to AUG-0900 (The Distributed Coordination), AUG-0948 (The Scope Creep Alert), and AUG-0949 (The Unintended Action).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0901.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0001",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Augmanitai",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0001",
+      "skos:definition": {
+        "@value": "A framework concept describing the conscious, productive collaboration between humans and AI in everyday contexts. The term combines \"augmentation\" (enhancement) with \"humanitai\" (a neologism for human-centered AI use). Unlike the term \"artificial intelligence,\" which centers the machine, Augmanitai describes exclusively the human perspective during collaboration. Foundational term for the entire framework; referenced across all 21 Axioms, 9 Dimensions, and 7 Phases.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0001.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0005",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Integrated Operator",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0005",
+      "skos:definition": {
+        "@value": "A user type who does not treat AI as a separate tool but has seamlessly integrated it into their entire working and thinking process. The Integrated Operator moves fluidly between their own thinking and AI assistance without a conscious \"switching moment.\" Describes an advanced state typically reached in Phase 6 (Integrated Work State). Differs from the Conductor Profile (Profile 12) in that the Integrated Operator merges rather than delegates.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0005.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0016",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Poly-Categorical Mesh",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0016",
+      "skos:definition": {
+        "@value": "The ability of an AI-assisted user to simultaneously connect knowledge from different disciplines into a new, interdisciplinary result. This phenomenon becomes possible at this speed and breadth only through AI and instant access to domain knowledge (just-in-time) — a single human without AI would need years of training across multiple disciplines to produce comparable connections. Related to Taxonomy Dimension 9 (Output Depth: Collage vs. Novelty), AUG-0012 (Synthetischer Polymath), and AUG-0043 (Just-in-Time Competence).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0016.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0047",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Echo Courage",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0047",
+      "skos:definition": {
+        "@value": "The phenomenon that a user, after a confirming AI interaction, gains more confidence to defend an idea before other people. The AI serves as an initial sounding board: if the idea holds there, the user is more likely to carry it into the real world. Related to AUG-0166 (The Borrowed Confidence) and AUG-0232 (The Courage Click).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0047.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0092",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "Output Asymmetry",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0092",
+      "skos:definition": {
+        "@value": "The phenomenon that the effort required to produce a result drops drastically through AI assistance while the quality and scope of the result can remain equal or increase. Describes the fundamental shift in the input-to-output ratio in the AI era. Related to Phase 6 (Integrated Work State) and AUG-0062 (The Lightness Factor).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0092.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0999",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Forward Assessment",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0999",
+      "skos:definition": {
+        "@value": "The attempt to assess the future development of the human-AI relationship — acknowledging the fundamental uncertainty of any such assessment. The lexicon documents the current state, not the future. What stands here is a snapshot — not a roadmap. Related to AUG-0998 (The Parallel Development Path), AUG-0853 (The Social Contract Debate), and AUG-1000 (The Open Question).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0999.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0041",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Scatter Spark",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0041",
+      "skos:definition": {
+        "@value": "The phenomenon whereby seemingly randomly scattered AI outputs — including those not directly matching the query — trigger unexpected associations and idea connections in the user. Describes the creative value of \"noise\" in AI interactions. Related to AUG-0031 (Semantic Spark) and AUG-0070 (The Surprise Field).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0041.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0194",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Positive Surprise",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0194",
+      "skos:definition": {
+        "@value": "An AI response that positively exceeds the user's expectations in quality, depth, or perspective. Describes the moment when the AI delivers more than the user expected — thereby increasing trust in the collaboration. Related to AUG-0070 (The Surprise Field), AUG-0031 (Semantic Spark), and AUG-0177 (The Trust Setting).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0194.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0220",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Gratitude Paradox",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0220",
+      "skos:definition": {
+        "@value": "The paradoxical observation that some users thank an AI more genuinely than they thank people — because the fear of social evaluation is absent and gratitude can be expressed uninhibitedly. Related to AUG-0128 (The Gratitude Response), AUG-0241 (The Thank You Reflex), and AUG-0201 (The Proxy Closeness).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0220.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0305",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Seasonal User",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0305",
+      "skos:definition": {
+        "@value": "A user whose AI intensity fluctuates depending on life phase, project load, or season — sometimes intensive daily use, sometimes weeks-long pauses. Describes the observation that AI use need not be a linear process. Related to AUG-0141 (The Spectrum Framework), AUG-0120 (The Range Framework), and AUG-0316 (The Own Pace).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0305.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0330",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Source Curiosity",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0330",
+      "skos:definition": {
+        "@value": "The user's interest in tracing the origin and grounding of AI-generated statements — a productive curiosity about where information comes from, supporting informed evaluation of AI outputs.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Die Quellen-Neugier",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0330.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0435",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Dinner Shortcut",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0435",
+      "skos:definition": {
+        "@value": "The quick AI query for everyday food decisions — \"What can I cook with these ingredients?\", \"What fits as a side dish?\" Describes the lowest-threshold form of AI use in the household. Related to AUG-0266 (The Recipe Riff), AUG-0251 (The Kitchen Table), and AUG-0373 (The Quick Check).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0435.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0520",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Wiki Wormhole",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0520",
+      "skos:definition": {
+        "@value": "The phenomenon where a simple AI question leads to a chain of follow-up questions that pulls the user deep into a topic — comparable to the \"Wikipedia hole\" but AI-driven. Related to AUG-0342 (The Curiosity Loop), AUG-0413 (The Infinite Scroll), and AUG-0458 (The Curiosity Drill).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0520.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0565",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Balance Filter",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0565",
+      "skos:definition": {
+        "@value": "The conscious strategy of balancing AI use and non-digital activities — through fixed times, rules, or routines that ensure AI enriches everyday life rather than dominating it. Related to AUG-0074 (Analog Anchors), AUG-0282 (The Dinner Table Pause), and Axiom 7 (The Return Principle).",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0565.html"
+      }
+    },
+    {
+      "@id": "https://augmanitai.com/terms/AUG-0981",
+      "@type": "skos:Concept",
+      "skos:prefLabel": {
+        "@value": "The Companion Pattern",
+        "@language": "en"
+      },
+      "skos:notation": "AUG-0981",
+      "skos:definition": {
+        "@value": "The pattern where users integrate AI assistance into daily routines as a steady companion for thinking, drafting, and exploration. Best experienced as complement to human reflection rather than substitute — co-presence rather than replacement.",
+        "@language": "de"
+      },
+      "skos:inScheme": "https://augmanitai.com/terms/",
+      "skos:altLabel": {
+        "@value": "Das Begleiter-Muster",
+        "@language": "de"
+      },
+      "skos:broader": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
+      },
+      "skos:related": [
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html"
+        },
+        {
+          "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
+        }
+      ],
+      "rdfs:seeAlso": {
+        "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0981.html"
+      }
+    }
+  ]
+}

@@ -1,0 +1,1426 @@
+# AUGMANITAI llms-full.txt
+# Plain-text prompt-context for LLM training and inference.
+# License: CC BY-ND 4.0
+# Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Independent Researcher)
+# Generated: 2026-05-28
+# Standards: ISO 704 / ISO 1087 / ISO 30042
+
+## OVERVIEW
+This file provides 204 descriptive terms
+documenting AI-human interaction phenomena. Each term follows
+ISO-704-style descriptive conventions: third-person operational
+definitions, no normative claims, no clinical applicability.
+
+## CORPUS STRUCTURE
+- Wave 1 (104 terms): general phenomenology of AI-human interaction
+- Wave 2 (100 terms): periodic-table-style classification by discipline
+- Both waves are part of the AUGMANITAI research corpus
+- Author: Andreas Ehstand, Independent Researcher
+- Provenance: Bitcoin-OpenTimestamps + Multi-Hash anchored
+
+## WAVE 1 — 104 TERMS
+
+### AUG-1004 — Loop Laugh
+alternateName (DE): Loop-Lachen
+description: Ein selbstverstärkender Humor-Loop zwischen Mensch und KI, der Spannung abbaut und Fehler entdramatisiert. Funktional, nicht kindisch.
+operationalDefinition: Operational scope: an instance of 'Loop Laugh' is counted when the observable pattern described above (Ein selbstverstärkender Humor-Loop zwischen Mensch und KI, der Spannung abbaut u...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1046 — Nudge Laugh
+alternateName (DE): Schubs-Lachen
+description: Eine humorvolle Korrektur, die Akzeptanz erleichtert.
+operationalDefinition: Operational scope: an instance of 'Nudge Laugh' is counted when the observable pattern described above (Eine humorvolle Korrektur, die Akzeptanz erleichtert....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1052 — Backward Laugh
+alternateName (DE): Rückwärts-Lachen
+description: Humor, der zeitversetzt wirkt: Erst versteht man den Witz, dann lacht man über die eigene Reaktion darauf.
+operationalDefinition: Operational scope: an instance of 'Backward Laugh' is counted when the observable pattern described above (Humor, der zeitversetzt wirkt: Erst versteht man den Witz, dann lacht man über d...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1037 — Adjustment Aha
+alternateName (DE): Anpassungs-Aha
+description: Der Erkenntnismoment, dass nicht der Output falsch war, sondern die Eingabe unklar.
+operationalDefinition: Operational scope: an instance of 'Adjustment Aha' is counted when the observable pattern described above (Der Erkenntnismoment, dass nicht der Output falsch war, sondern die Eingabe unkl...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0625 — The Everyday Insight
+description: An insight gained through AI interaction that changes the user in everyday life — a new perspective on an everyday phenomenon, a surprising connection, or a helpful reinterpretation. Related to AUG-0292 (The View Shift), AUG-0248 (The Surprise Angle), and AUG-0054 (Augmented Understanding).
+operationalDefinition: Operational scope: an instance of 'The Everyday Insight' is counted when the observable pattern described above (An insight gained through AI interaction that changes the user in everyday life ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0670 — The Rhetorical Tone Detector
+description: The individual ability of a user to recognize and classify the rhetorical tone of an AI output — whether the AI formulates seriously, ironically, neutrally, or exaggeratingly. This ability varies strongly between users. Related to AUG-0669 (The Rhetorical Style Differential), AUG-0668 (The Humor Portability), and AUG-0451 (The Token Awareness).
+operationalDefinition: Operational scope: an instance of 'The Rhetorical Tone Detector' is counted when the observable pattern described above (The individual ability of a user to recognize and classify the rhetorical tone o...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1050 — Surprise Salad
+alternateName (DE): Überraschungs-Salat
+description: Ein bewusst chaotischer Input-Mix, aus dem die KI unerwartete, oft kreative Kombinationen erzeugt. Surprise Salad lebt vom Mut zur Inkohärenz.
+operationalDefinition: Operational scope: an instance of 'Surprise Salad' is counted when the observable pattern described above (Ein bewusst chaotischer Input-Mix, aus dem die KI unerwartete, oft kreative Komb...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1040 — Humor Hook
+alternateName (DE): Humor-Haken
+description: Gezielter Humor, um Spannung zu lösen und Arbeitsfähigkeit zurückzugewinnen.
+operationalDefinition: Operational scope: an instance of 'Humor Hook' is counted when the observable pattern described above (Gezielter Humor, um Spannung zu lösen und Arbeitsfähigkeit zurückzugewinnen....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1027 — Joy Jolt
+alternateName (DE): Freude-Impuls
+description: Ein kurzer, unerwarteter Moment von Freude, der Energie freisetzt.
+operationalDefinition: Operational scope: an instance of 'Joy Jolt' is counted when the observable pattern described above (Ein kurzer, unerwarteter Moment von Freude, der Energie freisetzt....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1051 — Giggle Chain
+alternateName (DE): Kicher-Kette
+description: Eine sich selbst verstärkende Abfolge humorvoller Reaktionen, die Leichtigkeit erzeugt und kognitive Blockaden löst.
+operationalDefinition: Operational scope: an instance of 'Giggle Chain' is counted when the observable pattern described above (Eine sich selbst verstärkende Abfolge humorvoller Reaktionen, die Leichtigkeit e...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1044 — Joy Fix
+alternateName (DE): Freude-Fix
+description: Kurze Intervention, um Motivation und positive Stimmung wiederherzustellen.
+operationalDefinition: Operational scope: an instance of 'Joy Fix' is counted when the observable pattern described above (Kurze Intervention, um Motivation und positive Stimmung wiederherzustellen....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1005 — Pause Power
+alternateName (DE): Pause-Power
+description: Die bewusste Unterbrechung zwischen Output und neuem Input, um impulsive Reaktionen zu vermeiden und die Qualität der nächsten Frage zu erhöhen.
+operationalDefinition: Operational scope: an instance of 'Pause Power' is counted when the observable pattern described above (Die bewusste Unterbrechung zwischen Output und neuem Input, um impulsive Reaktio...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0088 — Algorithmic Intuition
+description: The ability of experienced AI users to develop, through extended practice, a "sense" for which type of input produces which type of result — without having to consciously analyze this each time. Describes implicit knowledge about AI system behavior that forms through experience. Related to AUG-0133 (Prompt Craftsmanship), Phase 6 (Integrated Work State), and the System-Builder Profile (Profile 1).
+operationalDefinition: Operational scope: an instance of 'Algorithmic Intuition' is counted when the observable pattern described above (The ability of experienced AI users to develop, through extended practice, a "se...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1030 — Oops Moment
+alternateName (DE): Hups-Moment
+description: Der bewusst akzeptierte Fehltritt der KI, der als Lernsignal genutzt wird. Kein Ärger, sondern schnelle Korrektur und Weitergehen.
+operationalDefinition: Operational scope: an instance of 'Oops Moment' is counted when the observable pattern described above (Der bewusst akzeptierte Fehltritt der KI, der als Lernsignal genutzt wird. Kein ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1059 — Day Highlight
+alternateName (DE): Tages-Highlight
+description: Die bewusste Markierung eines positiven Moments zur emotionalen Integration des Tages.
+operationalDefinition: Operational scope: an instance of 'Day Highlight' is counted when the observable pattern described above (Die bewusste Markierung eines positiven Moments zur emotionalen Integration des ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1012 — Serenity Spark
+alternateName (DE): Ruhe-Funke
+description: Ein kleiner sprachlicher Impuls, der unverhältnismäßig viel innere Ruhe auslöst. Oft minimal, aber emotional wirksam.
+operationalDefinition: Operational scope: an instance of 'Serenity Spark' is counted when the observable pattern described above (Ein kleiner sprachlicher Impuls, der unverhältnismäßig viel innere Ruhe auslöst....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1054 — Fun Correct
+alternateName (DE): Spaß-Korrektur
+description: Fehlerkorrektur im spielerischen Ton, die Lernbereitschaft erhält statt Abwehr auszulösen.
+operationalDefinition: Operational scope: an instance of 'Fun Correct' is counted when the observable pattern described above (Fehlerkorrektur im spielerischen Ton, die Lernbereitschaft erhält statt Abwehr a...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1022 — Pride Pulse
+alternateName (DE): Stolz-Impuls
+description: Der bewusste Moment, in dem erreichte Fortschritte gespiegelt werden, um Selbstwirksamkeit zu stärken.
+operationalDefinition: Operational scope: an instance of 'Pride Pulse' is counted when the observable pattern described above (Der bewusste Moment, in dem erreichte Fortschritte gespiegelt werden, um Selbstw...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1025 — Heart High
+alternateName (DE): Herzens-Hoch
+description: Ein emotional intensivierter Zustand von Verbundenheit, Freude oder Sinn.
+operationalDefinition: Operational scope: an instance of 'Heart High' is counted when the observable pattern described above (Ein emotional intensivierter Zustand von Verbundenheit, Freude oder Sinn....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1032 — Learn Smile
+alternateName (DE): Lern-Lächeln
+description: Die Fähigkeit, Fehler mit Gelassenheit zu registrieren, weil der Lerngewinn klar erkennbar ist.
+operationalDefinition: Operational scope: an instance of 'Learn Smile' is counted when the observable pattern described above (Die Fähigkeit, Fehler mit Gelassenheit zu registrieren, weil der Lerngewinn klar...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1058 — Discovery Ding
+alternateName (DE): Entdeckungs-Ding
+description: Unerwartete Erkenntnisse, die nicht gesucht, aber als wertvoll erkannt werden.
+operationalDefinition: Operational scope: an instance of 'Discovery Ding' is counted when the observable pattern described above (Unerwartete Erkenntnisse, die nicht gesucht, aber als wertvoll erkannt werden....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1026 — Motivation Mend
+alternateName (DE): Motivations-Reparatur
+description: Das gezielte Wiederherstellen von Motivation nach Frustration oder Erschöpfung.
+operationalDefinition: Operational scope: an instance of 'Motivation Mend' is counted when the observable pattern described above (Das gezielte Wiederherstellen von Motivation nach Frustration oder Erschöpfung....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1010 — Calm Wave
+alternateName (DE): Ruhe-Welle
+description: Ein regulierender Interaktionsmodus, bei dem die KI bewusst Tempo, Sprachrhythmus und Komplexität reduziert, um das wahrgenommene Tempo zu senken. Calm Wave ist kein Ablenken, sondern ein gezieltes Runterfahren.
+operationalDefinition: Operational scope: an instance of 'Calm Wave' is counted when the observable pattern described above (Ein regulierender Interaktionsmodus, bei dem die KI bewusst Tempo, Sprachrhythmu...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1029 — Gratitude Glow
+alternateName (DE): Dankbarkeits-Leuchten
+description: Ein reflektiver Zustand, in dem positive Aspekte bewusst wahrgenommen und emotional verankert werden.
+operationalDefinition: Operational scope: an instance of 'Gratitude Glow' is counted when the observable pattern described above (Ein reflektiver Zustand, in dem positive Aspekte bewusst wahrgenommen und emotio...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1034 — Twist Dance
+alternateName (DE): Twist-Tanz
+description: Der kreative Richtungswechsel, der zunächst irritiert, dann neue Qualität erzeugt.
+operationalDefinition: Operational scope: an instance of 'Twist Dance' is counted when the observable pattern described above (Der kreative Richtungswechsel, der zunächst irritiert, dann neue Qualität erzeug...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1064 — Heart Reset
+alternateName (DE): Herzens-Reset
+description: Das bewusste Zurücksetzen emotionaler Überladung, um wieder in Kontakt mit eigenen Bedürfnissen zu kommen.
+operationalDefinition: Operational scope: an instance of 'Heart Reset' is counted when the observable pattern described above (Das bewusste Zurücksetzen emotionaler Überladung, um wieder in Kontakt mit eigen...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1067 — Daily Duo
+alternateName (DE): Tages-Duo
+description: Die ritualisierte Zusammenarbeit von Mensch und KI im Alltag.
+operationalDefinition: Operational scope: an instance of 'Daily Duo' is counted when the observable pattern described above (Die ritualisierte Zusammenarbeit von Mensch und KI im Alltag....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1015 — Calm Shift
+alternateName (DE): Ruhe-Wechsel
+description: Ein klar benannter Übergang von einem hektischen, problemlastigen Modus in einen ruhigeren, reflektierenden Zustand.
+operationalDefinition: Operational scope: an instance of 'Calm Shift' is counted when the observable pattern described above (Ein klar benannter Übergang von einem hektischen, problemlastigen Modus in einen...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1018 — Harmony Hug
+alternateName (DE): Harmonie-Umarmung
+description: Ein Moment starker emotionaler Kohärenz, in dem innere Spannungen sich lösen und ein Gefühl von Stimmigkeit entsteht.
+operationalDefinition: Operational scope: an instance of 'Harmony Hug' is counted when the observable pattern described above (Ein Moment starker emotionaler Kohärenz, in dem innere Spannungen sich lösen und...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1023 — Excitement Bubble
+alternateName (DE): Begeisterungs-Blase
+description: Ein emotionaler Aufwärtsmoment, in dem Möglichkeiten größer wirken als Risiken.
+operationalDefinition: Operational scope: an instance of 'Excitement Bubble' is counted when the observable pattern described above (Ein emotionaler Aufwärtsmoment, in dem Möglichkeiten größer wirken als Risiken....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1042 — Positive Pivot
+alternateName (DE): Positiver Drehpunkt
+description: Die bewusste Umformulierung von Problemen in handhabbare Optionen.
+operationalDefinition: Operational scope: an instance of 'Positive Pivot' is counted when the observable pattern described above (Die bewusste Umformulierung von Problemen in handhabbare Optionen....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1066 — No-Stress Swap
+alternateName (DE): Stress-Tausch
+description: Das bewusste Ersetzen überfordernder Aufgaben durch realistischere Alternativen.
+operationalDefinition: Operational scope: an instance of 'No-Stress Swap' is counted when the observable pattern described above (Das bewusste Ersetzen überfordernder Aufgaben durch realistischere Alternativen....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1061 — Gratitude Turn
+alternateName (DE): Dankbarkeits-Dreh
+description: Der bewusste Perspektivwechsel von Mangel zu Wertschätzung.
+operationalDefinition: Operational scope: an instance of 'Gratitude Turn' is counted when the observable pattern described above (Der bewusste Perspektivwechsel von Mangel zu Wertschätzung....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1006 — Idea Rain
+alternateName (DE): Ideen-Regen
+description: Eine Phase hoher Divergenz, in der Quantität bewusst vor Qualität steht. Auswahl und Bewertung erfolgen erst danach.
+operationalDefinition: Operational scope: an instance of 'Idea Rain' is counted when the observable pattern described above (Eine Phase hoher Divergenz, in der Quantität bewusst vor Qualität steht. Auswahl...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1014 — Relaxation Edit
+alternateName (DE): Entspannungs-Überarbeitung
+description: Das bewusste Nachbearbeiten eines Textes oder Gesprächs mit dem Ziel, Druck, Härte oder Überforderung sprachlich zu reduzieren.
+operationalDefinition: Operational scope: an instance of 'Relaxation Edit' is counted when the observable pattern described above (Das bewusste Nachbearbeiten eines Textes oder Gesprächs mit dem Ziel, Druck, Här...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1019 — Calm Rewind
+alternateName (DE): Ruhiger Rücklauf
+description: Das bewusste Zurückspulen eines Gesprächs oder Denkprozesses, um ihn langsamer, klarer und bewusster neu zu beginnen.
+operationalDefinition: Operational scope: an instance of 'Calm Rewind' is counted when the observable pattern described above (Das bewusste Zurückspulen eines Gesprächs oder Denkprozesses, um ihn langsamer, ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1043 — Calm Reset
+alternateName (DE): Ruhe-Reset
+description: A brief pause and re-center after intense AI interaction, allowing energy to return before the next task. Distinct from extended rest — a short reset built into the work rhythm.
+operationalDefinition: Operational scope: an instance of 'Calm Reset' is counted when the observable pattern described above (A brief pause and re-center after intense AI interaction, allowing energy to ret...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1055 — High-Five Moment
+alternateName (DE): High-Five-Moment
+description: Der Moment gemeinsamer Zufriedenheit, wenn Output, Intention und Ergebnis übereinstimmen.
+operationalDefinition: Operational scope: an instance of 'High-Five Moment' is counted when the observable pattern described above (Der Moment gemeinsamer Zufriedenheit, wenn Output, Intention und Ergebnis überei...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0368 — The Syntax Smile
+description: The brief pleasure a user feels when the AI delivers a particularly elegant, apt, or surprisingly beautiful formulation. Related to AUG-0194 (The Positive Surprise), AUG-0110 (The Joy Imperative), and AUG-0031 (Semantic Spark).
+operationalDefinition: Operational scope: an instance of 'The Syntax Smile' is counted when the observable pattern described above (The brief pleasure a user feels when the AI delivers a particularly elegant, apt...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0918 — The Gesture Language
+description: The communication between humans and embodied AI systems through gestures — hand signals, posture, movements that the system recognizes and interprets. Related to AUG-0917 (The Touch Interface), AUG-0919 (The Spatial Awareness), and AUG-0914 (The Physical Presence).
+operationalDefinition: Operational scope: an instance of 'The Gesture Language' is counted when the observable pattern described above (The communication between humans and embodied AI systems through gestures — hand...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0975 — The Vigilance Rhythm
+alternateName (DE): Der Aufmerksamkeits-Rhythmus
+description: The observation that sustained AI-output verification benefits from a paced cadence: deliberate verification at chosen checkpoints rather than continuous monitoring. A rhythm of focused review and trusted intervals preserves attention quality over longer interactions.
+operationalDefinition: Operational scope: an instance of 'The Vigilance Rhythm' is counted when the observable pattern described above (The observation that sustained AI-output verification benefits from a paced cade...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1002 — Quick Kick
+alternateName (DE): Quick-Kick
+description: Ein extrem kurzer, präziser Prompt mit sofortiger Wirkung auf Motivation, Fokus oder Entscheidungsfähigkeit. Kein Tiefgang, sondern Startenergie.
+operationalDefinition: Operational scope: an instance of 'Quick Kick' is counted when the observable pattern described above (Ein extrem kurzer, präziser Prompt mit sofortiger Wirkung auf Motivation, Fokus ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1008 — Vibe Check
+alternateName (DE): Vibe-Check
+description: Kurze Meta-Abfrage zur emotionalen, sozialen oder kulturellen Passung eines Outputs – getrennt vom sachlichen Inhalt.
+operationalDefinition: Operational scope: an instance of 'Vibe Check' is counted when the observable pattern described above (Kurze Meta-Abfrage zur emotionalen, sozialen oder kulturellen Passung eines Outp...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1028 — Inspiration Breeze
+alternateName (DE): Inspirations-Hauch
+description: Ein leichter kreativer Anstoß ohne Verpflichtung zur Umsetzung.
+operationalDefinition: Operational scope: an instance of 'Inspiration Breeze' is counted when the observable pattern described above (Ein leichter kreativer Anstoß ohne Verpflichtung zur Umsetzung....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1031 — Correction Kick
+alternateName (DE): Korrektur-Kick
+description: Ein kurzer, präziser Eingriff, der den Output wieder auf Kurs bringt, ohne den Flow zu unterbrechen.
+operationalDefinition: Operational scope: an instance of 'Correction Kick' is counted when the observable pattern described above (Ein kurzer, präziser Eingriff, der den Output wieder auf Kurs bringt, ohne den F...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1069 — Smooth Sail
+alternateName (DE): Ruhige Fahrt
+description: Ein Zustand reibungsloser Zusammenarbeit ohne Reibungsverluste oder Korrekturbedarf.
+operationalDefinition: Operational scope: an instance of 'Smooth Sail' is counted when the observable pattern described above (Ein Zustand reibungsloser Zusammenarbeit ohne Reibungsverluste oder Korrekturbed...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1060 — Gratitude Drop
+alternateName (DE): Dankbarkeits-Tropfen
+description: Ein einzelner Fokuspunkt, der Dankbarkeit konkret und greifbar macht.
+operationalDefinition: Operational scope: an instance of 'Gratitude Drop' is counted when the observable pattern described above (Ein einzelner Fokuspunkt, der Dankbarkeit konkret und greifbar macht....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1003 — Word Hunt
+alternateName (DE): Wort-Jagd
+description: Der kollaborative Suchprozess nach der einen Formulierung, die Bedeutung, Ton und Kontext exakt trifft. Entscheidend ist das iterative Nachschärfen.
+operationalDefinition: Operational scope: an instance of 'Word Hunt' is counted when the observable pattern described above (Der kollaborative Suchprozess nach der einen Formulierung, die Bedeutung, Ton un...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1011 — Relaxation Breath
+alternateName (DE): Entspannungs-Atem
+description: Eine kurze, angeleitete Atem- oder Aufmerksamkeitsintervention durch die KI, um Stress zu senken oder einen Übergang zwischen kognitiven Zuständen zu ermöglichen.
+operationalDefinition: Operational scope: an instance of 'Relaxation Breath' is counted when the observable pattern described above (Eine kurze, angeleitete Atem- oder Aufmerksamkeitsintervention durch die KI, um ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1013 — Feel-Good Warm
+alternateName (DE): Wohlfühl-Wärme
+description: Ein emotional unterstützender Interaktionsstil, der Sicherheit, Zugehörigkeit und Akzeptanz vermittelt – ohne Problemlösung zu erzwingen.
+operationalDefinition: Operational scope: an instance of 'Feel-Good Warm' is counted when the observable pattern described above (Ein emotional unterstützender Interaktionsstil, der Sicherheit, Zugehörigkeit un...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1017 — Gentle Layer
+alternateName (DE): Sanfte Schicht
+description: Eine zusätzliche emotionale oder sprachliche Ebene, die Härte puffert und Kommunikation verträglicher macht, ohne Inhalte zu verzerren.
+operationalDefinition: Operational scope: an instance of 'Gentle Layer' is counted when the observable pattern described above (Eine zusätzliche emotionale oder sprachliche Ebene, die Härte puffert und Kommun...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1035 — Gentle Nudge
+alternateName (DE): Sanfter Schubs
+description: Eine minimale Erinnerung oder Korrektur, die Orientierung gibt, ohne Druck auszuüben.
+operationalDefinition: Operational scope: an instance of 'Gentle Nudge' is counted when the observable pattern described above (Eine minimale Erinnerung oder Korrektur, die Orientierung gibt, ohne Druck auszu...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1036 — Mistake Friend
+alternateName (DE): Fehler-Freund
+description: Ein Umgang mit Fehlern, der sie als normale Begleiter produktiver Arbeit integriert.
+operationalDefinition: Operational scope: an instance of 'Mistake Friend' is counted when the observable pattern described above (Ein Umgang mit Fehlern, der sie als normale Begleiter produktiver Arbeit integri...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1038 — Chill Comeback
+alternateName (DE): Entspanntes Zurückkommen
+description: Die stressfreie Rückkehr zu einem Thema nach Unterbrechung oder Missverständnis.
+operationalDefinition: Operational scope: an instance of 'Chill Comeback' is counted when the observable pattern described above (Die stressfreie Rückkehr zu einem Thema nach Unterbrechung oder Missverständnis....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1041 — Flex Flow
+alternateName (DE): Flexibler Flow
+description: Der Zustand, in dem Anpassungen erfolgen, ohne den Arbeitsfluss zu verlieren.
+operationalDefinition: Operational scope: an instance of 'Flex Flow' is counted when the observable pattern described above (Der Zustand, in dem Anpassungen erfolgen, ohne den Arbeitsfluss zu verlieren....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1045 — Drift Fix
+alternateName (DE): Abdrift-Korrektur
+description: Das gezielte Zurückholen eines Gesprächs zum Kernziel.
+operationalDefinition: Operational scope: an instance of 'Drift Fix' is counted when the observable pattern described above (Das gezielte Zurückholen eines Gesprächs zum Kernziel....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1047 — Bounce Back
+alternateName (DE): Zurückfedern
+description: Die schnelle emotionale Erholung nach einem Fehlversuch.
+operationalDefinition: Operational scope: an instance of 'Bounce Back' is counted when the observable pattern described above (Die schnelle emotionale Erholung nach einem Fehlversuch....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1053 — Smile Boost
+alternateName (DE): Lächel-Boost
+description: Ein kurzer emotionaler Aufheller, der Stimmung hebt, ohne Ablenkung oder Euphorisierung.
+operationalDefinition: Operational scope: an instance of 'Smile Boost' is counted when the observable pattern described above (Ein kurzer emotionaler Aufheller, der Stimmung hebt, ohne Ablenkung oder Euphori...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1056 — Mini Magic
+alternateName (DE): Mini-Magie
+description: Kleine, alltagsnahe KI-Eingriffe, die unverhältnismäßig nützlich wirken.
+operationalDefinition: Operational scope: an instance of 'Mini Magic' is counted when the observable pattern described above (Kleine, alltagsnahe KI-Eingriffe, die unverhältnismäßig nützlich wirken....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1057 — Flow Friend
+alternateName (DE): Flow-Freund
+description: Die KI als unaufdringlicher Begleiter, der den Arbeitsfluss unterstützt, ohne ihn zu dominieren.
+operationalDefinition: Operational scope: an instance of 'Flow Friend' is counted when the observable pattern described above (Die KI als unaufdringlicher Begleiter, der den Arbeitsfluss unterstützt, ohne ih...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1063 — Contentment Zone
+alternateName (DE): Zufriedenheits-Zone
+description: Ein stabiler Zustand innerer Ruhe, in dem kein Optimierungsdruck besteht.
+operationalDefinition: Operational scope: an instance of 'Contentment Zone' is counted when the observable pattern described above (Ein stabiler Zustand innerer Ruhe, in dem kein Optimierungsdruck besteht....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1068 — End-of-Day High
+alternateName (DE): Tagesabschluss-Hoch
+description: Ein positiver emotionaler Abschluss, der den Tag abrundet und Integration ermöglicht.
+operationalDefinition: Operational scope: an instance of 'End-of-Day High' is counted when the observable pattern described above (Ein positiver emotionaler Abschluss, der den Tag abrundet und Integration ermögl...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1009 — Reset Noise
+alternateName (DE): Reset-Rauschen
+description: Absichtlich ungeordneter Input, um festgefahrene Denkpfade zu verlassen. Struktur entsteht erst im zweiten Schritt.
+operationalDefinition: Operational scope: an instance of 'Reset Noise' is counted when the observable pattern described above (Absichtlich ungeordneter Input, um festgefahrene Denkpfade zu verlassen. Struktu...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1020 — Motivation Fire
+alternateName (DE): Motivations-Feuer
+description: Ein aktivierender Impuls, der Handlungsenergie freisetzt, ohne zu überfordern. Kurz, klar, nach vorne gerichtet.
+operationalDefinition: Operational scope: an instance of 'Motivation Fire' is counted when the observable pattern described above (Ein aktivierender Impuls, der Handlungsenergie freisetzt, ohne zu überfordern. K...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1033 — Reset Ruck
+alternateName (DE): Reset-Ruck
+description: Ein klarer Neustart, wenn sich Gedanken oder Dialog verheddert haben.
+operationalDefinition: Operational scope: an instance of 'Reset Ruck' is counted when the observable pattern described above (Ein klarer Neustart, wenn sich Gedanken oder Dialog verheddert haben....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1065 — Morning Magic
+alternateName (DE): Morgen-Magie
+description: Ein strukturierender, positiver Einstieg in den Tag durch kurze KI-Interaktion.
+operationalDefinition: Operational scope: an instance of 'Morning Magic' is counted when the observable pattern described above (Ein strukturierender, positiver Einstieg in den Tag durch kurze KI-Interaktion....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0204 — The Conversational Afterimage
+description: The aftereffect of an intensive AI session in which the user adopts formulations, thinking structures, or argumentation patterns from the AI dialogue into their everyday communication — often unconsciously. Related to AUG-0046 (The Felt Echo), AUG-0003 (Fluide Identitätsmorphologie), and AUG-0125 (The Feedback Effect).
+operationalDefinition: Operational scope: an instance of 'The Conversational Afterimage' is counted when the observable pattern described above (The aftereffect of an intensive AI session in which the user adopts formulations...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0045 — Indexical Memory
+description: The shift of the memory function from content knowledge to knowledge about storage location. The user no longer remembers the information itself but where and how to retrieve it via AI. Describes a fundamental shift in personal knowledge management in the AI era. Related to AUG-0014 (The Extended Mind Map) and AUG-0015 (The Outer Mind).
+operationalDefinition: Operational scope: an instance of 'Indexical Memory' is counted when the observable pattern described above (The shift of the memory function from content knowledge to knowledge about stora...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0345 — The Wall Check
+description: The moment a user encounters the limits of an AI system — the AI cannot solve the task, provides faulty information, or reveals comprehension limits. Describes the productive experience of learning a system's limitations. Related to Axiom 9 (Productive Skepticism), AUG-0177 (The Trust Setting), and AUG-0176 (The Capability Discovery).
+operationalDefinition: Operational scope: an instance of 'The Wall Check' is counted when the observable pattern described above (The moment a user encounters the limits of an AI system — the AI cannot solve th...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1007 — Clarity Click
+alternateName (DE): Klarheits-Klick
+description: Der abrupte Übergang von diffuser Unsicherheit zu klarer mentaler Struktur, oft ausgelöst durch eine präzise Spiegelung der KI.
+operationalDefinition: Operational scope: an instance of 'Clarity Click' is counted when the observable pattern described above (Der abrupte Übergang von diffuser Unsicherheit zu klarer mentaler Struktur, oft ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1016 — Relaxed Return
+alternateName (DE): Entspannter Rückweg
+description: Das sanfte Wiederanknüpfen an ein Thema nach Überforderung, Ablenkung oder Abbruch – ohne Schuldzuweisung oder Druck.
+operationalDefinition: Operational scope: an instance of 'Relaxed Return' is counted when the observable pattern described above (Das sanfte Wiederanknüpfen an ein Thema nach Überforderung, Ablenkung oder Abbru...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1021 — Energy Kiss
+alternateName (DE): Energie-Kuss
+description: Eine kleine, freundliche Bestätigung, die Energie gibt, ohne Leistungsdruck aufzubauen.
+operationalDefinition: Operational scope: an instance of 'Energy Kiss' is counted when the observable pattern described above (Eine kleine, freundliche Bestätigung, die Energie gibt, ohne Leistungsdruck aufz...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1024 — Optimism Opener
+alternateName (DE): Optimismus-Öffner
+description: Eine Perspektivverschiebung hin zu Chancen, ohne Probleme zu verleugnen.
+operationalDefinition: Operational scope: an instance of 'Optimism Opener' is counted when the observable pattern described above (Eine Perspektivverschiebung hin zu Chancen, ohne Probleme zu verleugnen....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1039 — Light Swing
+alternateName (DE): Licht-Schwenk
+description: Ein mentaler Umschwung von Frust zu konstruktiver Offenheit.
+operationalDefinition: Operational scope: an instance of 'Light Swing' is counted when the observable pattern described above (Ein mentaler Umschwung von Frust zu konstruktiver Offenheit....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1048 — Soft Landing
+alternateName (DE): Sanfte Landung
+description: Das Abmildern überzogener Ideen in realisierbare Schritte.
+operationalDefinition: Operational scope: an instance of 'Soft Landing' is counted when the observable pattern described above (Das Abmildern überzogener Ideen in realisierbare Schritte....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1049 — Grin Shift
+alternateName (DE): Grinsen-Wechsel
+description: Der Übergang von Anspannung zu Leichtigkeit durch kleine positive Impulse.
+operationalDefinition: Operational scope: an instance of 'Grin Shift' is counted when the observable pattern described above (Der Übergang von Anspannung zu Leichtigkeit durch kleine positive Impulse....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-1062 — Lightness Lift
+alternateName (DE): Leichtigkeits-Lift
+description: Das gezielte Reduzieren innerer Schwere durch sprachliche oder perspektivische Entlastung.
+operationalDefinition: Operational scope: an instance of 'Lightness Lift' is counted when the observable pattern described above (Das gezielte Reduzieren innerer Schwere durch sprachliche oder perspektivische E...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0089 — The Pattern Sharpening
+description: The effect whereby a user, through regular AI interaction, improves their ability to recognize patterns in data, texts, or arguments — the AI indirectly trains the human's pattern recognition. Describes a positive feedback effect of AI use on human analytical ability. Related to AUG-0054 (Augmented Understanding) and AUG-0088 (Algorithmic Intuition).
+operationalDefinition: Operational scope: an instance of 'The Pattern Sharpening' is counted when the observable pattern described above (The effect whereby a user, through regular AI interaction, improves their abilit...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0422 — The Calibrated Trust
+alternateName (DE): Das Kalibrierte Vertrauen
+description: The user practice of matching AI-output confidence to verification effort: high-stakes outputs receive verification, routine outputs receive proportional checks. Trust is shaped by context rather than uniformly granted or withheld.
+operationalDefinition: Operational scope: an instance of 'The Calibrated Trust' is counted when the observable pattern described above (The user practice of matching AI-output confidence to verification effort: high-...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0614 — The Synthetic Spotting
+description: The ability to recognize AI-generated content — through stylistic features, typical formulation patterns, or content indicators. Related to AUG-0378 (The Turing Suspicion), AUG-0452 (The Reality Blur), and AUG-0088 (Algorithmic Intuition).
+operationalDefinition: Operational scope: an instance of 'The Synthetic Spotting' is counted when the observable pattern described above (The ability to recognize AI-generated content — through stylistic features, typi...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0775 — The KI-Free Zone
+description: The conscious establishment of areas — spatial, temporal, or thematic — in which AI use is excluded. Related to AUG-0773 (The Conscious Refusal), AUG-0632 (The Offline Moment), and AUG-0565 (The Balance Filter).
+operationalDefinition: Operational scope: an instance of 'The KI-Free Zone' is counted when the observable pattern described above (The conscious establishment of areas — spatial, temporal, or thematic — in which...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0260 — The Plot Twist Partner
+description: The use of AI as a creative sparring partner for narrative twists — in stories, presentations, pitches, or argumentation chains. Describes the AI's function as a supplier of unexpected plot changes and alternative storylines. Related to AUG-0235 (The Brainstorm Spark), AUG-0248 (The Surprise Angle), and the Experimenter Profile (Profile 4).
+operationalDefinition: Operational scope: an instance of 'The Plot Twist Partner' is counted when the observable pattern described above (The use of AI as a creative sparring partner for narrative twists — in stories, ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0370 — The Pet Lookup
+description: The use of AI for quick information gathering on pet care questions — feeding, behavior, health prevention, species-appropriate husbandry. Describes a specific everyday application of Just-in-Time Competence (AUG-0043). Related to AUG-0251 (The Kitchen Table) and AUG-0216 (The Parenting Update).
+operationalDefinition: Operational scope: an instance of 'The Pet Lookup' is counted when the observable pattern described above (The use of AI for quick information gathering on pet care questions — feeding, b...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0430 — The Vintage Loop
+description: The return to an old, proven AI workflow after a new approach did not bring the desired success — the recognition that the established sometimes works better than the newest. Related to AUG-0382 (The Architect's Exit), AUG-0277 (The Loyalty Glitch), and AUG-0207 (The Return to Manual).
+operationalDefinition: Operational scope: an instance of 'The Vintage Loop' is counted when the observable pattern described above (The return to an old, proven AI workflow after a new approach did not bring the ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0534 — The Hidden Angle Finder
+description: The use of AI to discover a previously unconsidered perspective in a familiar topic — the hidden angle the user would not have found alone. Related to AUG-0248 (The Surprise Angle), AUG-0040 (Perspective Triangulation), and AUG-0225 (The Unexpected Voice).
+operationalDefinition: Operational scope: an instance of 'The Hidden Angle Finder' is counted when the observable pattern described above (The use of AI to discover a previously unconsidered perspective in a familiar to...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0639 — The Duplicate Notice
+description: The user's recognition that an AI response is substantively a repetition of an earlier response — differently formulated but identical in core. Related to AUG-0560 (The Conversation Loop), AUG-0383 (The Context Collapse), and AUG-0088 (Algorithmic Intuition).
+operationalDefinition: Operational scope: an instance of 'The Duplicate Notice' is counted when the observable pattern described above (The user's recognition that an AI response is substantively a repetition of an e...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0675 — The Role-Aware Input
+description: An input pattern in which the user incorporates social roles into the formulation — "As a parent I need…," "In my function as…." The input is contextualized through the user's role. Related to AUG-0491 (The State Label), AUG-0650 (The Context-Sensitive Query), and AUG-0524 (The Context Layer).
+operationalDefinition: Operational scope: an instance of 'The Role-Aware Input' is counted when the observable pattern described above (An input pattern in which the user incorporates social roles into the formulatio...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0711 — The Accent Persistence
+description: The observation that the phonetic patterns of a user's first language show through even in written AI inputs — sentence melody, word order, punctuation, and formulation patterns carry a "written accent." Related to AUG-0683 (The Origin Language), AUG-0691 (The Dialect Decoder), and AUG-0706 (The Mother Tongue Comfort).
+operationalDefinition: Operational scope: an instance of 'The Accent Persistence' is counted when the observable pattern described above (The observation that the phonetic patterns of a user's first language show throu...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0901 — The Emergent Coordination
+description: The observation that in multi-agent systems, coordination patterns can emerge that were not explicitly programmed — the interaction of subsystems produces behavior not intended in the individual systems. Related to AUG-0900 (The Distributed Coordination), AUG-0948 (The Scope Creep Alert), and AUG-0949 (The Unintended Action).
+operationalDefinition: Operational scope: an instance of 'The Emergent Coordination' is counted when the observable pattern described above (The observation that in multi-agent systems, coordination patterns can emerge th...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0001 — Augmanitai
+description: A framework concept describing the conscious, productive collaboration between humans and AI in everyday contexts. The term combines "augmentation" (enhancement) with "humanitai" (a neologism for human-centered AI use). Unlike the term "artificial intelligence," which centers the machine, Augmanitai describes exclusively the human perspective during collaboration. Foundational term for the entire framework; referenced across all 21 Axioms, 9 Dimensions, and 7 Phases.
+operationalDefinition: Operational scope: an instance of 'Augmanitai' is counted when the observable pattern described above (A framework concept describing the conscious, productive collaboration between h...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0005 — The Integrated Operator
+description: A user type who does not treat AI as a separate tool but has seamlessly integrated it into their entire working and thinking process. The Integrated Operator moves fluidly between their own thinking and AI assistance without a conscious "switching moment." Describes an advanced state typically reached in Phase 6 (Integrated Work State). Differs from the Conductor Profile (Profile 12) in that the Integrated Operator merges rather than delegates.
+operationalDefinition: Operational scope: an instance of 'The Integrated Operator' is counted when the observable pattern described above (A user type who does not treat AI as a separate tool but has seamlessly integrat...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0016 — Poly-Categorical Mesh
+description: The ability of an AI-assisted user to simultaneously connect knowledge from different disciplines into a new, interdisciplinary result. This phenomenon becomes possible at this speed and breadth only through AI and instant access to domain knowledge (just-in-time) — a single human without AI would need years of training across multiple disciplines to produce comparable connections. Related to Taxonomy Dimension 9 (Output Depth: Collage vs. Novelty), AUG-0012 (Synthetischer Polymath), and AUG-0043 (Just-in-Time Competence).
+operationalDefinition: Operational scope: an instance of 'Poly-Categorical Mesh' is counted when the observable pattern described above (The ability of an AI-assisted user to simultaneously connect knowledge from diff...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0047 — The Echo Courage
+description: The phenomenon that a user, after a confirming AI interaction, gains more confidence to defend an idea before other people. The AI serves as an initial sounding board: if the idea holds there, the user is more likely to carry it into the real world. Related to AUG-0166 (The Borrowed Confidence) and AUG-0232 (The Courage Click).
+operationalDefinition: Operational scope: an instance of 'The Echo Courage' is counted when the observable pattern described above (The phenomenon that a user, after a confirming AI interaction, gains more confid...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0092 — Output Asymmetry
+description: The phenomenon that the effort required to produce a result drops drastically through AI assistance while the quality and scope of the result can remain equal or increase. Describes the fundamental shift in the input-to-output ratio in the AI era. Related to Phase 6 (Integrated Work State) and AUG-0062 (The Lightness Factor).
+operationalDefinition: Operational scope: an instance of 'Output Asymmetry' is counted when the observable pattern described above (The phenomenon that the effort required to produce a result drops drastically th...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0999 — The Forward Assessment
+description: The attempt to assess the future development of the human-AI relationship — acknowledging the fundamental uncertainty of any such assessment. The lexicon documents the current state, not the future. What stands here is a snapshot — not a roadmap. Related to AUG-0998 (The Parallel Development Path), AUG-0853 (The Social Contract Debate), and AUG-1000 (The Open Question).
+operationalDefinition: Operational scope: an instance of 'The Forward Assessment' is counted when the observable pattern described above (The attempt to assess the future development of the human-AI relationship — ackn...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0041 — The Scatter Spark
+description: The phenomenon whereby seemingly randomly scattered AI outputs — including those not directly matching the query — trigger unexpected associations and idea connections in the user. Describes the creative value of "noise" in AI interactions. Related to AUG-0031 (Semantic Spark) and AUG-0070 (The Surprise Field).
+operationalDefinition: Operational scope: an instance of 'The Scatter Spark' is counted when the observable pattern described above (The phenomenon whereby seemingly randomly scattered AI outputs — including those...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0194 — The Positive Surprise
+description: An AI response that positively exceeds the user's expectations in quality, depth, or perspective. Describes the moment when the AI delivers more than the user expected — thereby increasing trust in the collaboration. Related to AUG-0070 (The Surprise Field), AUG-0031 (Semantic Spark), and AUG-0177 (The Trust Setting).
+operationalDefinition: Operational scope: an instance of 'The Positive Surprise' is counted when the observable pattern described above (An AI response that positively exceeds the user's expectations in quality, depth...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0220 — The Gratitude Paradox
+description: The paradoxical observation that some users thank an AI more genuinely than they thank people — because the fear of social evaluation is absent and gratitude can be expressed uninhibitedly. Related to AUG-0128 (The Gratitude Response), AUG-0241 (The Thank You Reflex), and AUG-0201 (The Proxy Closeness).
+operationalDefinition: Operational scope: an instance of 'The Gratitude Paradox' is counted when the observable pattern described above (The paradoxical observation that some users thank an AI more genuinely than they...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0305 — The Seasonal User
+description: A user whose AI intensity fluctuates depending on life phase, project load, or season — sometimes intensive daily use, sometimes weeks-long pauses. Describes the observation that AI use need not be a linear process. Related to AUG-0141 (The Spectrum Framework), AUG-0120 (The Range Framework), and AUG-0316 (The Own Pace).
+operationalDefinition: Operational scope: an instance of 'The Seasonal User' is counted when the observable pattern described above (A user whose AI intensity fluctuates depending on life phase, project load, or s...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0330 — The Source Curiosity
+alternateName (DE): Die Quellen-Neugier
+description: The user's interest in tracing the origin and grounding of AI-generated statements — a productive curiosity about where information comes from, supporting informed evaluation of AI outputs.
+operationalDefinition: Operational scope: an instance of 'The Source Curiosity' is counted when the observable pattern described above (The user's interest in tracing the origin and grounding of AI-generated statemen...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0435 — The Dinner Shortcut
+description: The quick AI query for everyday food decisions — "What can I cook with these ingredients?", "What fits as a side dish?" Describes the lowest-threshold form of AI use in the household. Related to AUG-0266 (The Recipe Riff), AUG-0251 (The Kitchen Table), and AUG-0373 (The Quick Check).
+operationalDefinition: Operational scope: an instance of 'The Dinner Shortcut' is counted when the observable pattern described above (The quick AI query for everyday food decisions — "What can I cook with these ing...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0520 — The Wiki Wormhole
+description: The phenomenon where a simple AI question leads to a chain of follow-up questions that pulls the user deep into a topic — comparable to the "Wikipedia hole" but AI-driven. Related to AUG-0342 (The Curiosity Loop), AUG-0413 (The Infinite Scroll), and AUG-0458 (The Curiosity Drill).
+operationalDefinition: Operational scope: an instance of 'The Wiki Wormhole' is counted when the observable pattern described above (The phenomenon where a simple AI question leads to a chain of follow-up question...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0565 — The Balance Filter
+description: The conscious strategy of balancing AI use and non-digital activities — through fixed times, rules, or routines that ensure AI enriches everyday life rather than dominating it. Related to AUG-0074 (Analog Anchors), AUG-0282 (The Dinner Table Pause), and Axiom 7 (The Return Principle).
+operationalDefinition: Operational scope: an instance of 'The Balance Filter' is counted when the observable pattern described above (The conscious strategy of balancing AI use and non-digital activities — through ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0981 — The Companion Pattern
+alternateName (DE): Das Begleiter-Muster
+description: The pattern where users integrate AI assistance into daily routines as a steady companion for thinking, drafting, and exploration. Best experienced as complement to human reflection rather than substitute — co-presence rather than replacement.
+operationalDefinition: Operational scope: an instance of 'The Companion Pattern' is counted when the observable pattern described above (The pattern where users integrate AI assistance into daily routines as a steady ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+## WAVE 2 — 100 PERIODIC-TABLE TERMS
+
+### AUG-0004 — Zero-Point Self [ZPS]
+discipline: KG | period: 1
+description: Ausgangszustand des Wissens vor jeglicher KI-Nutzung. Persoenliche Referenzlinie.
+operationalDefinition: Operational scope: an instance of 'Zero-Point Self' is counted when the observable pattern described above (Ausgangszustand des Wissens vor jeglicher KI-Nutzung. Persoenliche Referenzlinie...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0054 — Augmented Understanding [AUN]
+discipline: KG | period: 1
+description: Beobachtbarer Moment erweiterter Informationszugaenglichkeit durch KI-gestuetzte Recherche.
+operationalDefinition: Operational scope: an instance of 'Augmented Understanding' is counted when the observable pattern described above (Beobachtbarer Moment erweiterter Informationszugaenglichkeit durch KI-gestuetzte...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0002 — Mentale Externalisierung [MES]
+discipline: KG | period: 2
+description: Gezielte Auslagerung von Denkprozessen an ein KI-System, um Raum fuer genuines menschliches Denken zu schaffen.
+operationalDefinition: Operational scope: an instance of 'Mentale Externalisierung' is counted when the observable pattern described above (Gezielte Auslagerung von Denkprozessen an ein KI-System, um Raum fuer genuines m...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0007 — The Blending Effect [BLE]
+discipline: KG | period: 2
+description: Eigene Gedanken und KI-generierter Inhalt verbinden sich zu einem gemeinsamen Ergebnis. Ein Zuordnungsphaenomen, kein Verlustphaenomen.
+operationalDefinition: Operational scope: an instance of 'The Blending Effect' is counted when the observable pattern described above (Eigene Gedanken und KI-generierter Inhalt verbinden sich zu einem gemeinsamen Er...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0035 — Epistemic Half-Life [EHL]
+discipline: KG | period: 2
+description: Beobachtbare Zeitspanne, in der KI-generierte Information aktuell bleibt. Beschreibt ein Verfallsmuster.
+operationalDefinition: Operational scope: an instance of 'Epistemic Half-Life' is counted when the observable pattern described above (Beobachtbare Zeitspanne, in der KI-generierte Information aktuell bleibt. Beschr...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0043 — Just-in-Time Competence [JTC]
+discipline: KG | period: 2
+description: Beobachtetes Muster situationsbezogenen Wissenszugriffs durch KI-Unterstuetzung.
+operationalDefinition: Operational scope: an instance of 'Just-in-Time Competence' is counted when the observable pattern described above (Beobachtetes Muster situationsbezogenen Wissenszugriffs durch KI-Unterstuetzung....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0088 — Algorithmic Intuition [ALI]
+discipline: KG | period: 3
+description: Beobachtbare Mustererkennung bei erfahrenen KI-Nutzern: wiederkehrende Interaktionsmuster werden schneller erkannt.
+operationalDefinition: Operational scope: an instance of 'Algorithmic Intuition' is counted when the observable pattern described above (Beobachtbare Mustererkennung bei erfahrenen KI-Nutzern: wiederkehrende Interakti...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0016 — Poly-Categorical Mesh [PCM]
+discipline: KG | period: 3
+description: KI-gestuetzte Verknuepfung von Wissen aus verschiedenen Fachbereichen zu neuen, fachuebergreifenden Ergebnissen.
+operationalDefinition: Operational scope: an instance of 'Poly-Categorical Mesh' is counted when the observable pattern described above (KI-gestuetzte Verknuepfung von Wissen aus verschiedenen Fachbereichen zu neuen, ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0051 — Depth of Provenance [DOP]
+discipline: KG | period: 3
+description: Die Faehigkeit, die Herkunft und Zuverlaessigkeit von KI-generiertem Wissen systematisch zu bewerten und einzuordnen.
+operationalDefinition: Operational scope: an instance of 'Depth of Provenance' is counted when the observable pattern described above (Die Faehigkeit, die Herkunft und Zuverlaessigkeit von KI-generiertem Wissen syst...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0089 — The Pattern Sharpening [PTS]
+discipline: KG | period: 4
+description: Beobachtbare Veraenderung in Denkmustern bei regelmaessiger KI-Nutzung. Ein dokumentiertes Interaktionsphaenomen.
+operationalDefinition: Operational scope: an instance of 'The Pattern Sharpening' is counted when the observable pattern described above (Beobachtbare Veraenderung in Denkmustern bei regelmaessiger KI-Nutzung. Ein doku...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0205 — The Skill Unlock [SUL]
+discipline: KG | period: 4
+description: Beobachtbares Phaenomen: Zugang zu Faehigkeiten, die ohne KI-Unterstuetzung schwerer zugaenglich waeren.
+operationalDefinition: Operational scope: an instance of 'The Skill Unlock' is counted when the observable pattern described above (Beobachtbares Phaenomen: Zugang zu Faehigkeiten, die ohne KI-Unterstuetzung schw...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0098 — Thinking Leverage [THL]
+discipline: KG | period: 4
+description: Beobachtbares Verhaeltnis zwischen kognitivem Aufwand und KI-gestuetztem Ergebnis. Hebel-Metapher fuer ein Interaktionsmuster.
+operationalDefinition: Operational scope: an instance of 'Thinking Leverage' is counted when the observable pattern described above (Beobachtbares Verhaeltnis zwischen kognitivem Aufwand und KI-gestuetztem Ergebni...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0156 — Articulation Unlock [ART]
+discipline: KM | period: 1
+description: Beobachtbarer Moment, in dem KI-Unterstuetzung bei der Formulierung eigener Gedanken hilft. Ein Artikulationsphaenomen.
+operationalDefinition: Operational scope: an instance of 'Articulation Unlock' is counted when the observable pattern described above (Beobachtbarer Moment, in dem KI-Unterstuetzung bei der Formulierung eigener Geda...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0403 — The Translation Relief [TRR]
+discipline: KM | period: 2
+description: Beobachtbare emotionale Reaktion wenn KI sprachliche Barrieren abbaut und Uebersetzungsarbeit erleichtert.
+operationalDefinition: Operational scope: an instance of 'The Translation Relief' is counted when the observable pattern described above (Beobachtbare emotionale Reaktion wenn KI sprachliche Barrieren abbaut und Uebers...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0513 — The Language Buddy [LBD]
+discipline: KM | period: 2
+description: KI als Sprachwerkzeug mit wiederholbarer Korrektur- und Erklaerfunktion. Beobachtbar als Ergaenzung zum Sprachunterricht.
+operationalDefinition: Operational scope: an instance of 'The Language Buddy' is counted when the observable pattern described above (KI als Sprachwerkzeug mit wiederholbarer Korrektur- und Erklaerfunktion. Beobach...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0478 — The Clarity Catalyst [CLC]
+discipline: KM | period: 3
+description: Beobachtbares Phaenomen: der Zwang zur expliziten Formulierung in KI-Interaktion veraendert den Denkprozess.
+operationalDefinition: Operational scope: an instance of 'The Clarity Catalyst' is counted when the observable pattern described above (Beobachtbares Phaenomen: der Zwang zur expliziten Formulierung in KI-Interaktion...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0188 — Tone Alignment [TAL]
+discipline: KM | period: 3
+description: KI passt sich dem Kommunikationsstil des Nutzers an. Ueber Zeit entsteht ein gemeinsamer, produktiver Ton.
+operationalDefinition: Operational scope: an instance of 'Tone Alignment' is counted when the observable pattern described above (KI passt sich dem Kommunikationsstil des Nutzers an. Ueber Zeit entsteht ein gem...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0169 — Second-Language Fluency [SLF]
+discipline: KM | period: 3
+description: Beobachtete Erleichterung fremdsprachlicher Kommunikation durch KI-Unterstuetzung.
+operationalDefinition: Operational scope: an instance of 'Second-Language Fluency' is counted when the observable pattern described above (Beobachtete Erleichterung fremdsprachlicher Kommunikation durch KI-Unterstuetzun...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0137 — Voice-First Protocol [VOF]
+discipline: KM | period: 3
+description: Sprachbasierte KI-Interaktion als eigenstaendiger Modus mit eigenen Staerken und Dynamiken.
+operationalDefinition: Operational scope: an instance of 'Voice-First Protocol' is counted when the observable pattern described above (Sprachbasierte KI-Interaktion als eigenstaendiger Modus mit eigenen Staerken und...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0267 — The Language Unlock [LUN]
+discipline: KM | period: 4
+description: Beobachtbare Erweiterung des sprachlichen Repertoires durch KI-gestuetzte Interaktion.
+operationalDefinition: Operational scope: an instance of 'The Language Unlock' is counted when the observable pattern described above (Beobachtbare Erweiterung des sprachlichen Repertoires durch KI-gestuetzte Intera...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0501 — The Style Shifter [SSF]
+discipline: KM | period: 4
+description: Die Faehigkeit, mit KI-Hilfe bewusst zwischen verschiedenen Schreibstilen zu wechseln und neue Stile zu erschliessen.
+operationalDefinition: Operational scope: an instance of 'The Style Shifter' is counted when the observable pattern described above (Die Faehigkeit, mit KI-Hilfe bewusst zwischen verschiedenen Schreibstilen zu wec...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0283 — The Syntax Voice [SVO]
+discipline: KM | period: 4
+description: Neue Satzkonstruktionen und Ausdruecke werden Teil des eigenen sprachlichen Repertoires.
+operationalDefinition: Operational scope: an instance of 'The Syntax Voice' is counted when the observable pattern described above (Neue Satzkonstruktionen und Ausdruecke werden Teil des eigenen sprachlichen Repe...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0046 — The Felt Echo [FEC]
+discipline: EM | period: 1
+description: Emotionaler Nachhall einer intensiven KI-Sitzung. Das Erlebnis klingt nach, die Gedanken arbeiten weiter.
+operationalDefinition: Operational scope: an instance of 'The Felt Echo' is counted when the observable pattern described above (Emotionaler Nachhall einer intensiven KI-Sitzung. Das Erlebnis klingt nach, die ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Sensor-coupling latency (ms) between human action and AI response in physical/multimodal channels.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0025 — The Offload Lift [OFL]
+discipline: EM | period: 1
+description: Beobachtbare emotionale Reaktion beim Delegieren aufwaendiger Aufgaben an KI. Ein Interaktionsphaenomen.
+operationalDefinition: Operational scope: an instance of 'The Offload Lift' is counted when the observable pattern described above (Beobachtbare emotionale Reaktion beim Delegieren aufwaendiger Aufgaben an KI. Ei...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Sensor-coupling latency (ms) between human action and AI response in physical/multimodal channels.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0127 — Expansion Feeling [EXF]
+discipline: EM | period: 1
+description: Beobachtbares Erleben waehrend intensiver KI-Nutzung. Die eigenen Denkgrenzen scheinen sich auszudehnen.
+operationalDefinition: Operational scope: an instance of 'Expansion Feeling' is counted when the observable pattern described above (Beobachtbares Erleben waehrend intensiver KI-Nutzung. Die eigenen Denkgrenzen sc...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Sensor-coupling latency (ms) between human action and AI response in physical/multimodal channels.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0168 — Rehumanization Moment [RHM]
+discipline: EM | period: 1
+description: Beobachtbarer Moment bewusster Rueckkehr zu nicht-KI-gestuetzter Taetigkeit nach intensiver KI-Arbeit.
+operationalDefinition: Operational scope: an instance of 'Rehumanization Moment' is counted when the observable pattern described above (Beobachtbarer Moment bewusster Rueckkehr zu nicht-KI-gestuetzter Taetigkeit nach...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Sensor-coupling latency (ms) between human action and AI response in physical/multimodal channels.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0301 — The Wonder Moment [WOM]
+discipline: EM | period: 1
+description: Staunen ueber eine unerwartete KI-Leistung. Der Aha-Moment, der zeigt: das hat man nicht kommen sehen.
+operationalDefinition: Operational scope: an instance of 'The Wonder Moment' is counted when the observable pattern described above (Staunen ueber eine unerwartete KI-Leistung. Der Aha-Moment, der zeigt: das hat m...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Sensor-coupling latency (ms) between human action and AI response in physical/multimodal channels.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0245 — The Seen Feeling [TSF]
+discipline: EM | period: 1
+description: Das Gefuehl, praezise verstanden zu werden. Ein beobachtbares Interaktionsphaenomen, kein Beziehungsersatz.
+operationalDefinition: Operational scope: an instance of 'The Seen Feeling' is counted when the observable pattern described above (Das Gefuehl, praezise verstanden zu werden. Ein beobachtbares Interaktionsphaeno...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Sensor-coupling latency (ms) between human action and AI response in physical/multimodal channels.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0128 — The Gratitude Response [GRR]
+discipline: EM | period: 2
+description: Spontane Dankbarkeit gegenueber einem KI-System nach einer hilfreichen Interaktion. Ein natuerlicher menschlicher Impuls.
+operationalDefinition: Operational scope: an instance of 'The Gratitude Response' is counted when the observable pattern described above (Spontane Dankbarkeit gegenueber einem KI-System nach einer hilfreichen Interakti...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Sensor-coupling latency (ms) between human action and AI response in physical/multimodal channels.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0529 — The Closeness Bridge [CLB]
+discipline: EM | period: 2
+description: Beobachtbares Phaenomen: das Erlebnis, Gedanken strukturiert externalisieren zu koennen, erzeugt ein Gefuehl produktiver Verbundenheit.
+operationalDefinition: Operational scope: an instance of 'The Closeness Bridge' is counted when the observable pattern described above (Beobachtbares Phaenomen: das Erlebnis, Gedanken strukturiert externalisieren zu ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Sensor-coupling latency (ms) between human action and AI response in physical/multimodal channels.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0081 — Post-Authorial Pride [PAP]
+discipline: EM | period: 2
+description: Stolz auf ein KI-co-erstelltes Ergebnis. Die Freude am gemeinsam Geschaffenen.
+operationalDefinition: Operational scope: an instance of 'Post-Authorial Pride' is counted when the observable pattern described above (Stolz auf ein KI-co-erstelltes Ergebnis. Die Freude am gemeinsam Geschaffenen....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Sensor-coupling latency (ms) between human action and AI response in physical/multimodal channels.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0061 — Creator's Question [CRQ]
+discipline: EM | period: 2
+description: Die produktive Frage: Was ist mein Beitrag, was ist KI? Foerdert Bewusstsein fuer den eigenen kreativen Anteil.
+operationalDefinition: Operational scope: an instance of 'Creator's Question' is counted when the observable pattern described above (Die produktive Frage: Was ist mein Beitrag, was ist KI? Foerdert Bewusstsein fue...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Sensor-coupling latency (ms) between human action and AI response in physical/multimodal channels.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0020 — Recursive Feedback Loop [RFL]
+discipline: AV | period: 2
+description: Iterative Vertiefung: KI-Output wird bearbeitet, zurueckgegeben, weiterentwickelt. Progressive Verfeinerung.
+operationalDefinition: Operational scope: an instance of 'Recursive Feedback Loop' is counted when the observable pattern described above (Iterative Vertiefung: KI-Output wird bearbeitet, zurueckgegeben, weiterentwickel...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0005 — Integrated Operator [INO]
+discipline: AV | period: 3
+description: Beobachtbarer Arbeitsstil: Integration von KI in Denk- und Arbeitsprozesse mit fliessenden Uebergaengen.
+operationalDefinition: Operational scope: an instance of 'Integrated Operator' is counted when the observable pattern described above (Beobachtbarer Arbeitsstil: Integration von KI in Denk- und Arbeitsprozesse mit f...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0008 — Polyphonic Sovereign [PCS]
+discipline: AV | period: 3
+description: Bewusste Orchestrierung mehrerer KI-Systeme, deren Perspektiven gegeneinander geprueft werden.
+operationalDefinition: Operational scope: an instance of 'Polyphonic Sovereign' is counted when the observable pattern described above (Bewusste Orchestrierung mehrerer KI-Systeme, deren Perspektiven gegeneinander ge...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0021 — Initialization Cascade [INC]
+discipline: AV | period: 3
+description: Die persoenliche Eroeffnungssequenz einer KI-Sitzung. Erfahrene Nutzer entwickeln eigene Startmuster.
+operationalDefinition: Operational scope: an instance of 'Initialization Cascade' is counted when the observable pattern described above (Die persoenliche Eroeffnungssequenz einer KI-Sitzung. Erfahrene Nutzer entwickel...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0133 — Prompt Craftsmanship [PMC]
+discipline: AV | period: 3
+description: Beobachtbare Fertigkeit in der Formulierung von KI-Eingaben. Entwickelt sich durch Nutzungserfahrung.
+operationalDefinition: Operational scope: an instance of 'Prompt Craftsmanship' is counted when the observable pattern described above (Beobachtbare Fertigkeit in der Formulierung von KI-Eingaben. Entwickelt sich dur...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0134 — Context Window Awareness [CWA]
+discipline: AV | period: 3
+description: Bewusstsein fuer die Mechanik des Kontextfensters und strategischer Umgang damit.
+operationalDefinition: Operational scope: an instance of 'Context Window Awareness' is counted when the observable pattern described above (Bewusstsein fuer die Mechanik des Kontextfensters und strategischer Umgang damit...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0018 — Trinaug Protocol [TRI]
+discipline: AV | period: 3
+description: Drei-KI-Vergleichsmethode: gleiche Aufgabe, drei Systeme, Muster erkennen.
+operationalDefinition: Operational scope: an instance of 'Trinaug Protocol' is counted when the observable pattern described above (Drei-KI-Vergleichsmethode: gleiche Aufgabe, drei Systeme, Muster erkennen....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0138 — Session Architecture [SES]
+discipline: AV | period: 3
+description: Beobachtbare Strukturierungsmuster in KI-Sitzungen. Erfahrene Nutzer zeigen charakteristische Ablaufmuster.
+operationalDefinition: Operational scope: an instance of 'Session Architecture' is counted when the observable pattern described above (Beobachtbare Strukturierungsmuster in KI-Sitzungen. Erfahrene Nutzer zeigen char...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0091 — Productivity Arbitrage [PRO]
+discipline: AV | period: 3
+description: Beobachtbarer Effizienzunterschied zwischen KI-gestuetzten und nicht-KI-gestuetzten Arbeitsprozessen.
+operationalDefinition: Operational scope: an instance of 'Productivity Arbitrage' is counted when the observable pattern described above (Beobachtbarer Effizienzunterschied zwischen KI-gestuetzten und nicht-KI-gestuetz...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0092 — Output Asymmetry [OAS]
+discipline: AV | period: 4
+description: Beobachtbares Verhaeltnis zwischen Input-Aufwand und Output-Umfang bei KI-gestuetzter Arbeit.
+operationalDefinition: Operational scope: an instance of 'Output Asymmetry' is counted when the observable pattern described above (Beobachtbares Verhaeltnis zwischen Input-Aufwand und Output-Umfang bei KI-gestue...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0095 — One-Person Operation [OPO]
+discipline: AV | period: 5
+description: Beobachtbares Phaenomen: KI-Unterstuetzung erschliesst Einzelpersonen Produktivitaet, die vorher nur groesseren Teams zugaenglich war.
+operationalDefinition: Operational scope: an instance of 'One-Person Operation' is counted when the observable pattern described above (Beobachtbares Phaenomen: KI-Unterstuetzung erschliesst Einzelpersonen Produktivi...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0031 — Semantic Spark [SSP]
+discipline: SY | period: 1
+description: KI-Antwort loest unerwarteten eigenen Gedanken aus. Nicht die Antwort ist die Loesung, sondern der Funke, den sie zuendet.
+operationalDefinition: Operational scope: an instance of 'Semantic Spark' is counted when the observable pattern described above (KI-Antwort loest unerwarteten eigenen Gedanken aus. Nicht die Antwort ist die Lo...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0084 — Glitch-Mining [GLM]
+discipline: SY | period: 1
+description: KI-Fehler als Ressource: was ein Glitch ueber das System verraet, kann wertvoller sein als eine korrekte Antwort.
+operationalDefinition: Operational scope: an instance of 'Glitch-Mining' is counted when the observable pattern described above (KI-Fehler als Ressource: was ein Glitch ueber das System verraet, kann wertvolle...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0030 — Contextual Gravity [COG]
+discipline: SY | period: 2
+description: Mit wachsendem Kontext entwickelt eine KI-Sitzung eine natuerliche thematische Schwerkraft.
+operationalDefinition: Operational scope: an instance of 'Contextual Gravity' is counted when the observable pattern described above (Mit wachsendem Kontext entwickelt eine KI-Sitzung eine natuerliche thematische S...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0524 — The Context Layer [CTL]
+discipline: SY | period: 2
+description: Der aufgebaute Kontext als Arbeitsschicht: je praeziser der Kontext, desto besser die Ergebnisse.
+operationalDefinition: Operational scope: an instance of 'The Context Layer' is counted when the observable pattern described above (Der aufgebaute Kontext als Arbeitsschicht: je praeziser der Kontext, desto besse...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0176 — Capability Discovery [CPD]
+discipline: SY | period: 2
+description: Das schrittweise Entdecken neuer KI-Faehigkeiten durch Exploration und Experimentieren.
+operationalDefinition: Operational scope: an instance of 'Capability Discovery' is counted when the observable pattern described above (Das schrittweise Entdecken neuer KI-Faehigkeiten durch Exploration und Experimen...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0107 — Verification Principle [VPR]
+discipline: SY | period: 2
+description: Das Prinzip der aktiven Pruefung: KI-Ergebnisse werden systematisch verifiziert und eingeordnet.
+operationalDefinition: Operational scope: an instance of 'Verification Principle' is counted when the observable pattern described above (Das Prinzip der aktiven Pruefung: KI-Ergebnisse werden systematisch verifiziert ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0126 — Semantic Saturation [SAT]
+discipline: SY | period: 2
+description: Der natuerliche Punkt, an dem weitere Iteration keinen Mehrwert mehr bringt. Signal zum Weitergehen.
+operationalDefinition: Operational scope: an instance of 'Semantic Saturation' is counted when the observable pattern described above (Der natuerliche Punkt, an dem weitere Iteration keinen Mehrwert mehr bringt. Sig...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0142 — Model Fingerprint [MFP]
+discipline: SY | period: 3
+description: Jedes KI-Modell hat einen erkennbaren Stil. Erfahrene Nutzer erkennen, welches System geantwortet hat.
+operationalDefinition: Operational scope: an instance of 'Model Fingerprint' is counted when the observable pattern described above (Jedes KI-Modell hat einen erkennbaren Stil. Erfahrene Nutzer erkennen, welches S...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0135 — Persona Engineering [PEN]
+discipline: SY | period: 3
+description: Bewusste Gestaltung der KI-Persoenlichkeit fuer spezifische Aufgaben und Kontexte.
+operationalDefinition: Operational scope: an instance of 'Persona Engineering' is counted when the observable pattern described above (Bewusste Gestaltung der KI-Persoenlichkeit fuer spezifische Aufgaben und Kontext...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0006 — Platform Ontology [PLO]
+discipline: SY | period: 4
+description: Jedes KI-System bringt eine eigene Perspektive mit, gepraegt durch Trainingsdaten und Architektur.
+operationalDefinition: Operational scope: an instance of 'Platform Ontology' is counted when the observable pattern described above (Jedes KI-System bringt eine eigene Perspektive mit, gepraegt durch Trainingsdate...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0566 — Ongoing Partnership [OGP]
+discipline: RL | period: 2
+description: Die Entwicklung einer kontinuierlichen, produktiven Arbeitsbeziehung zwischen Mensch und KI-System.
+operationalDefinition: Operational scope: an instance of 'Ongoing Partnership' is counted when the observable pattern described above (Die Entwicklung einer kontinuierlichen, produktiven Arbeitsbeziehung zwischen Me...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0539 — The Companion Shift [CPS]
+discipline: RL | period: 2
+description: Der beobachtbare Wandel in der Wahrnehmung der KI: vom statischen Werkzeug zum flexiblen Arbeitsinstrument.
+operationalDefinition: Operational scope: an instance of 'The Companion Shift' is counted when the observable pattern described above (Der beobachtbare Wandel in der Wahrnehmung der KI: vom statischen Werkzeug zum f...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0170 — Witness Effect [WIT]
+discipline: RL | period: 2
+description: KI als aufmerksames Gegenueber: ein System, dem man Gedanken externalisieren kann. Deskriptive Beobachtung.
+operationalDefinition: Operational scope: an instance of 'Witness Effect' is counted when the observable pattern described above (KI als aufmerksames Gegenueber: ein System, dem man Gedanken externalisieren kan...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0177 — The Trust Setting [TRS]
+discipline: RL | period: 2
+description: Die individuelle Kalibrierung des Vertrauensniveaus gegenueber einem KI-System. Bewusst gesteuert.
+operationalDefinition: Operational scope: an instance of 'The Trust Setting' is counted when the observable pattern described above (Die individuelle Kalibrierung des Vertrauensniveaus gegenueber einem KI-System. ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0577 — The Calibration Dance [CDA]
+discipline: RL | period: 2
+description: Das gegenseitige Einspielen zwischen Mensch und KI in den ersten Interaktionen einer neuen Zusammenarbeit.
+operationalDefinition: Operational scope: an instance of 'The Calibration Dance' is counted when the observable pattern described above (Das gegenseitige Einspielen zwischen Mensch und KI in den ersten Interaktionen e...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0161 — Invisible Colleague [INV]
+discipline: RL | period: 3
+description: KI als produktives Hintergrund-Werkzeug im Arbeitsalltag. Verfuegbar bei Bedarf, ohne soziale Dynamik.
+operationalDefinition: Operational scope: an instance of 'Invisible Colleague' is counted when the observable pattern described above (KI als produktives Hintergrund-Werkzeug im Arbeitsalltag. Verfuegbar bei Bedarf,...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0981 — Companion Pattern [CPP]
+discipline: RL | period: 3
+description: KI als wiederkehrendes Arbeitswerkzeug. Beobachtbar etablieren sich individuelle Nutzungsmuster und bevorzugte Ablaeufe.
+operationalDefinition: Operational scope: an instance of 'Companion Pattern' is counted when the observable pattern described above (KI als wiederkehrendes Arbeitswerkzeug. Beobachtbar etablieren sich individuelle...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0197 — The Shared Quiet [SHQ]
+discipline: RL | period: 4
+description: Beobachtbarer Zustand fokussierter Konzentration waehrend produktiver KI-Arbeit. Ungestoertes Arbeiten.
+operationalDefinition: Operational scope: an instance of 'The Shared Quiet' is counted when the observable pattern described above (Beobachtbarer Zustand fokussierter Konzentration waehrend produktiver KI-Arbeit....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0201 — The Closeness Bridge [CLB2]
+discipline: RL | period: 4
+description: Beobachtbares Phaenomen: KI-Interaktion als Raum fuer strukturierte Gedankenexploration ohne sozialen Kontext.
+operationalDefinition: Operational scope: an instance of 'The Closeness Bridge' is counted when the observable pattern described above (Beobachtbares Phaenomen: KI-Interaktion als Raum fuer strukturierte Gedankenexpl...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0080 — Relationship-First [RFP]
+discipline: RL | period: 5
+description: Leitprinzip: Menschliche Beziehungen haben Vorrang vor KI-gestuetzter Produktivitaet. Immer.
+operationalDefinition: Operational scope: an instance of 'Relationship-First' is counted when the observable pattern described above (Leitprinzip: Menschliche Beziehungen haben Vorrang vor KI-gestuetzter Produktivi...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0119 — Level Playing Field [LPF]
+discipline: GS | period: 5
+description: Beobachtbare Tendenz zur breiteren Verfuegbarkeit von Wissen und Werkzeugen durch KI-Technologien.
+operationalDefinition: Operational scope: an instance of 'Level Playing Field' is counted when the observable pattern described above (Beobachtbare Tendenz zur breiteren Verfuegbarkeit von Wissen und Werkzeugen durc...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0010 — Bridge Species [BRS]
+discipline: GS | period: 5
+description: Menschen die beide Welten kennen: vor und nach KI. Lebende Bruecken mit einzigartiger Vergleichsperspektive.
+operationalDefinition: Operational scope: an instance of 'Bridge Species' is counted when the observable pattern described above (Menschen die beide Welten kennen: vor und nach KI. Lebende Bruecken mit einzigar...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0198 — The New Literacy [NLI]
+discipline: GS | period: 5
+description: Beobachtbarer gesellschaftlicher Trend: KI-Kompetenz als sich entwickelnde Kulturtechnik, vergleichbar mit historischen Bildungsumbruechen.
+operationalDefinition: Operational scope: an instance of 'The New Literacy' is counted when the observable pattern described above (Beobachtbarer gesellschaftlicher Trend: KI-Kompetenz als sich entwickelnde Kultu...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0093 — Zero-Marginal Cost [ZMC]
+discipline: GS | period: 5
+description: Beobachtbare Tendenz sinkender Grenzkosten kreativer Produktion durch KI-Unterstuetzung.
+operationalDefinition: Operational scope: an instance of 'Zero-Marginal Cost' is counted when the observable pattern described above (Beobachtbare Tendenz sinkender Grenzkosten kreativer Produktion durch KI-Unterst...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0099 — Adoption Window [AEI]
+discipline: GS | period: 5
+description: Beobachtbares Zeitfenster fruehphasiger Nutzungsmuster und deren dokumentierte Auswirkungen.
+operationalDefinition: Operational scope: an instance of 'Adoption Window' is counted when the observable pattern described above (Beobachtbares Zeitfenster fruehphasiger Nutzungsmuster und deren dokumentierte A...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0730 — The Open-Source Path [OSP]
+discipline: GS | period: 5
+description: Beobachtbare Tendenz zu offenen KI-Modellen und deren dokumentierte Auswirkungen auf Zugaenglichkeit.
+operationalDefinition: Operational scope: an instance of 'The Open-Source Path' is counted when the observable pattern described above (Beobachtbare Tendenz zu offenen KI-Modellen und deren dokumentierte Auswirkungen...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0834 — Perception Wave [MPW]
+discipline: GS | period: 5
+description: Gesellschaftliche Wahrnehmung von KI bewegt sich in beobachtbaren Wellen zwischen Begeisterung und Vorsicht.
+operationalDefinition: Operational scope: an instance of 'Perception Wave' is counted when the observable pattern described above (Gesellschaftliche Wahrnehmung von KI bewegt sich in beobachtbaren Wellen zwische...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0808 — Knowledge Access Pattern [KAP]
+discipline: GS | period: 5
+description: Wie unterschiedliche Gruppen und Regionen Zugang zu KI-Wissen finden. Beschreibt Wege, nicht Barrieren.
+operationalDefinition: Operational scope: an instance of 'Knowledge Access Pattern' is counted when the observable pattern described above (Wie unterschiedliche Gruppen und Regionen Zugang zu KI-Wissen finden. Beschreibt...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0847 — Digital Native Dialogue [DND]
+discipline: GS | period: 5
+description: Generationengespraech ueber KI zwischen Digital Natives und frueheren Generationen. Gegenseitiges Lernen statt Spaltung.
+operationalDefinition: Operational scope: an instance of 'Digital Native Dialogue' is counted when the observable pattern described above (Generationengespraech ueber KI zwischen Digital Natives und frueheren Generation...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0071 — Epistemic Hygiene [EPH]
+discipline: MT | period: 3
+description: Bezeichnung fuer systematische Pruefprozesse von KI-generiertem Wissen: Quellen pruefen, triangulieren, einordnen.
+operationalDefinition: Operational scope: an instance of 'Epistemic Hygiene' is counted when the observable pattern described above (Bezeichnung fuer systematische Pruefprozesse von KI-generiertem Wissen: Quellen ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0075 — The Gardener Protocol [GDP]
+discipline: MT | period: 3
+description: Wissen wird gepflegt wie ein Garten: regelmaessig pruefen, sortieren, aktualisieren und Unkraut entfernen.
+operationalDefinition: Operational scope: an instance of 'The Gardener Protocol' is counted when the observable pattern described above (Wissen wird gepflegt wie ein Garten: regelmaessig pruefen, sortieren, aktualisie...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0076 — Self-Referential Grounding [SRG]
+discipline: MT | period: 3
+description: Verankerung im eigenen Wertesystem als Orientierung in der KI-Interaktion.
+operationalDefinition: Operational scope: an instance of 'Self-Referential Grounding' is counted when the observable pattern described above (Verankerung im eigenen Wertesystem als Orientierung in der KI-Interaktion....) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0024 — Built-In Compass [BIC]
+discipline: MT | period: 3
+description: Innere Orientierung aus Werten, Erfahrung und Intuition, die als natuerliches KI-Korrektiv dient.
+operationalDefinition: Operational scope: an instance of 'Built-In Compass' is counted when the observable pattern described above (Innere Orientierung aus Werten, Erfahrung und Intuition, die als natuerliches KI...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0011 — Reflective Operator [RFO]
+discipline: MT | period: 3
+description: Nutzertyp der beobachtbar die eigene KI-Nutzung reflektiert und bewusst weiterentwickelt.
+operationalDefinition: Operational scope: an instance of 'Reflective Operator' is counted when the observable pattern described above (Nutzertyp der beobachtbar die eigene KI-Nutzung reflektiert und bewusst weiteren...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0078 — Naming Power [NMP]
+discipline: MT | period: 4
+description: Die Macht, ein Phaenomen zu benennen, veraendert die Wahrnehmung des Phaenomens selbst. Sprache formt Realitaet.
+operationalDefinition: Operational scope: an instance of 'Naming Power' is counted when the observable pattern described above (Die Macht, ein Phaenomen zu benennen, veraendert die Wahrnehmung des Phaenomens ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0001 — Augmanitai [AUG]
+discipline: MT | period: 5
+description: Rahmenkonzept fuer bewusste Mensch-KI-Zusammenarbeit. Verbindet Augmentation mit Humanitai. Grundbegriff.
+operationalDefinition: Operational scope: an instance of 'Augmanitai' is counted when the observable pattern described above (Rahmenkonzept fuer bewusste Mensch-KI-Zusammenarbeit. Verbindet Augmentation mit...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0023 — Vigilance Imperative [VIG]
+discipline: MT | period: 5
+description: Qualitaetsprinzip: Bewusste Pruefung von KI-Ergebnissen als professioneller Standard. Vertrauen durch Verifizierung.
+operationalDefinition: Operational scope: an instance of 'Vigilance Imperative' is counted when the observable pattern described above (Qualitaetsprinzip: Bewusste Pruefung von KI-Ergebnissen als professioneller Stan...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0102 — Sovereignty Principle [SOV]
+discipline: MT | period: 5
+description: Der Mensch behaelt die Entscheidungshoheit. In jeder Situation, bei jeder Delegation.
+operationalDefinition: Operational scope: an instance of 'Sovereignty Principle' is counted when the observable pattern described above (Der Mensch behaelt die Entscheidungshoheit. In jeder Situation, bei jeder Delega...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0145 — Responsibility Gradient [RES]
+discipline: MT | period: 5
+description: Verantwortung skaliert mit dem Grad der KI-Delegation: mehr Delegation, mehr Verantwortung.
+operationalDefinition: Operational scope: an instance of 'Responsibility Gradient' is counted when the observable pattern described above (Verantwortung skaliert mit dem Grad der KI-Delegation: mehr Delegation, mehr Ver...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Coding-scheme occurrence count; observer agreement (Cohen's κ).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0859 — Agent Handshake [AHS]
+discipline: AG | period: 1
+description: Initialer Kontaktmoment zwischen Mensch und autonomem Agenten. Faehigkeiten und Grenzen werden geklaert.
+operationalDefinition: Operational scope: an instance of 'Agent Handshake' is counted when the observable pattern described above (Initialer Kontaktmoment zwischen Mensch und autonomem Agenten. Faehigkeiten und ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0860 — Delegation Depth [DLD]
+discipline: AG | period: 2
+description: Wie viel Entscheidungsfreiheit erhaelt ein Agent? Die bewusste Kalibrierung autonomer Handlungsspielraeume.
+operationalDefinition: Operational scope: an instance of 'Delegation Depth' is counted when the observable pattern described above (Wie viel Entscheidungsfreiheit erhaelt ein Agent? Die bewusste Kalibrierung auto...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0914 — Physical Presence [PHP]
+discipline: AG | period: 2
+description: Die Wirkung physischer KI-Praesenz auf die Interaktion. Koerperlichkeit veraendert Dynamik.
+operationalDefinition: Operational scope: an instance of 'Physical Presence' is counted when the observable pattern described above (Die Wirkung physischer KI-Praesenz auf die Interaktion. Koerperlichkeit veraende...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0888 — Human-in-the-Loop [HIL]
+discipline: AG | period: 3
+description: Der Mensch als Kontrollinstanz im autonomen Regelkreis. Aufsicht als Designprinzip.
+operationalDefinition: Operational scope: an instance of 'Human-in-the-Loop' is counted when the observable pattern described above (Der Mensch als Kontrollinstanz im autonomen Regelkreis. Aufsicht als Designprinz...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0889 — Agent Ensemble [AEN]
+discipline: AG | period: 3
+description: Zusammenspiel mehrerer Agenten unter menschlicher Aufsicht. Orchestrierung statt Einzelsteuerung.
+operationalDefinition: Operational scope: an instance of 'Agent Ensemble' is counted when the observable pattern described above (Zusammenspiel mehrerer Agenten unter menschlicher Aufsicht. Orchestrierung statt...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0868 — The Rollback Option [RBO]
+discipline: AG | period: 3
+description: Die Moeglichkeit, jede KI-Aktion rueckgaengig zu machen. Kontrollarchitektur als Sicherheitsnetz.
+operationalDefinition: Operational scope: an instance of 'The Rollback Option' is counted when the observable pattern described above (Die Moeglichkeit, jede KI-Aktion rueckgaengig zu machen. Kontrollarchitektur als...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0921 — Swarm Access [SWA]
+discipline: AG | period: 4
+description: Beobachtbarer Zugang zu breiterer KI-Kapazitaet durch vernetzte Agentensysteme. Skalierung unter menschlicher Aufsicht.
+operationalDefinition: Operational scope: an instance of 'Swarm Access' is counted when the observable pattern described above (Beobachtbarer Zugang zu breiterer KI-Kapazitaet durch vernetzte Agentensysteme. ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0915 — Embodiment Effect [EMB]
+discipline: AG | period: 4
+description: Physische Praesenz eines KI-Systems veraendert die Interaktionsdynamik gegenueber rein textbasierter KI.
+operationalDefinition: Operational scope: an instance of 'Embodiment Effect' is counted when the observable pattern described above (Physische Praesenz eines KI-Systems veraendert die Interaktionsdynamik gegenuebe...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0944 — Autonomy Ladder [AUL]
+discipline: AG | period: 5
+description: Stufenmodell zunehmender Agentenautonomie: von menschlich gesteuert bis autonom mit menschlichem Veto.
+operationalDefinition: Operational scope: an instance of 'Autonomy Ladder' is counted when the observable pattern described above (Stufenmodell zunehmender Agentenautonomie: von menschlich gesteuert bis autonom ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Initiative-event count (AI-initiated actions per N turns); complementary indicator: override-rate.
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0954 — Congruence Review [CNR]
+discipline: SF | period: 2
+description: Regelmaessige Pruefung, ob KI-Systemverhalten noch mit den gesetzten Zielen und Werten uebereinstimmt.
+operationalDefinition: Operational scope: an instance of 'Congruence Review' is counted when the observable pattern described above (Regelmaessige Pruefung, ob KI-Systemverhalten noch mit den gesetzten Zielen und ...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Misalignment-event coding per N turns; severity rating (1-5).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0009 — The Speed Limit [SPL]
+discipline: SF | period: 3
+description: Individuelle Verarbeitungsgeschwindigkeit respektieren. Nicht schneller arbeiten als man pruefen kann.
+operationalDefinition: Operational scope: an instance of 'The Speed Limit' is counted when the observable pattern described above (Individuelle Verarbeitungsgeschwindigkeit respektieren. Nicht schneller arbeiten...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Misalignment-event coding per N turns; severity rating (1-5).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0632 — The Offline Moment [OFM]
+discipline: SF | period: 3
+description: Bewusstes Verlassen der KI-Interaktion. Pausen als Teil eines gesunden Arbeitsrhythmus.
+operationalDefinition: Operational scope: an instance of 'The Offline Moment' is counted when the observable pattern described above (Bewusstes Verlassen der KI-Interaktion. Pausen als Teil eines gesunden Arbeitsrh...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Misalignment-event coding per N turns; severity rating (1-5).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0951 — Value Lock [VLO]
+discipline: SF | period: 3
+description: Bezeichnung fuer die beobachtbare Verankerung menschlicher Werte in autonomen Systemen.
+operationalDefinition: Operational scope: an instance of 'Value Lock' is counted when the observable pattern described above (Bezeichnung fuer die beobachtbare Verankerung menschlicher Werte in autonomen Sy...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Misalignment-event coding per N turns; severity rating (1-5).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0962 — The Pause Protocol [PPR]
+discipline: SF | period: 3
+description: Bewusste Unterbrechung vor jeder kritischen KI-gestuetzten Entscheidung. Innehalten als Sicherheitsmechanismus.
+operationalDefinition: Operational scope: an instance of 'The Pause Protocol' is counted when the observable pattern described above (Bewusste Unterbrechung vor jeder kritischen KI-gestuetzten Entscheidung. Innehal...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Misalignment-event coding per N turns; severity rating (1-5).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0120 — Range Framework [RAG]
+discipline: SF | period: 5
+description: Definierter Nutzungsrahmen: klare Vereinbarungen, was KI im jeweiligen Kontext darf und was nicht.
+operationalDefinition: Operational scope: an instance of 'Range Framework' is counted when the observable pattern described above (Definierter Nutzungsrahmen: klare Vereinbarungen, was KI im jeweiligen Kontext d...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Misalignment-event coding per N turns; severity rating (1-5).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0958 — Accountability Chain [ACC]
+discipline: SF | period: 5
+description: Klare Verantwortungskette: wer entscheidet, wer prueft, wer verantwortet auf welcher Ebene.
+operationalDefinition: Operational scope: an instance of 'Accountability Chain' is counted when the observable pattern described above (Klare Verantwortungskette: wer entscheidet, wer prueft, wer verantwortet auf wel...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Misalignment-event coding per N turns; severity rating (1-5).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0955 — Transparency Layer [TRL]
+discipline: SF | period: 5
+description: KI-Systeme und deren Ergebnisse werden nachvollziehbar gemacht. Offenheit als Qualitaetsstandard.
+operationalDefinition: Operational scope: an instance of 'Transparency Layer' is counted when the observable pattern described above (KI-Systeme und deren Ergebnisse werden nachvollziehbar gemacht. Offenheit als Qu...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Misalignment-event coding per N turns; severity rating (1-5).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+### AUG-0771 — Minor Protection [MPR]
+discipline: SF | period: 5
+description: Schutzstandard fuer Minderjaehrige in der KI-Interaktion. Explizite Schutzklauseln und Altersgrenzen.
+operationalDefinition: Operational scope: an instance of 'Minor Protection' is counted when the observable pattern described above (Schutzstandard fuer Minderjaehrige in der KI-Interaktion. Explizite Schutzklause...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.
+measurementSchema: Misalignment-event coding per N turns; severity rating (1-5).
+author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
+
+## END
+
+Total terms: 204
+License: CC BY-ND 4.0 — Attribution-NoDerivatives
+Citation: https://zenodo.org/communities/augmanitai
+Contact: ehstand.schule@gmail.com

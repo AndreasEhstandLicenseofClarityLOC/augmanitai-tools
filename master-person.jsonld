@@ -1,0 +1,69 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/#person",
+  "name": "Andreas Ehstand",
+  "givenName": "Andreas",
+  "familyName": "Ehstand",
+  "identifier": "https://orcid.org/0009-0006-3773-7796",
+  "url": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/",
+  "sameAs": [
+    "https://orcid.org/0009-0006-3773-7796",
+    "https://zenodo.org/communities/augmanitai"
+  ],
+  "jobTitle": "Independent Researcher",
+  "description": "Independent researcher developing descriptive terminology under ISO 704 conventions for human-AI interaction phenomena, multi-substrate research methodology, and cross-disciplinary terminological frameworks. Author of the AUGMANITAI compendium and the AUGMANITAI Periodic Table of AI-Human Interaction Phenomena.",
+  "knowsAbout": [
+    "Descriptive terminology",
+    "ISO 704 terminology work",
+    "ISO 1087 vocabulary",
+    "ISO 30042 TermBase eXchange",
+    "AI-human interaction phenomenology",
+    "Multi-substrate research methodology",
+    "Cross-substrate information continuity",
+    "Embodied AI",
+    "Agentic AI",
+    "AI safety terminology",
+    "Cognitive load mapping",
+    "Trust dynamics in AI systems",
+    "AI memory continuity",
+    "Foundation model phenomenology",
+    "AUGMANITAI compendium framework",
+    "NEOMANITAI umbrella corpus",
+    "EU AI Act Art. 50 compliance",
+    "Bitcoin-OpenTimestamps anchoring",
+    "Multi-hash provenance methodology",
+    "DOI prior-art anchoring"
+  ],
+  "creator": [
+    {
+      "@type": "Dataset",
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#dataset",
+      "name": "AUGMANITAI Compendium Wave 1 — 104 Descriptive Terms",
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/"
+    },
+    {
+      "@type": "Dataset",
+      "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/#dataset",
+      "name": "AUGMANITAI Periodic Table — 100 Phenomena (Wave 2)",
+      "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/"
+    }
+  ],
+  "alumniOf": {
+    "@type": "EducationalOrganization",
+    "name": "Technische Universität Dortmund (IFS, 2012-2016)"
+  },
+  "memberOf": [
+    {
+      "@type": "Organization",
+      "name": "ORCID",
+      "url": "https://orcid.org/"
+    },
+    {
+      "@type": "Organization",
+      "name": "Zenodo / OpenAIRE",
+      "url": "https://zenodo.org/"
+    }
+  ],
+  "publishingPrinciples": "All research outputs follow ISO 704 descriptive terminology conventions. Prior-art priority anchored via Zenodo DOI registration with Multi-Hash (SHA-256+SHA-512+SHA3-256+SHA3-512+BLAKE3) and Bitcoin-OpenTimestamps on four independent calendars. Documentation layer (titles, descriptions, keywords) is treated as a living layer and may be refined post-publication for terminological consistency; substantive content (files) is fixed at publication time."
+}

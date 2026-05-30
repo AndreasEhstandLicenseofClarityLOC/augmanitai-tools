@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "AUGMANITAI Compendium — Wave 1 (104 Terms)"
+abstract: "Bilingual EN/DE terminology dataset of 104 descriptive terms documenting human experiences in AI interaction. Inspired by ISO 704/1087/30042 terminology-science principles. Includes operational definitions, measurement schemas, and SKOS/Croissant metadata."
+authors:
+  - family-names: Ehstand
+    given-names: Andreas
+    orcid: "https://orcid.org/0009-0006-3773-7796"
+    affiliation: "Independent Researcher"
+version: "2.1"
+date-released: "2026-05-28"
+license: "CC-BY-ND-4.0"
+repository-code: "https://github.com/AndreasEhstandLicenseOfClarityLOC/augmanitai-tools"
+url: "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/"
+keywords:
+  - "human-AI interaction"
+  - "phenomenology"
+  - "applied terminology"
+  - "ISO 704"
+  - "SKOS"
+  - "Croissant"
+  - "bilingual EN/DE"
+  - "descriptive terminology"
+identifiers:
+  - type: other
+    value: "https://orcid.org/0009-0006-3773-7796"
+    description: ORCID identifier of the author
