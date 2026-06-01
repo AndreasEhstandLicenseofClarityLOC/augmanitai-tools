@@ -6,24 +6,24 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Calibrated Trust (AUG-0422) — AUGMANITAI</title>
+  <title>The Calibrated Trust — AUGMANITAI</title>
   <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html">
   <link rel="alternate" hreflang="de" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html">
   <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html">
   <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html">
-  <meta name="description" content="The user practice of matching AI-output confidence to verification effort: high-stakes outputs receive verification, routine outputs receive proportional checks. Trust is shaped b…">
+  <meta name="description" content="A graded user disposition in which the degree of acceptance granted to an AI output is scaled to its stakes: high-consequence outputs receive more independent verification, routine outputs receive proportionally lighter checking. Trust varies by context rather than being uniformly extended or withheld.">
   <meta name="author" content="Andreas Ehstand, Independent Researcher">
   <meta name="ai-content-disclosure" content="ai-assisted; human-reviewed; eu-ai-act-art50-aware; cc-by-nd-4.0">
   <meta name="license" content="CC BY-ND 4.0">
 
-  <meta property="og:title" content="The Calibrated Trust (AUG-0422) — AUGMANITAI">
-  <meta property="og:description" content="The user practice of matching AI-output confidence to verification effort: high-stakes outputs receive verification, routine outputs receive proportional checks. Trust is shaped b…">
+  <meta property="og:title" content="The Calibrated Trust">
+  <meta property="og:description" content="A graded user disposition in which the degree of acceptance granted to an AI output is scaled to its stakes: high-consequence outputs receive more independent verification, routine outputs receive proportionally lighter checking. Trust varies by context rather than being uniformly extended or withheld.">
   <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html">
   <meta property="og:type" content="article">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="The Calibrated Trust (AUG-0422) — AUGMANITAI">
-  <meta name="twitter:description" content="The user practice of matching AI-output confidence to verification effort: high-stakes outputs receive verification, routine outputs receive proportional checks. Trust is shaped b…">
+  <meta name="twitter:title" content="The Calibrated Trust">
+  <meta name="twitter:description" content="A graded user disposition in which the degree of acceptance granted to an AI output is scaled to its stakes: high-consequence outputs receive more independent verification, routine outputs receive proportionally lighter checking. Trust varies by context rather than being uniformly extended or withheld.">
 
   <script type="application/ld+json">
 {
@@ -31,14 +31,13 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0422",
   "name": "The Calibrated Trust",
-  "description": "The user practice of matching AI-output confidence to verification effort: high-stakes outputs receive verification, routine outputs receive proportional checks. Trust is shaped by context rather than uniformly granted or withheld.",
+  "description": "A graded user disposition in which the degree of acceptance granted to an AI output is scaled to its stakes: high-consequence outputs receive more independent verification, routine outputs receive proportionally lighter checking. Trust varies by context rather than being uniformly extended or withheld.",
   "inDefinedTermSet": "https://augmanitai.com/terms/",
   "termCode": "AUG-0422",
   "about": "compendium",
   "alternateName": "Das Kalibrierte Vertrauen",
-  "operationalDefinition": "Operational scope: an instance of 'The Calibrated Trust' is counted when the observable pattern described above (The user practice of matching AI-output confidence to verification effort: high-...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "STATE. Two trained raters score, for each AI output a user acts upon, (a) the stakes of the output on a 3-point scale (low/medium/high consequence of error) and (b) the observed verification effort the user applied before acting (none / light cross-check / independent confirmation). Calibrated trust is operationalised as the rank-order alignment between stakes and verification effort across a session; higher alignment indicates greater calibration.",
+  "measurementSchema": "Rater-coded verification-effort vs. stakes alignment per acted-upon output; calibration quantified as the Goodman-Kruskal gamma rank correlation between the stakes scale and the effort scale within a participant. Inter-rater reliability for both coded dimensions reported as weighted Cohen's kappa on a held-out 20% double-coded subset; participant-level self-report supplement via a 5-point Likert item ('I checked this more carefully because it mattered more').",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0422.html",
   "citation": "https://zenodo.org/communities/augmanitai",
@@ -47,9 +46,11 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
-  ]
+  ],
+  "inLanguage": "en",
+  "referentType": "STATE"
 }
-  </script>
+</script>
   <meta property="og:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
   <meta property="og:image:alt" content="Andreas Ehstand — Independent Researcher, AUGMANITAI corpus author">
   <meta name="twitter:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
@@ -62,30 +63,17 @@
 
   <main>
     <article>
-      <h1>The Calibrated Trust <small>(AUG-0422)</small></h1>
-  <p class="alt-name"><strong>DE:</strong> Das Kalibrierte Vertrauen</p>
-      <p class="description">The user practice of matching AI-output confidence to verification effort: high-stakes outputs receive verification, routine outputs receive proportional checks. Trust is shaped by context rather than uniformly granted or withheld.</p>
+      <h1>The Calibrated Trust</h1>
+      <p class="description">A graded user disposition in which the degree of acceptance granted to an AI output is scaled to its stakes: high-consequence outputs receive more independent verification, routine outputs receive proportionally lighter checking. Trust varies by context rather than being uniformly extended or withheld.</p>
 
       <section>
         <h2>Operational Definition</h2>
-        <p>Calibrated Trust is observed when a participant's expressed trust in specific AI outputs correlates with the AI's actual accuracy on those outputs across a verification window, measured by trust-accuracy calibration curves.</p>
+        <p>STATE. Two trained raters score, for each AI output a user acts upon, (a) the stakes of the output on a 3-point scale (low/medium/high consequence of error) and (b) the observed verification effort the user applied before acting (none / light cross-check / independent confirmation). Calibrated trust is operationalised as the rank-order alignment between stakes and verification effort across a session; higher alignment indicates greater calibration.</p>
       </section>
 
       <section>
         <h2>Measurement Schema</h2>
-        <p>Brier score for participant trust-ratings (0-1) vs. ground-truth accuracy (0/1) across at least 50 outputs. Reliability and resolution components reported; calibration plotted with 10 equal-width bins.</p>
-      </section>
-
-      <section>
-        <h2>Example Data</h2>
-        <pre>{
-  "participant": "P070",
-  "outputs_evaluated": 64,
-  "brier_score": 0.18,
-  "reliability_component": 0.04,
-  "resolution_component": 0.11,
-  "calibration_slope": 0.94
-}</pre>
+        <p>Rater-coded verification-effort vs. stakes alignment per acted-upon output; calibration quantified as the Goodman-Kruskal gamma rank correlation between the stakes scale and the effort scale within a participant. Inter-rater reliability for both coded dimensions reported as weighted Cohen&#x27;s kappa on a held-out 20% double-coded subset; participant-level self-report supplement via a 5-point Likert item (&#x27;I checked this more carefully because it mattered more&#x27;).</p>
       </section>
 
       <section>
@@ -106,16 +94,6 @@
   </section>
     </article>
   </main>
-
-  
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>At least 50 trust-rated outputs with verifiable ground-truth.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Outputs lacking objective accuracy criterion.</p>
-</section>
 
 <footer>
   <!-- UNIVERSAL_COMPLIANCE_FOOTER v1 -->

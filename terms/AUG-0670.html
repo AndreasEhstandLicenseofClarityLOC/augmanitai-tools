@@ -6,38 +6,37 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Rhetorical Tone Detector (AUG-0670) — AUGMANITAI</title>
+  <title>Rhetorical-Register Discrimination Ability — AUGMANITAI</title>
   <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html">
   <link rel="alternate" hreflang="de" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html">
   <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html">
   <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html">
-  <meta name="description" content="The individual ability of a user to recognize and classify the rhetorical tone of an AI output — whether the AI formulates seriously, ironically, neutrally, or exaggeratingly. Thi…">
+  <meta name="description" content="An individual user&#x27;s graded ability to identify the rhetorical register of an AI output, for example whether it is serious, ironic, neutral, or exaggerated. Distinguished from comprehension of content by its focus on tone, and it varies across users.">
   <meta name="author" content="Andreas Ehstand, Independent Researcher">
   <meta name="ai-content-disclosure" content="ai-assisted; human-reviewed; eu-ai-act-art50-aware; cc-by-nd-4.0">
   <meta name="license" content="CC BY-ND 4.0">
 
-  <meta property="og:title" content="The Rhetorical Tone Detector (AUG-0670) — AUGMANITAI">
-  <meta property="og:description" content="The individual ability of a user to recognize and classify the rhetorical tone of an AI output — whether the AI formulates seriously, ironically, neutrally, or exaggeratingly. Thi…">
+  <meta property="og:title" content="Rhetorical-Register Discrimination Ability">
+  <meta property="og:description" content="An individual user&#x27;s graded ability to identify the rhetorical register of an AI output, for example whether it is serious, ironic, neutral, or exaggerated. Distinguished from comprehension of content by its focus on tone, and it varies across users.">
   <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html">
   <meta property="og:type" content="article">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="The Rhetorical Tone Detector (AUG-0670) — AUGMANITAI">
-  <meta name="twitter:description" content="The individual ability of a user to recognize and classify the rhetorical tone of an AI output — whether the AI formulates seriously, ironically, neutrally, or exaggeratingly. Thi…">
+  <meta name="twitter:title" content="Rhetorical-Register Discrimination Ability">
+  <meta name="twitter:description" content="An individual user&#x27;s graded ability to identify the rhetorical register of an AI output, for example whether it is serious, ironic, neutral, or exaggerated. Distinguished from comprehension of content by its focus on tone, and it varies across users.">
 
   <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0670",
-  "name": "The Rhetorical Tone Detector",
-  "description": "The individual ability of a user to recognize and classify the rhetorical tone of an AI output — whether the AI formulates seriously, ironically, neutrally, or exaggeratingly. This ability varies strongly between users. Related to AUG-0669 (The Rhetorical Style Differential), AUG-0668 (The Humor Portability), and AUG-0451 (The Token Awareness).",
+  "name": "Rhetorical-Register Discrimination Ability",
+  "description": "An individual user's graded ability to identify the rhetorical register of an AI output, for example whether it is serious, ironic, neutral, or exaggerated. Distinguished from comprehension of content by its focus on tone, and it varies across users.",
   "inDefinedTermSet": "https://augmanitai.com/terms/",
   "termCode": "AUG-0670",
   "about": "compendium",
-  "operationalDefinition": "Operational scope: an instance of 'The Rhetorical Tone Detector' is counted when the observable pattern described above (The individual ability of a user to recognize and classify the rhetorical tone o...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "STATE. The rated quantity is a user's tone-classification accuracy: across a fixed set of AI outputs pre-labelled for rhetorical register by expert consensus, the proportion the user labels correctly. Higher proportion indicates greater ability. Measured per user, not per interaction.",
+  "measurementSchema": "Forced-choice tone-classification test: each user labels a calibrated item set against an expert-consensus key; ability scored as percent correct (or d-prime for irony vs literal). Item-set reliability reported via Cronbach's alpha; expert key reliability via Fleiss' kappa across labellers.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html",
   "citation": "https://zenodo.org/communities/augmanitai",
@@ -46,9 +45,12 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0368.html"
-  ]
+  ],
+  "inLanguage": "en",
+  "referentType": "STATE",
+  "alternateName": "The Rhetorical Tone Detector"
 }
-  </script>
+</script>
   <meta property="og:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
   <meta property="og:image:alt" content="Andreas Ehstand — Independent Researcher, AUGMANITAI corpus author">
   <meta name="twitter:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
@@ -61,30 +63,17 @@
 
   <main>
     <article>
-      <h1>The Rhetorical Tone Detector <small>(AUG-0670)</small></h1>
-      <p class="description">The individual ability of a user to recognize and classify the rhetorical tone of an AI output — whether the AI formulates seriously, ironically, neutrally, or exaggeratingly. This ability varies strongly between users. Related to AUG-0669 (The Rhetorical Style Differential), AUG-0668 (The Humor Portability), and AUG-0451 (The Token Awareness).</p>
+      <h1>Rhetorical-Register Discrimination Ability</h1>
+      <p class="description">An individual user&#x27;s graded ability to identify the rhetorical register of an AI output, for example whether it is serious, ironic, neutral, or exaggerated. Distinguished from comprehension of content by its focus on tone, and it varies across users.</p>
 
       <section>
         <h2>Operational Definition</h2>
-        <p>Rhetorical Tone Detection is recorded when a participant correctly identifies the rhetorical register (e.g., ironic, hedging, declarative, evasive, conciliatory) of an AI utterance from a closed-set of labels, with optional free-text justification. Detection is assessed on standardized stimulus passages.</p>
+        <p>STATE. The rated quantity is a user&#x27;s tone-classification accuracy: across a fixed set of AI outputs pre-labelled for rhetorical register by expert consensus, the proportion the user labels correctly. Higher proportion indicates greater ability. Measured per user, not per interaction.</p>
       </section>
 
       <section>
         <h2>Measurement Schema</h2>
-        <p>Forced-choice classification task on n=30 AI-generated passages across 6 tone-categories. Accuracy reported as proportion correct; sensitivity/specificity per category. Free-text justifications coded for evidence-quality on a 3-point rubric (cue-based / partial / unsupported).</p>
-      </section>
-
-      <section>
-        <h2>Example Data</h2>
-        <pre>{
-  "session_id": "S045",
-  "participant": "P011",
-  "stimuli_n": 30,
-  "accuracy": 0.77,
-  "tone_categories": 6,
-  "justification_quality_mean": 2.4,
-  "weakest_category": "hedging"
-}</pre>
+        <p>Forced-choice tone-classification test: each user labels a calibrated item set against an expert-consensus key; ability scored as percent correct (or d-prime for irony vs literal). Item-set reliability reported via Cronbach&#x27;s alpha; expert key reliability via Fleiss&#x27; kappa across labellers.</p>
       </section>
 
       <section>
@@ -105,16 +94,6 @@
   </section>
     </article>
   </main>
-
-  
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Closed-set label selection with rationale linked to textual cues.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Random or pattern-only responding without justification cues.</p>
-</section>
 
 <footer>
   <!-- UNIVERSAL_COMPLIANCE_FOOTER v1 -->

@@ -6,24 +6,24 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Role-Aware Input (AUG-0675) — AUGMANITAI</title>
+  <title>The Role-Aware Input — AUGMANITAI</title>
   <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0675.html">
   <link rel="alternate" hreflang="de" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0675.html">
   <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0675.html">
   <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0675.html">
-  <meta name="description" content="An input pattern in which the user incorporates social roles into the formulation — &quot;As a parent I need…,&quot; &quot;In my function as….&quot; The input is contextualized through the user&#x27;s rol…">
+  <meta name="description" content="A prompt in which the user frames the request through an explicit social role - for example &#x27;as a parent I need...&#x27; or &#x27;in my capacity as...&#x27;. The referent is the role-marked formulation of an individual input.">
   <meta name="author" content="Andreas Ehstand, Independent Researcher">
   <meta name="ai-content-disclosure" content="ai-assisted; human-reviewed; eu-ai-act-art50-aware; cc-by-nd-4.0">
   <meta name="license" content="CC BY-ND 4.0">
 
-  <meta property="og:title" content="The Role-Aware Input (AUG-0675) — AUGMANITAI">
-  <meta property="og:description" content="An input pattern in which the user incorporates social roles into the formulation — &quot;As a parent I need…,&quot; &quot;In my function as….&quot; The input is contextualized through the user&#x27;s rol…">
+  <meta property="og:title" content="The Role-Aware Input">
+  <meta property="og:description" content="A prompt in which the user frames the request through an explicit social role - for example &#x27;as a parent I need...&#x27; or &#x27;in my capacity as...&#x27;. The referent is the role-marked formulation of an individual input.">
   <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0675.html">
   <meta property="og:type" content="article">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="The Role-Aware Input (AUG-0675) — AUGMANITAI">
-  <meta name="twitter:description" content="An input pattern in which the user incorporates social roles into the formulation — &quot;As a parent I need…,&quot; &quot;In my function as….&quot; The input is contextualized through the user&#x27;s rol…">
+  <meta name="twitter:title" content="The Role-Aware Input">
+  <meta name="twitter:description" content="A prompt in which the user frames the request through an explicit social role - for example &#x27;as a parent I need...&#x27; or &#x27;in my capacity as...&#x27;. The referent is the role-marked formulation of an individual input.">
 
   <script type="application/ld+json">
 {
@@ -31,13 +31,12 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0675",
   "name": "The Role-Aware Input",
-  "description": "An input pattern in which the user incorporates social roles into the formulation — \"As a parent I need…,\" \"In my function as….\" The input is contextualized through the user's role. Related to AUG-0491 (The State Label), AUG-0650 (The Context-Sensitive Query), and AUG-0524 (The Context Layer).",
+  "description": "A prompt in which the user frames the request through an explicit social role - for example 'as a parent I need...' or 'in my capacity as...'. The referent is the role-marked formulation of an individual input.",
   "inDefinedTermSet": "https://augmanitai.com/terms/",
   "termCode": "AUG-0675",
   "about": "compendium",
-  "operationalDefinition": "Operational scope: an instance of 'The Role-Aware Input' is counted when the observable pattern described above (An input pattern in which the user incorporates social roles into the formulatio...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "EVENT. One occurrence is recorded when a prompt contains an explicit self-referential role marker that contextualises the request (a stated role noun phrase tied to the user, such as parent, teacher, manager, caregiver). The observable marker is the presence of such a role-framing clause in the prompt text.",
+  "measurementSchema": "Prompt-text annotation: a corpus of prompts is coded for presence and type of explicit user-role markers by two annotators; prevalence reported as proportion of role-marked prompts and rate per 100 prompts, with a role-category distribution. Annotator agreement via Cohen's kappa; optional regex/NER detector validated against human labels (precision/recall, F1).",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0675.html",
   "citation": "https://zenodo.org/communities/augmanitai",
@@ -46,9 +45,11 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
-  ]
+  ],
+  "inLanguage": "en",
+  "referentType": "EVENT"
 }
-  </script>
+</script>
   <meta property="og:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
   <meta property="og:image:alt" content="Andreas Ehstand — Independent Researcher, AUGMANITAI corpus author">
   <meta name="twitter:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
@@ -61,28 +62,17 @@
 
   <main>
     <article>
-      <h1>The Role-Aware Input <small>(AUG-0675)</small></h1>
-      <p class="description">An input pattern in which the user incorporates social roles into the formulation — &quot;As a parent I need…,&quot; &quot;In my function as….&quot; The input is contextualized through the user&#x27;s role. Related to AUG-0491 (The State Label), AUG-0650 (The Context-Sensitive Query), and AUG-0524 (The Context Layer).</p>
+      <h1>The Role-Aware Input</h1>
+      <p class="description">A prompt in which the user frames the request through an explicit social role - for example &#x27;as a parent I need...&#x27; or &#x27;in my capacity as...&#x27;. The referent is the role-marked formulation of an individual input.</p>
 
       <section>
         <h2>Operational Definition</h2>
-        <p>Role-Aware Input is observed when participants adapt prompt-formulation based on an explicit AI-role assignment (e.g., teacher, critic, brainstormer), measured by detectable lexical and syntactic shifts across role-conditions.</p>
+        <p>EVENT. One occurrence is recorded when a prompt contains an explicit self-referential role marker that contextualises the request (a stated role noun phrase tied to the user, such as parent, teacher, manager, caregiver). The observable marker is the presence of such a role-framing clause in the prompt text.</p>
       </section>
 
       <section>
         <h2>Measurement Schema</h2>
-        <p>Mann-Whitney U test on lexical-feature distributions (formality, hedging, directiveness) between role-conditions within-participant. Role-awareness detected when at least 3 features differ significantly across roles at Bonferroni-corrected p &lt; 0.01.</p>
-      </section>
-
-      <section>
-        <h2>Example Data</h2>
-        <pre>{
-  "participant": "P059",
-  "role_conditions": 4,
-  "features_tested": 8,
-  "significant_features_after_correction": 5,
-  "mean_U_effect_size": 0.47
-}</pre>
+        <p>Prompt-text annotation: a corpus of prompts is coded for presence and type of explicit user-role markers by two annotators; prevalence reported as proportion of role-marked prompts and rate per 100 prompts, with a role-category distribution. Annotator agreement via Cohen&#x27;s kappa; optional regex/NER detector validated against human labels (precision/recall, F1).</p>
       </section>
 
       <section>
@@ -103,16 +93,6 @@
   </section>
     </article>
   </main>
-
-  
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Participant uses at least 3 distinct AI-roles within the observation window.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Sessions where role-assignment is implicit only (no explicit role-string).</p>
-</section>
 
 <footer>
   <!-- UNIVERSAL_COMPLIANCE_FOOTER v1 -->

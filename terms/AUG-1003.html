@@ -6,40 +6,42 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Word Hunt (AUG-1003) — AUGMANITAI</title>
+  <title>Collaborative Phrasing Refinement — AUGMANITAI</title>
   <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1003.html">
   <link rel="alternate" hreflang="de" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1003.html">
   <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1003.html">
   <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1003.html">
-  <meta name="description" content="Der kollaborative Suchprozess nach der einen Formulierung, die Bedeutung, Ton und Kontext exakt trifft. Entscheidend ist das iterative Nachschärfen.">
+  <meta name="description" content="A collaborative, iterative search for the single formulation that precisely fits meaning, tone, and context, defined by repeated refinement of candidate wordings until convergence on one expression.">
   <meta name="author" content="Andreas Ehstand, Independent Researcher">
   <meta name="ai-content-disclosure" content="ai-assisted; human-reviewed; eu-ai-act-art50-aware; cc-by-nd-4.0">
   <meta name="license" content="CC BY-ND 4.0">
 
-  <meta property="og:title" content="Word Hunt (AUG-1003) — AUGMANITAI">
-  <meta property="og:description" content="Der kollaborative Suchprozess nach der einen Formulierung, die Bedeutung, Ton und Kontext exakt trifft. Entscheidend ist das iterative Nachschärfen.">
+  <meta property="og:title" content="Collaborative Phrasing Refinement">
+  <meta property="og:description" content="A collaborative, iterative search for the single formulation that precisely fits meaning, tone, and context, defined by repeated refinement of candidate wordings until convergence on one expression.">
   <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1003.html">
   <meta property="og:type" content="article">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Word Hunt (AUG-1003) — AUGMANITAI">
-  <meta name="twitter:description" content="Der kollaborative Suchprozess nach der einen Formulierung, die Bedeutung, Ton und Kontext exakt trifft. Entscheidend ist das iterative Nachschärfen.">
+  <meta name="twitter:title" content="Collaborative Phrasing Refinement">
+  <meta name="twitter:description" content="A collaborative, iterative search for the single formulation that precisely fits meaning, tone, and context, defined by repeated refinement of candidate wordings until convergence on one expression.">
 
   <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-1003",
-  "name": "Word Hunt",
-  "description": "Der kollaborative Suchprozess nach der einen Formulierung, die Bedeutung, Ton und Kontext exakt trifft. Entscheidend ist das iterative Nachschärfen.",
+  "name": "Collaborative Phrasing Refinement",
+  "description": "A collaborative, iterative search for the single formulation that precisely fits meaning, tone, and context, defined by repeated refinement of candidate wordings until convergence on one expression.",
   "inDefinedTermSet": "https://augmanitai.com/terms/",
   "termCode": "AUG-1003",
-  "alternateName": "Wort-Jagd",
-  "inLanguage": "de",
+  "alternateName": [
+    "Wort-Jagd",
+    "Word Hunt"
+  ],
+  "inLanguage": "en",
   "about": "fun",
-  "operationalDefinition": "Operational scope: an instance of 'Word Hunt' is counted when the observable pattern described above (Der kollaborative Suchprozess nach der einen Formulierung, die Bedeutung, Ton un...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.",
-  "exampleData": "{\"session_id\": \"S001\", \"participant\": \"P001\", \"humor_loop_likert\": 5, \"laughter_events_per_min\": 1.2}",
+  "operationalDefinition": "One episode is counted when a contiguous run of turns iteratively refines a target phrasing (two or more successive candidate reformulations aimed at the same expression slot) before settling. The refinement run is the unit.",
+  "measurementSchema": "Transcript segmentation of phrasing-refinement episodes by two coders (kappa for boundary agreement); within each episode, the count of candidate reformulations until convergence reported as iteration depth.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1003.html",
   "citation": "https://zenodo.org/communities/augmanitai",
@@ -48,9 +50,10 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
-  </script>
+</script>
   <meta property="og:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
   <meta property="og:image:alt" content="Andreas Ehstand — Independent Researcher, AUGMANITAI corpus author">
   <meta name="twitter:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
@@ -63,31 +66,17 @@
 
   <main>
     <article>
-      <h1>Word Hunt <small>(AUG-1003)</small></h1>
-  <p class="alt-name"><strong>DE:</strong> Wort-Jagd</p>
-      <p class="description">Der kollaborative Suchprozess nach der einen Formulierung, die Bedeutung, Ton und Kontext exakt trifft. Entscheidend ist das iterative Nachschärfen.</p>
+      <h1>Collaborative Phrasing Refinement</h1>
+      <p class="description">A collaborative, iterative search for the single formulation that precisely fits meaning, tone, and context, defined by repeated refinement of candidate wordings until convergence on one expression.</p>
 
       <section>
         <h2>Operational Definition</h2>
-        <p>Word Hunt is observed when participants engage in playful AI-mediated lexical-exploration sessions seeking targeted vocabulary (rare words, technical terms, evocative synonyms), characterised by iterative narrowing prompts.</p>
+        <p>One episode is counted when a contiguous run of turns iteratively refines a target phrasing (two or more successive candidate reformulations aimed at the same expression slot) before settling. The refinement run is the unit.</p>
       </section>
 
       <section>
         <h2>Measurement Schema</h2>
-        <p>Working memory span (Daneman-Carpenter reading span) administered pre- and post-engagement period, paired with vocabulary-retention assessment on hunted-words at 7-day follow-up. Word-Hunt benefit = retention x span improvement composite.</p>
-      </section>
-
-      <section>
-        <h2>Example Data</h2>
-        <pre>{
-  "participant": "P032",
-  "span_pre": 3.5,
-  "span_post": 4.0,
-  "words_hunted": 42,
-  "retained_at_day_7": 31,
-  "retention_rate": 0.74,
-  "benefit_composite": 0.37
-}</pre>
+        <p>Transcript segmentation of phrasing-refinement episodes by two coders (kappa for boundary agreement); within each episode, the count of candidate reformulations until convergence reported as iteration depth.</p>
       </section>
 
       <section>
@@ -108,16 +97,6 @@
   </section>
     </article>
   </main>
-
-  
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>At least 30 hunted-words AND completed working-memory assessment at both timepoints.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Participants whose hunt-targets duplicate existing vocabulary in baseline assessment.</p>
-</section>
 
 <footer>
   <!-- UNIVERSAL_COMPLIANCE_FOOTER v1 -->

@@ -6,24 +6,24 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Duplicate Notice (AUG-0639) — AUGMANITAI</title>
+  <title>The Duplicate Notice — AUGMANITAI</title>
   <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0639.html">
   <link rel="alternate" hreflang="de" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0639.html">
   <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0639.html">
   <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0639.html">
-  <meta name="description" content="The user&#x27;s recognition that an AI response is substantively a repetition of an earlier response — differently formulated but identical in core. Related to AUG-0560 (The Conversati…">
+  <meta name="description" content="A discrete recognition act in which a user identifies an AI response as substantively repeating an earlier response - reworded but identical in core content. The referent is the user&#x27;s recognition of redundancy, not the redundancy itself.">
   <meta name="author" content="Andreas Ehstand, Independent Researcher">
   <meta name="ai-content-disclosure" content="ai-assisted; human-reviewed; eu-ai-act-art50-aware; cc-by-nd-4.0">
   <meta name="license" content="CC BY-ND 4.0">
 
-  <meta property="og:title" content="The Duplicate Notice (AUG-0639) — AUGMANITAI">
-  <meta property="og:description" content="The user&#x27;s recognition that an AI response is substantively a repetition of an earlier response — differently formulated but identical in core. Related to AUG-0560 (The Conversati…">
+  <meta property="og:title" content="The Duplicate Notice">
+  <meta property="og:description" content="A discrete recognition act in which a user identifies an AI response as substantively repeating an earlier response - reworded but identical in core content. The referent is the user&#x27;s recognition of redundancy, not the redundancy itself.">
   <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0639.html">
   <meta property="og:type" content="article">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="The Duplicate Notice (AUG-0639) — AUGMANITAI">
-  <meta name="twitter:description" content="The user&#x27;s recognition that an AI response is substantively a repetition of an earlier response — differently formulated but identical in core. Related to AUG-0560 (The Conversati…">
+  <meta name="twitter:title" content="The Duplicate Notice">
+  <meta name="twitter:description" content="A discrete recognition act in which a user identifies an AI response as substantively repeating an earlier response - reworded but identical in core content. The referent is the user&#x27;s recognition of redundancy, not the redundancy itself.">
 
   <script type="application/ld+json">
 {
@@ -31,13 +31,12 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0639",
   "name": "The Duplicate Notice",
-  "description": "The user's recognition that an AI response is substantively a repetition of an earlier response — differently formulated but identical in core. Related to AUG-0560 (The Conversation Loop), AUG-0383 (The Context Collapse), and AUG-0088 (Algorithmic Intuition).",
+  "description": "A discrete recognition act in which a user identifies an AI response as substantively repeating an earlier response - reworded but identical in core content. The referent is the user's recognition of redundancy, not the redundancy itself.",
   "inDefinedTermSet": "https://augmanitai.com/terms/",
   "termCode": "AUG-0639",
   "about": "compendium",
-  "operationalDefinition": "Operational scope: an instance of 'The Duplicate Notice' is counted when the observable pattern described above (The user's recognition that an AI response is substantively a repetition of an e...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "EVENT. One occurrence is recorded when a user signals that a current response duplicates the substance of a prior one in the same conversation (e.g. an explicit complaint, a 'you already said this' turn, or a logged flag). The observable marker is a user-issued redundancy signal referring to an earlier turn.",
+  "measurementSchema": "Redundancy-flag detection corroborated by semantic similarity: user redundancy signals are extracted from transcripts; for each, the cosine similarity between the flagged response and the referenced earlier response is computed from sentence embeddings to confirm genuine near-duplication above a calibrated threshold. Reported as redundancy notices per 100 turns and precision of user flags against the similarity criterion; human coding of flags reliability via Cohen's kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0639.html",
   "citation": "https://zenodo.org/communities/augmanitai",
@@ -46,9 +45,11 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
-  ]
+  ],
+  "inLanguage": "en",
+  "referentType": "EVENT"
 }
-  </script>
+</script>
   <meta property="og:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
   <meta property="og:image:alt" content="Andreas Ehstand — Independent Researcher, AUGMANITAI corpus author">
   <meta name="twitter:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
@@ -61,29 +62,17 @@
 
   <main>
     <article>
-      <h1>The Duplicate Notice <small>(AUG-0639)</small></h1>
-      <p class="description">The user&#x27;s recognition that an AI response is substantively a repetition of an earlier response — differently formulated but identical in core. Related to AUG-0560 (The Conversation Loop), AUG-0383 (The Context Collapse), and AUG-0088 (Algorithmic Intuition).</p>
+      <h1>The Duplicate Notice</h1>
+      <p class="description">A discrete recognition act in which a user identifies an AI response as substantively repeating an earlier response - reworded but identical in core content. The referent is the user&#x27;s recognition of redundancy, not the redundancy itself.</p>
 
       <section>
         <h2>Operational Definition</h2>
-        <p>The Duplicate Notice is observed when participants explicitly flag AI output as substantively similar to previously received output (within or across sessions), characterised by an explicit duplicate-marker phrase and a flagged-output identifier.</p>
+        <p>EVENT. One occurrence is recorded when a user signals that a current response duplicates the substance of a prior one in the same conversation (e.g. an explicit complaint, a &#x27;you already said this&#x27; turn, or a logged flag). The observable marker is a user-issued redundancy signal referring to an earlier turn.</p>
       </section>
 
       <section>
         <h2>Measurement Schema</h2>
-        <p>Cohen-Yates chi-square test (with Yates correction for 2x2) on flagged-duplicate counts vs. expected-by-chance duplicates across n participants. Duplicate-notice rate per participant compared via chi-square goodness-of-fit.</p>
-      </section>
-
-      <section>
-        <h2>Example Data</h2>
-        <pre>{
-  "participants_n": 45,
-  "duplicate_notices_total": 89,
-  "expected_by_chance": 41,
-  "chi_square_yates": 32.7,
-  "p_value": 1e-06,
-  "df": 1
-}</pre>
+        <p>Redundancy-flag detection corroborated by semantic similarity: user redundancy signals are extracted from transcripts; for each, the cosine similarity between the flagged response and the referenced earlier response is computed from sentence embeddings to confirm genuine near-duplication above a calibrated threshold. Reported as redundancy notices per 100 turns and precision of user flags against the similarity criterion; human coding of flags reliability via Cohen&#x27;s kappa.</p>
       </section>
 
       <section>
@@ -104,16 +93,6 @@
   </section>
     </article>
   </main>
-
-  
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Explicit duplicate-marker phrase AND identifiable referenced prior output.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Loose similarity claims without explicit prior-output reference.</p>
-</section>
 
 <footer>
   <!-- UNIVERSAL_COMPLIANCE_FOOTER v1 -->

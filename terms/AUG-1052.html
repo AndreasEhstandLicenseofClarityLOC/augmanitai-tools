@@ -6,40 +6,42 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Backward Laugh (AUG-1052) — AUGMANITAI</title>
+  <title>Delayed Humor Recognition — AUGMANITAI</title>
   <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html">
   <link rel="alternate" hreflang="de" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html">
   <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html">
   <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html">
-  <meta name="description" content="Humor, der zeitversetzt wirkt: Erst versteht man den Witz, dann lacht man über die eigene Reaktion darauf.">
+  <meta name="description" content="A delayed humorous reaction in which the user first processes an AI output&#x27;s literal meaning and only afterward perceives it as funny, often laughing at their own delayed comprehension. Distinguished from immediate humor by the lag between exposure and amusement.">
   <meta name="author" content="Andreas Ehstand, Independent Researcher">
   <meta name="ai-content-disclosure" content="ai-assisted; human-reviewed; eu-ai-act-art50-aware; cc-by-nd-4.0">
   <meta name="license" content="CC BY-ND 4.0">
 
-  <meta property="og:title" content="Backward Laugh (AUG-1052) — AUGMANITAI">
-  <meta property="og:description" content="Humor, der zeitversetzt wirkt: Erst versteht man den Witz, dann lacht man über die eigene Reaktion darauf.">
+  <meta property="og:title" content="Delayed Humor Recognition">
+  <meta property="og:description" content="A delayed humorous reaction in which the user first processes an AI output&#x27;s literal meaning and only afterward perceives it as funny, often laughing at their own delayed comprehension. Distinguished from immediate humor by the lag between exposure and amusement.">
   <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html">
   <meta property="og:type" content="article">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Backward Laugh (AUG-1052) — AUGMANITAI">
-  <meta name="twitter:description" content="Humor, der zeitversetzt wirkt: Erst versteht man den Witz, dann lacht man über die eigene Reaktion darauf.">
+  <meta name="twitter:title" content="Delayed Humor Recognition">
+  <meta name="twitter:description" content="A delayed humorous reaction in which the user first processes an AI output&#x27;s literal meaning and only afterward perceives it as funny, often laughing at their own delayed comprehension. Distinguished from immediate humor by the lag between exposure and amusement.">
 
   <script type="application/ld+json">
 {
   "@context": "https://schema.org/",
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-1052",
-  "name": "Backward Laugh",
-  "description": "Humor, der zeitversetzt wirkt: Erst versteht man den Witz, dann lacht man über die eigene Reaktion darauf.",
+  "name": "Delayed Humor Recognition",
+  "description": "A delayed humorous reaction in which the user first processes an AI output's literal meaning and only afterward perceives it as funny, often laughing at their own delayed comprehension. Distinguished from immediate humor by the lag between exposure and amusement.",
   "inDefinedTermSet": "https://augmanitai.com/terms/",
   "termCode": "AUG-1052",
-  "alternateName": "Rückwärts-Lachen",
-  "inLanguage": "de",
+  "alternateName": [
+    "Rückwärts-Lachen",
+    "Backward Laugh"
+  ],
+  "inLanguage": "en",
   "about": "fun",
-  "operationalDefinition": "Operational scope: an instance of 'Backward Laugh' is counted when the observable pattern described above (Humor, der zeitversetzt wirkt: Erst versteht man den Witz, dann lacht man über d...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Self-report Likert (1-7) on perceived humor-loop strength after a session; complementary indicator: laughter-event count per minute.",
-  "exampleData": "{\"session_id\": \"S001\", \"participant\": \"P001\", \"humor_loop_likert\": 5, \"laughter_events_per_min\": 1.2}",
+  "operationalDefinition": "EVENT. One occurrence is marked when a user signals amusement (explicit laughter token such as 'haha', or a remark like 'oh, now I get it') referring to an AI turn that is at least one user turn earlier, i.e. amusement is expressed only after an intervening non-humorous turn. The delayed-amusement turn is the unit counted.",
+  "measurementSchema": "Latency measure: for each amusement signal, coders link it to the eliciting AI turn and record the turn-distance and elapsed seconds between exposure and amusement; linkage agreement via Cohen's kappa. Reported as median exposure-to-amusement latency and share of amusement signals that are delayed (>0 intervening turns).",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-humor-affect",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1052.html",
   "citation": "https://zenodo.org/communities/augmanitai",
@@ -48,9 +50,10 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1004.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1046.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-1037.html"
-  ]
+  ],
+  "referentType": "EVENT"
 }
-  </script>
+</script>
   <meta property="og:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
   <meta property="og:image:alt" content="Andreas Ehstand — Independent Researcher, AUGMANITAI corpus author">
   <meta name="twitter:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
@@ -63,30 +66,17 @@
 
   <main>
     <article>
-      <h1>Backward Laugh <small>(AUG-1052)</small></h1>
-  <p class="alt-name"><strong>DE:</strong> Rückwärts-Lachen</p>
-      <p class="description">Humor, der zeitversetzt wirkt: Erst versteht man den Witz, dann lacht man über die eigene Reaktion darauf.</p>
+      <h1>Delayed Humor Recognition</h1>
+      <p class="description">A delayed humorous reaction in which the user first processes an AI output&#x27;s literal meaning and only afterward perceives it as funny, often laughing at their own delayed comprehension. Distinguished from immediate humor by the lag between exposure and amusement.</p>
 
       <section>
         <h2>Operational Definition</h2>
-        <p>A Backward Laugh is recorded when a participant retrospectively expresses amusement about an earlier exchange (typically 5-50 turns prior) through phrases such as 'looking back that was funny', 'I just realized', or by explicitly referencing a past humorous moment. The trigger must reference a specific prior turn rather than general session impression.</p>
+        <p>EVENT. One occurrence is marked when a user signals amusement (explicit laughter token such as &#x27;haha&#x27;, or a remark like &#x27;oh, now I get it&#x27;) referring to an AI turn that is at least one user turn earlier, i.e. amusement is expressed only after an intervening non-humorous turn. The delayed-amusement turn is the unit counted.</p>
       </section>
 
       <section>
         <h2>Measurement Schema</h2>
-        <p>Retrospective-reference coding scheme: count of backward humor-references per session, with mean lag-distance (number of turns between trigger and referenced moment). Coded by trained raters from full transcript with timestamp markers.</p>
-      </section>
-
-      <section>
-        <h2>Example Data</h2>
-        <pre>{
-  "session_id": "S014",
-  "participant": "P024",
-  "backward_laugh_count": 3,
-  "mean_lag_turns": 18.5,
-  "median_lag_turns": 14,
-  "transcript_length_turns": 86
-}</pre>
+        <p>Latency measure: for each amusement signal, coders link it to the eliciting AI turn and record the turn-distance and elapsed seconds between exposure and amusement; linkage agreement via Cohen&#x27;s kappa. Reported as median exposure-to-amusement latency and share of amusement signals that are delayed (&gt;0 intervening turns).</p>
       </section>
 
       <section>
@@ -107,16 +97,6 @@
   </section>
     </article>
   </main>
-
-  
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Explicit retrospective reference to an earlier specific turn paired with amusement marker.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Generic positive session-summary statements without reference to a specific earlier turn.</p>
-</section>
 
 <footer>
   <!-- UNIVERSAL_COMPLIANCE_FOOTER v1 -->

@@ -6,24 +6,24 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Accent Persistence (AUG-0711) — AUGMANITAI</title>
+  <title>The Accent Persistence — AUGMANITAI</title>
   <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0711.html">
   <link rel="alternate" hreflang="de" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0711.html">
   <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0711.html">
   <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0711.html">
-  <meta name="description" content="The observation that the phonetic patterns of a user&#x27;s first language show through even in written AI inputs — sentence melody, word order, punctuation, and formulation patterns c…">
+  <meta name="description" content="The degree to which structural features of a user&#x27;s first language - word order, punctuation conventions, and phrasing patterns - remain detectable in their written AI inputs composed in a second language. The referent is the relative strength of cross-linguistic transfer in writing.">
   <meta name="author" content="Andreas Ehstand, Independent Researcher">
   <meta name="ai-content-disclosure" content="ai-assisted; human-reviewed; eu-ai-act-art50-aware; cc-by-nd-4.0">
   <meta name="license" content="CC BY-ND 4.0">
 
-  <meta property="og:title" content="The Accent Persistence (AUG-0711) — AUGMANITAI">
-  <meta property="og:description" content="The observation that the phonetic patterns of a user&#x27;s first language show through even in written AI inputs — sentence melody, word order, punctuation, and formulation patterns c…">
+  <meta property="og:title" content="The Accent Persistence">
+  <meta property="og:description" content="The degree to which structural features of a user&#x27;s first language - word order, punctuation conventions, and phrasing patterns - remain detectable in their written AI inputs composed in a second language. The referent is the relative strength of cross-linguistic transfer in writing.">
   <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0711.html">
   <meta property="og:type" content="article">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="The Accent Persistence (AUG-0711) — AUGMANITAI">
-  <meta name="twitter:description" content="The observation that the phonetic patterns of a user&#x27;s first language show through even in written AI inputs — sentence melody, word order, punctuation, and formulation patterns c…">
+  <meta name="twitter:title" content="The Accent Persistence">
+  <meta name="twitter:description" content="The degree to which structural features of a user&#x27;s first language - word order, punctuation conventions, and phrasing patterns - remain detectable in their written AI inputs composed in a second language. The referent is the relative strength of cross-linguistic transfer in writing.">
 
   <script type="application/ld+json">
 {
@@ -31,13 +31,12 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0711",
   "name": "The Accent Persistence",
-  "description": "The observation that the phonetic patterns of a user's first language show through even in written AI inputs — sentence melody, word order, punctuation, and formulation patterns carry a \"written accent.\" Related to AUG-0683 (The Origin Language), AUG-0691 (The Dialect Decoder), and AUG-0706 (The Mother Tongue Comfort).",
+  "description": "The degree to which structural features of a user's first language - word order, punctuation conventions, and phrasing patterns - remain detectable in their written AI inputs composed in a second language. The referent is the relative strength of cross-linguistic transfer in writing.",
   "inDefinedTermSet": "https://augmanitai.com/terms/",
   "termCode": "AUG-0711",
   "about": "compendium",
-  "operationalDefinition": "Operational scope: an instance of 'The Accent Persistence' is counted when the observable pattern described above (The observation that the phonetic patterns of a user's first language show throu...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "RATIO. Quantified as the relative frequency of first-language-typical structural features in a user's second-language prompts compared with a same-language native-writer baseline. Numerator: count of L1-transfer features observed in the user's prompts (e.g. divergent word-order patterns, calqued collocations, L1 punctuation conventions); denominator: total scored constructions, normalised against the native-baseline feature rate.",
+  "measurementSchema": "Contrastive linguistic feature scoring: prompts are parsed and tagged for a predefined inventory of L1-transfer markers; a transfer index is computed as the standardised difference between the user's marker rate and a matched native-writer corpus baseline. Reported as effect size (Cohen's d) of marker rate against baseline; classifier predicting writer L1 from prompt features evaluated by AUC. Tagging reliability via Cohen's kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0711.html",
   "citation": "https://zenodo.org/communities/augmanitai",
@@ -46,9 +45,11 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
-  ]
+  ],
+  "inLanguage": "en",
+  "referentType": "RATIO"
 }
-  </script>
+</script>
   <meta property="og:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
   <meta property="og:image:alt" content="Andreas Ehstand — Independent Researcher, AUGMANITAI corpus author">
   <meta name="twitter:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
@@ -61,30 +62,17 @@
 
   <main>
     <article>
-      <h1>The Accent Persistence <small>(AUG-0711)</small></h1>
-      <p class="description">The observation that the phonetic patterns of a user&#x27;s first language show through even in written AI inputs — sentence melody, word order, punctuation, and formulation patterns carry a &quot;written accent.&quot; Related to AUG-0683 (The Origin Language), AUG-0691 (The Dialect Decoder), and AUG-0706 (The Mother Tongue Comfort).</p>
+      <h1>The Accent Persistence</h1>
+      <p class="description">The degree to which structural features of a user&#x27;s first language - word order, punctuation conventions, and phrasing patterns - remain detectable in their written AI inputs composed in a second language. The referent is the relative strength of cross-linguistic transfer in writing.</p>
 
       <section>
         <h2>Operational Definition</h2>
-        <p>Accent Persistence is observed when stylistic features of a participant's prior writing (idiolect markers) persist in subsequent AI-assisted outputs, even when the AI is prompted toward a neutral style, indicating partial style-transfer resistance.</p>
+        <p>RATIO. Quantified as the relative frequency of first-language-typical structural features in a user&#x27;s second-language prompts compared with a same-language native-writer baseline. Numerator: count of L1-transfer features observed in the user&#x27;s prompts (e.g. divergent word-order patterns, calqued collocations, L1 punctuation conventions); denominator: total scored constructions, normalised against the native-baseline feature rate.</p>
       </section>
 
       <section>
         <h2>Measurement Schema</h2>
-        <p>Stylometric distance via cosine similarity on character-n-gram (n=3,4,5) feature-vectors between participant's prior solo-writing and AI-assisted writing. Persistence = similarity > 0.7 above the random-baseline similarity computed across unrelated participant pairs.</p>
-      </section>
-
-      <section>
-        <h2>Example Data</h2>
-        <pre>{
-  "participant": "P053",
-  "prior_corpus_words": 8200,
-  "ai_assisted_corpus_words": 3400,
-  "ngram_cosine_3": 0.78,
-  "ngram_cosine_4": 0.74,
-  "baseline_cosine": 0.31,
-  "persistence_z_score": 4.2
-}</pre>
+        <p>Contrastive linguistic feature scoring: prompts are parsed and tagged for a predefined inventory of L1-transfer markers; a transfer index is computed as the standardised difference between the user&#x27;s marker rate and a matched native-writer corpus baseline. Reported as effect size (Cohen&#x27;s d) of marker rate against baseline; classifier predicting writer L1 from prompt features evaluated by AUC. Tagging reliability via Cohen&#x27;s kappa.</p>
       </section>
 
       <section>
@@ -105,16 +93,6 @@
   </section>
     </article>
   </main>
-
-  
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>At least 5000 words of prior solo writing for stable stylometric baseline.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Participants who explicitly request style-imitation of a different author.</p>
-</section>
 
 <footer>
   <!-- UNIVERSAL_COMPLIANCE_FOOTER v1 -->

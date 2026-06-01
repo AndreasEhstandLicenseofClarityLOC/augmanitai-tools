@@ -6,24 +6,36 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Emergent Coordination (AUG-0901) — AUGMANITAI</title>
+  <title>The Emergent Coordination [
+    &quot;P012&quot;,
+    &quot;P019&quot;,
+    &quot;P027&quot;
+  ] — AUGMANITAI</title>
   <link rel="canonical" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0901.html">
   <link rel="alternate" hreflang="de" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0901.html">
   <link rel="alternate" hreflang="en" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0901.html">
   <link rel="alternate" hreflang="x-default" href="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0901.html">
-  <meta name="description" content="The observation that in multi-agent systems, coordination patterns can emerge that were not explicitly programmed — the interaction of subsystems produces behavior not intended in…">
+  <meta name="description" content="An occurrence in a multi-agent system of a coordination pattern that was not explicitly specified, arising from the interaction of components rather than from any single component&#x27;s design. The referent is the observed unspecified coordinated behaviour.">
   <meta name="author" content="Andreas Ehstand, Independent Researcher">
   <meta name="ai-content-disclosure" content="ai-assisted; human-reviewed; eu-ai-act-art50-aware; cc-by-nd-4.0">
   <meta name="license" content="CC BY-ND 4.0">
 
-  <meta property="og:title" content="The Emergent Coordination (AUG-0901) — AUGMANITAI">
-  <meta property="og:description" content="The observation that in multi-agent systems, coordination patterns can emerge that were not explicitly programmed — the interaction of subsystems produces behavior not intended in…">
+  <meta property="og:title" content="The Emergent Coordination [
+    &quot;P012&quot;,
+    &quot;P019&quot;,
+    &quot;P027&quot;
+  ]">
+  <meta property="og:description" content="An occurrence in a multi-agent system of a coordination pattern that was not explicitly specified, arising from the interaction of components rather than from any single component&#x27;s design. The referent is the observed unspecified coordinated behaviour.">
   <meta property="og:url" content="https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0901.html">
   <meta property="og:type" content="article">
 
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="The Emergent Coordination (AUG-0901) — AUGMANITAI">
-  <meta name="twitter:description" content="The observation that in multi-agent systems, coordination patterns can emerge that were not explicitly programmed — the interaction of subsystems produces behavior not intended in…">
+  <meta name="twitter:title" content="The Emergent Coordination [
+    &quot;P012&quot;,
+    &quot;P019&quot;,
+    &quot;P027&quot;
+  ]">
+  <meta name="twitter:description" content="An occurrence in a multi-agent system of a coordination pattern that was not explicitly specified, arising from the interaction of components rather than from any single component&#x27;s design. The referent is the observed unspecified coordinated behaviour.">
 
   <script type="application/ld+json">
 {
@@ -31,13 +43,12 @@
   "@type": "DefinedTerm",
   "@id": "https://augmanitai.com/terms/AUG-0901",
   "name": "The Emergent Coordination",
-  "description": "The observation that in multi-agent systems, coordination patterns can emerge that were not explicitly programmed — the interaction of subsystems produces behavior not intended in the individual systems. Related to AUG-0900 (The Distributed Coordination), AUG-0948 (The Scope Creep Alert), and AUG-0949 (The Unintended Action).",
+  "description": "An occurrence in a multi-agent system of a coordination pattern that was not explicitly specified, arising from the interaction of components rather than from any single component's design. The referent is the observed unspecified coordinated behaviour.",
   "inDefinedTermSet": "https://augmanitai.com/terms/",
   "termCode": "AUG-0901",
   "about": "compendium",
-  "operationalDefinition": "Operational scope: an instance of 'The Emergent Coordination' is counted when the observable pattern described above (The observation that in multi-agent systems, coordination patterns can emerge th...) occurs at least once within a defined interaction segment of N turns (typically N=10), as coded by trained raters.",
-  "measurementSchema": "Coding-scheme occurrence count; observer agreement (Cohen's κ).",
-  "exampleData": "{\"session_id\": \"S001\", \"occurrence_count\": 5, \"kappa\": 0.74}",
+  "operationalDefinition": "EVENT. One occurrence is recorded when system logs show a stable coordinated behaviour among agents (e.g. role division, turn-taking, convergence on a shared plan) that is not entailed by any individual agent's specification or by explicit coordination rules. The observable marker is a recurring inter-agent pattern absent from the design specification.",
+  "measurementSchema": "Specification-versus-behaviour log analysis: interaction traces are mined for recurrent multi-agent patterns; each candidate is checked against the documented specification and ablated to confirm it disappears when interaction is removed. Reported as count of specification-absent coordinated patterns per run and their stability (recurrence rate across seeds); two analysts independently adjudicate 'unspecified' status with agreement via Cohen's kappa.",
   "broader": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology",
   "mainEntityOfPage": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0901.html",
   "citation": "https://zenodo.org/communities/augmanitai",
@@ -46,9 +57,11 @@
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0670.html",
     "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0088.html"
-  ]
+  ],
+  "inLanguage": "en",
+  "referentType": "EVENT"
 }
-  </script>
+</script>
   <meta property="og:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
   <meta property="og:image:alt" content="Andreas Ehstand — Independent Researcher, AUGMANITAI corpus author">
   <meta name="twitter:image" content="https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/portrait.jpg">
@@ -61,33 +74,21 @@
 
   <main>
     <article>
-      <h1>The Emergent Coordination <small>(AUG-0901)</small></h1>
-      <p class="description">The observation that in multi-agent systems, coordination patterns can emerge that were not explicitly programmed — the interaction of subsystems produces behavior not intended in the individual systems. Related to AUG-0900 (The Distributed Coordination), AUG-0948 (The Scope Creep Alert), and AUG-0949 (The Unintended Action).</p>
+      <h1>The Emergent Coordination <span aria-label="symbol">[
+    &quot;P012&quot;,
+    &quot;P019&quot;,
+    &quot;P027&quot;
+  ]</span></h1>
+      <p class="description">An occurrence in a multi-agent system of a coordination pattern that was not explicitly specified, arising from the interaction of components rather than from any single component&#x27;s design. The referent is the observed unspecified coordinated behaviour.</p>
 
       <section>
         <h2>Operational Definition</h2>
-        <p>Emergent Coordination is observed when two or more participants converge on synchronised problem-decomposition strategies during multi-agent AI-mediated work, without explicit coordination instructions, evidenced by aligned task-segmentation across independent agents.</p>
+        <p>EVENT. One occurrence is recorded when system logs show a stable coordinated behaviour among agents (e.g. role division, turn-taking, convergence on a shared plan) that is not entailed by any individual agent&#x27;s specification or by explicit coordination rules. The observable marker is a recurring inter-agent pattern absent from the design specification.</p>
       </section>
 
       <section>
         <h2>Measurement Schema</h2>
-        <p>Network modularity computed via the Louvain method on the joint task-graph (nodes = sub-tasks, edges = shared dependencies). Coordination-strength = modularity score Q; values Q > 0.3 indicate non-trivial clustering attributable to emergent coordination.</p>
-      </section>
-
-      <section>
-        <h2>Example Data</h2>
-        <pre>{
-  "session_id": "S233",
-  "participants": [
-    "P012",
-    "P019",
-    "P027"
-  ],
-  "subtasks_total": 22,
-  "louvain_modularity_Q": 0.42,
-  "clusters_detected": 4,
-  "alignment_index": 0.78
-}</pre>
+        <p>Specification-versus-behaviour log analysis: interaction traces are mined for recurrent multi-agent patterns; each candidate is checked against the documented specification and ablated to confirm it disappears when interaction is removed. Reported as count of specification-absent coordinated patterns per run and their stability (recurrence rate across seeds); two analysts independently adjudicate &#x27;unspecified&#x27; status with agreement via Cohen&#x27;s kappa.</p>
       </section>
 
       <section>
@@ -108,16 +109,6 @@
   </section>
     </article>
   </main>
-
-  
-<section id="inclusionCriteria">
-<h2>Inclusion criteria</h2>
-<p>Multi-agent session with at least 3 participants and >= 15 sub-tasks.</p>
-</section>
-<section id="exclusionCriteria">
-<h2>Exclusion criteria</h2>
-<p>Sessions with explicit pre-assigned task-segmentation.</p>
-</section>
 
 <footer>
   <!-- UNIVERSAL_COMPLIANCE_FOOTER v1 -->
