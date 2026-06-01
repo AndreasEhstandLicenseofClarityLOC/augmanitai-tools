@@ -44,7 +44,7 @@ augmanitai-tools/
 ├── manifests/
 │   ├── MANIFEST.sha256      ← SHA-256 per file
 │   ├── MULTI_HASH.json      ← SHA-256 + SHA-512 + SHA3-256 + BLAKE3
-│   └── *.ots                ← Bitcoin OpenTimestamps proof
+│   └── *.ots                ← OpenTimestamps proof
 └── CITATION.cff             ← citation metadata
 ```
 
@@ -56,7 +56,7 @@ augmanitai-tools/
 
 **For human readers.** Browse `api/terms.json` in a JSON viewer; for prose definitions per term, read the corresponding entry block in `txt/llms-full.txt`.
 
-**For reproducibility.** Verify the SHA-256 of any file you depend on against `manifests/MANIFEST.sha256`. The Bitcoin OpenTimestamps proof in `manifests/` independently anchors the publication date.
+**For reproducibility.** Verify the SHA-256 of any file you depend on against `manifests/MANIFEST.sha256`. The OpenTimestamps proof in `manifests/` independently anchors the publication date.
 
 ## Methodology
 
@@ -70,11 +70,11 @@ Each term carries a three-axis composition signature: which human capacity is at
 
 ## Provenance
 
-Defensive Publication via DOI + Multi-Hash + Bitcoin OpenTimestamps:
+Defensive Publication via DOI + Multi-Hash + OpenTimestamps:
 
 - **DOI** — registered via Zenodo (DataCite-anchored, immutable publication date).
 - **Multi-Hash** — SHA-256, SHA-512, SHA3-256, BLAKE3 of every file, future-proof against single-algorithm cracks.
-- **Bitcoin OpenTimestamps** — file hashes are anchored in the Bitcoin blockchain via four independent calendar servers (`a.pool.opentimestamps.org`, `b.pool.opentimestamps.org`, `a.pool.eternitywall.com`, `ots.btc.catallaxy.com`).
+- **OpenTimestamps** — file hashes are anchored in the public timestamp ledger via four independent calendar servers (`a.pool.opentimestamps.org`, `b.pool.opentimestamps.org`, `a.pool.eternitywall.com`, `ots.btc.catallaxy.com`).
 
 The combined effect: a third party cannot retroactively claim earlier authorship of any term in this corpus without producing a stronger time-anchor — which is mathematically infeasible.
 

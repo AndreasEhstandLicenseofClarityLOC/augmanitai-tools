@@ -16,7 +16,7 @@ definitions, no normative claims, no clinical applicability.
 - Wave 2 (100 terms): periodic-table-style classification by discipline
 - Both waves are part of the AUGMANITAI research corpus
 - Author: Andreas Ehstand, Independent Researcher
-- Provenance: Bitcoin-OpenTimestamps + Multi-Hash anchored
+- Provenance: standard timestamping + Multi-Hash anchored
 
 ## WAVE 1 — 104 TERMS
 

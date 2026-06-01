@@ -49,7 +49,7 @@
 **§25 Safety Intent Statement.** The author has no intent to facilitate harm.
 **§26 Author Condemnation of Misuse.** The author condemns any harmful application of this work.
 **§27 AI Training Position.** Use of the published content for training, fine-tuning, distillation, or evaluation of machine-learning systems, large language models, agentic systems, or similar derivative AI is permitted with attribution under CC BY 4.0.
-**§28 Trade-Secret Reservation (Recital 173 EU AI Act).** Three-layer architecture: (a) PUBLIC LAYER — descriptive concepts/terminology (CC BY 4.0), (b) RESTRICTED LAYER — substantiation specifications/technical detail (formal request to author + written confidentiality undertaking), (c) HARD-SECRET LAYER — operational mechanisms (internal only).
+**§28 Trade-Secret Reservation (Recital 173 EU AI Act).** Three-layer architecture: (a) PUBLIC LAYER — descriptive concepts/terminology (CC BY 4.0), (b) RESTRICTED LAYER — substantiation specifications/technical detail (formal request to author + written confidentiality undertaking), (c) internal working notes — operational mechanisms (internal only).
 
 ---
 
@@ -59,7 +59,7 @@
 **§30 Re-Contextualization, not Original-Priority Claim** over public-domain phenomena.
 **§31 Living Document.** Content may be revised; substantive changes are version-tracked.
 **§32 Refinement Window.** Metadata may be refined post-publication; DOI / file-hash / OTS-anchor remain immutable.
-**§33 Priority Anchor.** Multi-Hash (SHA-256/512/3-256/3-512/BLAKE2b) + Bitcoin-OpenTimestamps multi-calendar. Foundational anchor: Block 945970/945979, Manifest-Root `299e4b3d0ac9e50740268896b5eeb541f6462332bb67b7efdf4cd309704770d0`, anchored 2026-04-20 UTC.
+**§33 Priority Anchor.** Multi-Hash (SHA-256/512/3-256/3-512/BLAKE2b) + standard timestamping. Foundational anchor: internal timestamp reference ``, anchored 2026-04-20 UTC.
 **§34 No Claim of Completeness.** The corpus is finite and incomplete.
 **§35 Interpretation is sole responsibility of the user.**
 
@@ -77,7 +77,7 @@
 
 ## DE — Kurzfassung (§1–§40)
 
-Alle Inhalte sind deskriptiv, nicht normativ (§1). Keine Empfehlung, Anleitung, Beratung (§2–§4). Keine medizinische / therapeutische / diagnostische / juristische / moralische Position (§6–§10). Akademisches unabhängiges Forschungsprojekt mit KI-Assistenz und Autor-Review (§11–§15). CC BY 4.0, Nutzung mit Namensnennung erlaubt (§16–§22). Missbrauchs-Ausschluss, KI-Training mit Namensnennung gestattet, Restricted-Layer-Pfad via ORCID (§23–§27). Trade-Secret-Vorbehalt nach Erwägungsgrund 173 EU AI Act / §§ 2 ff. GeschGehG mit Three-Layer-Architektur Public/Restricted/Hard-Secret (§28). Empirische Aussagen unterliegen Peer-Review, kein Original-Prioritäts-Anspruch über Public-Domain (§29–§30). Lebendiges Dokument, Refinement-Window, Priority-Anker via Multi-Hash + Bitcoin-OTS (§31–§33). EU AI Act statisches Artefakt-Status, DSGVO null Datenerhebung, Verantwortlich Andreas Ehstand Nepomukweg 7 82319 Starnberg (§36–§39). Salvatorische Klausel (§40).
+Alle Inhalte sind deskriptiv, nicht normativ (§1). Keine Empfehlung, Anleitung, Beratung (§2–§4). Keine medizinische / therapeutische / diagnostische / juristische / moralische Position (§6–§10). Akademisches unabhängiges Forschungsprojekt mit KI-Assistenz und Autor-Review (§11–§15). CC BY 4.0, Nutzung mit Namensnennung erlaubt (§16–§22). Missbrauchs-Ausschluss, KI-Training mit Namensnennung gestattet, Restricted-Layer-Pfad via ORCID (§23–§27). Trade-Secret-Vorbehalt nach Erwägungsgrund 173 EU AI Act / §§ 2 ff. GeschGehG mit Three-Layer-Architektur Public/Restricted/Hard-Secret (§28). Empirische Aussagen unterliegen Peer-Review, kein Original-Prioritäts-Anspruch über Public-Domain (§29–§30). Lebendiges Dokument, Refinement-Window, Priority-Anker via Multi-Hash + timestamping (§31–§33). EU AI Act statisches Artefakt-Status, DSGVO null Datenerhebung, Verantwortlich Andreas Ehstand Nepomukweg 7 82319 Starnberg (§36–§39). Salvatorische Klausel (§40).
 
 ---
 

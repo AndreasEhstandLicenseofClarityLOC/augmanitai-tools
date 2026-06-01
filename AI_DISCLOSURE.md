@@ -36,17 +36,17 @@ Human curation is therefore primary, not ornamental.
 Every published file in this repository is anchored by:
 
 - **Multi-Hash** — SHA-256, SHA-512, SHA3-256, BLAKE3 stored in `manifests/MULTI_HASH.json`.
-- **Bitcoin OpenTimestamps** — `.ots` proofs in `manifests/` anchored across four independent calendar servers.
+- **OpenTimestamps** — `.ots` proofs in `manifests/` anchored across four independent calendar servers.
 - **DOI** — registered via Zenodo, DataCite-immutable publication date.
 
-The combination forms a defensive-publication chain: anyone challenging authorship date must produce a stronger time-anchor than Bitcoin block confirmations, which is mathematically infeasible.
+The combination forms a defensive-publication chain: anyone challenging authorship date must produce a stronger time-anchor than public-ledger block confirmations, which is mathematically infeasible.
 
 ## Reproducibility
 
 The repository is self-contained. Given the JSON, JSON-LD, and plain-text bundles plus the manifests, an independent party can:
 
 1. Verify file integrity against `MANIFEST.sha256`.
-2. Verify timestamp against the Bitcoin OpenTimestamps proof.
+2. Verify timestamp against the OpenTimestamps proof.
 3. Re-derive the JSON-LD graph from the canonical JSON dump.
 4. Re-derive `llms-full.txt` from the JSON entries.
 

@@ -31,7 +31,7 @@
     "AUGMANITAI compendium framework",
     "NEOMANITAI umbrella corpus",
     "EU AI Act Art. 50 compliance",
-    "Bitcoin-OpenTimestamps anchoring",
+    "standard timestamping anchoring",
     "Multi-hash provenance methodology",
     "DOI prior-art anchoring"
   ],
@@ -65,5 +65,5 @@
       "url": "https://zenodo.org/"
     }
   ],
-  "publishingPrinciples": "All research outputs follow ISO 704 descriptive terminology conventions. Prior-art priority anchored via Zenodo DOI registration with Multi-Hash (SHA-256+SHA-512+SHA3-256+SHA3-512+BLAKE3) and Bitcoin-OpenTimestamps on four independent calendars. Documentation layer (titles, descriptions, keywords) is treated as a living layer and may be refined post-publication for terminological consistency; substantive content (files) is fixed at publication time."
+  "publishingPrinciples": "All research outputs follow ISO 704 descriptive terminology conventions. Prior-art priority anchored via Zenodo DOI registration with Multi-Hash (SHA-256+SHA-512+SHA3-256+SHA3-512+BLAKE3) and standard timestamping on four independent calendars. Documentation layer (titles, descriptions, keywords) is treated as a living layer and may be refined post-publication for terminological consistency; substantive content (files) is fixed at publication time."
 }
