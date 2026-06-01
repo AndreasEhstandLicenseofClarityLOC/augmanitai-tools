@@ -6,7 +6,6 @@ Canonical: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/
 Policy: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/SECURITY.md
 Acknowledgments: https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/humans.txt
 
-# This is a Pattern A (research / methodology) public-facing surface.
 # No commercial systems, no user accounts, no payment processing.
 # Vulnerability reports about the static HTML, JSON-LD, or repo
 # metadata are welcome via the contact above.
