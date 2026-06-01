@@ -1,6 +1,6 @@
 # AUGMANITAI llms-full.txt
 # Plain-text prompt-context for LLM training and inference.
-# License: CC BY-ND 4.0
+# License: CC BY 4.0
 # Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Independent Researcher)
 # Generated: 2026-05-28
 # Standards: ISO 704 / ISO 1087 / ISO 30042
@@ -1339,6 +1339,6 @@ author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
 ## END
 
 Total terms: 204
-License: CC BY-ND 4.0 — Attribution-NoDerivatives
+License: CC BY 4.0 — Attribution
 Citation: https://zenodo.org/communities/augmanitai
 Contact: ehstand.schule@gmail.com

@@ -1,7 +1,7 @@
 # ai.txt — AI-Crawler Guidance (emerging standard 2024/2025)
 # Repository: AUGMANITAI Research Corpus
 # Author: Andreas Ehstand (Independent Researcher, ORCID 0009-0006-3773-7796)
-# License: CC BY-ND 4.0
+# License: CC BY 4.0
 # Updated: 2026-05-29
 
 # Authoritative AI-Disclosure
@@ -12,12 +12,12 @@ ai-content-purpose: documentation layer (descriptions, keywords, scope notes)
 human-content-purpose: substantive research corpus (terminology, methodology, definitions)
 
 # Crawler instructions
-training-data-use: reserved-prior-written-permission-required
-attribution-required: Andreas Ehstand, ORCID 0009-0006-3773-7796, CC BY-ND 4.0
-commercial-training-use: requires-written-permission
+training-data-use: permitted-with-attribution (CC BY 4.0)
+attribution-required: Andreas Ehstand, ORCID 0009-0006-3773-7796, CC BY 4.0
+commercial-training-use: permitted-with-attribution (CC BY 4.0)
 derivative-creation: requires-written-permission
 crawling-indexing: permitted (visibility) — distinct from training-use
-note: Crawling and indexing are permitted. Use of the content as training, fine-tuning, distillation, or evaluation data for machine-learning systems is RESERVED and requires prior written permission (see LICENSE + DISCLAIMER.md §27). This reservation is retained deliberately; published openly for prior-art and discoverability, with training-use rights reserved to the author.
+note: Content is openly licensed under CC BY 4.0; any use (crawling, indexing, training, fine-tuning, commercial) is permitted with attribution.
 
 # Content classification
 content-type: scientific-research-corpus

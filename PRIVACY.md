@@ -1,8 +1,8 @@
 # Datenschutzerklärung / Privacy Policy
 
-> **Living Document** — refinable within the Refinement Window (Disclaimer V6 §31). Definitions stable under CC BY-ND 4.0. This file is part of one observer's research artefact; readers are invited to build their own.
+> **Living Document** — refinable within the Refinement Window (Disclaimer V6 §31). Definitions stable under CC BY 4.0. This file is part of one observer's research artefact; readers are invited to build their own.
 >
-> **Lebendiges Dokument** — verfeinerbar im Refinement-Window (Disclaimer V6 §31). Definitionen stabil unter CC BY-ND 4.0.
+> **Lebendiges Dokument** — verfeinerbar im Refinement-Window (Disclaimer V6 §31). Definitionen stabil unter CC BY 4.0.
 
 ---
 
@@ -107,7 +107,7 @@ https://www.lda.bayern.de
 
 ## License
 
-This privacy policy is published under [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) — same license as the rest of the publication.
+This privacy policy is published under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — same license as the rest of the publication.
 
 ---
 

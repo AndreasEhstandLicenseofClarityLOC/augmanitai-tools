@@ -54,7 +54,7 @@ No proprietary tooling is required.
 
 ## License
 
-This disclosure and the corpus are released under **CC BY-ND 4.0** — Creative Commons Attribution-NoDerivatives 4.0 International.
+This disclosure and the corpus are released under **CC BY 4.0** — Creative Commons Attribution 4.0 International.
 
 ---
 

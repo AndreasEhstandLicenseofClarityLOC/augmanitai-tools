@@ -8,7 +8,7 @@
   "name": "AUGMANITAI Compendium — Wave 1 (104 Terms)",
   "description": "A systematic terminology for human experiences in AI interaction. Wave 1 release: 104 terms from the AUGMANITAI Compendium V2.1. By Andreas Ehstand — Independent Researcher, Tennis & Padel Coach, Terminology Researcher. New words for new worlds. Stay human. ❤️🤖",
   "version": "2.1",
-  "license": "https://creativecommons.org/licenses/by-nd/4.0/",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
   "creator": {
     "@type": "Person",
     "name": "Andreas Ehstand",
@@ -25,7 +25,7 @@
       "https://www.wikidata.org/wiki/Q138634675",
       "https://github.com/AndreasEhstandLicenseofClarityLOC"
     ],
-    "description": "Independent researcher, tennis & padel coach, and independent researcher in applied terminology science. Creator of the AUGMANITAI Compendium (2,000+ named phenomena for human experiences in AI interaction). His path led from 25 years of professional sport coaching — including multiple years as a Bundesliga tennis coach — through software development into AI research, resulting in the an extensive terminology corpus for human-AI interaction. Background in academic pedagogy research with additional quantitative methods training. Holder of the Zertifikat Hochschullehre Bayern. GPTCA/ISMCA Mental Coach with endorsements from Toni Nadal, Tomas Smid, Alberto Castellani, Hernan Flores, Dominic Condrau (Paris 2024 Olympic finalist), and the head coach of the German national golf team. Inspired by ISO 704/1087/30042 principles. CC BY-ND 4.0. Stay human. ❤️🤖 From court to code to compendium. 🎾🤖❤️",
+    "description": "Independent researcher, tennis & padel coach, and independent researcher in applied terminology science. Creator of the AUGMANITAI Compendium (2,000+ named phenomena for human experiences in AI interaction). His path led from 25 years of professional sport coaching — including multiple years as a Bundesliga tennis coach — through software development into AI research, resulting in the an extensive terminology corpus for human-AI interaction. Background in academic pedagogy research with additional quantitative methods training. Holder of the Zertifikat Hochschullehre Bayern. GPTCA/ISMCA Mental Coach with endorsements from Toni Nadal, Tomas Smid, Alberto Castellani, Hernan Flores, Dominic Condrau (Paris 2024 Olympic finalist), and the head coach of the German national golf team. Inspired by ISO 704/1087/30042 principles. CC BY 4.0. Stay human. ❤️🤖 From court to code to compendium. 🎾🤖❤️",
     "identifier": [
       {
         "@type": "PropertyValue",

@@ -1,6 +1,6 @@
 # augmanitai-tools
 
-[![License: CC BY-ND 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/) [![ORCID](https://img.shields.io/badge/ORCID-0009--0006--3773--7796-A6CE39.svg)](https://orcid.org/0009-0006-3773-7796)
 
 Machine-readable terminology corpus (Wave 1) covering 104 curated terms at the intersection of human cognition, AI/robotics, and emerging applied fields — published as JSON-LD, plain-text, and llms-full bundles for direct LLM ingestion and downstream tooling.
 
@@ -32,7 +32,7 @@ This repository is the first wave of a depersonalised, machine-first terminology
 augmanitai-tools/
 ├── README.md                ← this file
 ├── AI_DISCLOSURE.md         ← EU AI Act Art. 50 disclosure
-├── LICENSE                  ← CC BY-ND 4.0
+├── LICENSE                  ← CC BY 4.0
 ├── api/
 │   └── terms.json           ← canonical JSON dump (104 entries)
 ├── jsonld/
@@ -80,7 +80,7 @@ The combined effect: a third party cannot retroactively claim earlier authorship
 
 ## License
 
-**CC BY-ND 4.0** — Creative Commons Attribution-NoDerivatives 4.0 International.
+**CC BY 4.0** — Creative Commons Attribution 4.0 International.
 
 You may share the corpus in unmodified form with attribution. Commercial use, derivative corpora, and re-derivation of terminologies require separate written permission.
 

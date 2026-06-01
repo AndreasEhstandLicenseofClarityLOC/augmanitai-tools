@@ -1,8 +1,8 @@
 # Impressum / Legal Notice
 
-> **Living Document** — refinable within the Refinement Window (Disclaimer V6 §31). Definitions stable under CC BY-ND 4.0. This file is part of one observer's research artefact; readers are invited to build their own.
+> **Living Document** — refinable within the Refinement Window (Disclaimer V6 §31). Definitions stable under CC BY 4.0. This file is part of one observer's research artefact; readers are invited to build their own.
 >
-> **Lebendiges Dokument** — verfeinerbar im Refinement-Window (Disclaimer V6 §31). Definitionen stabil unter CC BY-ND 4.0.
+> **Lebendiges Dokument** — verfeinerbar im Refinement-Window (Disclaimer V6 §31). Definitionen stabil unter CC BY 4.0.
 
 ---
 
@@ -53,9 +53,9 @@ Despite careful content review, no warranty is given for the correctness, comple
 
 ## Urheberrecht / Copyright
 
-Inhalte unter [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) — Bearbeitung untersagt, Weiterverbreitung mit Quellenangabe erlaubt.
+Inhalte unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — Bearbeitung untersagt, Weiterverbreitung mit Quellenangabe erlaubt.
 
-Content licensed under [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) — no derivatives, redistribution with attribution permitted.
+Content licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — no derivatives, redistribution with attribution permitted.
 
 ---
 

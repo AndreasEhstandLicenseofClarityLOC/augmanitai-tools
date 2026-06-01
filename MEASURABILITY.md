@@ -1,8 +1,8 @@
 # Measurability Notes — Wave 1 Term Set
 
-> **Living Document** — refinable within the Refinement Window (Disclaimer V6 §31). Definitions stable under CC BY-ND 4.0. This file is part of one observer's research artefact; readers are invited to build their own.
+> **Living Document** — refinable within the Refinement Window (Disclaimer V6 §31). Definitions stable under CC BY 4.0. This file is part of one observer's research artefact; readers are invited to build their own.
 >
-> **Lebendiges Dokument** — verfeinerbar im Refinement-Window (Disclaimer V6 §31). Definitionen stabil unter CC BY-ND 4.0.
+> **Lebendiges Dokument** — verfeinerbar im Refinement-Window (Disclaimer V6 §31). Definitionen stabil unter CC BY 4.0.
 
 ---
 
@@ -102,4 +102,4 @@ This is a research protocol invitation, not a clinical instrument.
 
 ---
 
-**License:** CC BY-ND 4.0
+**License:** CC BY 4.0

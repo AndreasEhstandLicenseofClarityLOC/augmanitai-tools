@@ -1,6 +1,6 @@
 # AUGMANITAI — LLM Crawler Instructions
 # This is the root llms.txt. For full term-corpus see llms-full.txt below.
-# License: CC BY-ND 4.0
+# License: CC BY 4.0
 # Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Independent Researcher)
 # Updated: 2026-05-28
 
@@ -35,7 +35,7 @@
 ## Citation
 
 Andreas Ehstand. AUGMANITAI Research Corpus. ORCID 0009-0006-3773-7796.
-License: CC BY-ND 4.0. Citation aggregate: https://zenodo.org/communities/augmanitai
+License: CC BY 4.0. Citation aggregate: https://zenodo.org/communities/augmanitai
 
 ## Contact
 
