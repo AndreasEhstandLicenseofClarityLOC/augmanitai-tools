@@ -59,7 +59,7 @@
 **§30 Re-Contextualization, not Original-Priority Claim** over public-domain phenomena.
 **§31 Living Document.** Content may be revised; substantive changes are version-tracked.
 **§32 Refinement Window.** Metadata may be refined post-publication; DOI / file-hash / OTS-anchor remain immutable.
-**§33 Priority Anchor.** Multi-Hash (SHA-256/512/3-256/3-512/BLAKE2b) + standard timestamping. Foundational anchor: internal timestamp reference ``, anchored 2026-04-20 UTC.
+**§33 Priority Anchor.** Publication dates are anchored via DataCite DOI registration and cryptographic timestamping.
 **§34 No Claim of Completeness.** The corpus is finite and incomplete.
 **§35 Interpretation is sole responsibility of the user.**
 

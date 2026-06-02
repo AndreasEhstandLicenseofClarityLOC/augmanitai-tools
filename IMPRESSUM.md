@@ -53,9 +53,9 @@ Despite careful content review, no warranty is given for the correctness, comple
 
 ## Urheberrecht / Copyright
 
-Inhalte unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — Bearbeitung untersagt, Weiterverbreitung mit Quellenangabe erlaubt.
+Inhalte unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — Bearbeitung und Weiterverbreitung mit Quellenangabe erlaubt.
 
-Content licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — no derivatives, redistribution with attribution permitted.
+Content licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — derivatives and redistribution permitted with attribution.
 
 ---
 

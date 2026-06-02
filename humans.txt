@@ -4,7 +4,7 @@ Role: Independent Researcher — Human-AI Interaction Terminology
 Contact: ehstand.schule [at] gmail [dot] com
 From: Bavaria, Germany
 ORCID: 0009-0006-3773-7796
-GitHub: AndreasEhstandLicenseOfClarityLOC
+GitHub: AndreasEhstandLicenseofClarityLOC
 
 /* THANKS */
 - Anyone who reads the disclaimer.
