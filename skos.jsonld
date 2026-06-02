@@ -424,7 +424,7 @@
       },
       "skos:notation": "AUG-1046",
       "skos:definition": {
-        "@value": "A corrective AI response that frames a needed change to the user's input or assumption in a light, humorous register, lowering the user's resistance to the correction. Distinguished from a plain correction by its humorous framing.",
+        "@value": "A corrective AI response that frames a needed change to the user's input or assumption in a light, humorous register; a pattern in which the user's reported acceptance of the correction is observed to be higher than for an equivalent plain correction. Distinguished from a plain correction by its humorous framing.",
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/",
@@ -542,7 +542,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0625",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Everyday Insight",
+        "@value": "Everyday Insight",
         "@language": "en"
       },
       "skos:notation": "AUG-0625",
@@ -567,6 +567,10 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0625.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Everyday Insight",
+        "@language": "en"
       }
     },
     {
@@ -1247,7 +1251,7 @@
       },
       "skos:notation": "AUG-1010",
       "skos:definition": {
-        "@value": "A regulating interaction mode in which the AI deliberately reduces pace, sentence rhythm, and complexity to lower the user's perceived tempo. Distinguished from distraction by being a deliberate slowing of the exchange rather than a topic shift.",
+        "@value": "A regulating interaction mode characterised by reduced pace, sentence rhythm, and complexity in the AI's turns; a pattern in which the user's reported perceived tempo of the exchange is observed to be lower. Distinguished from distraction by being a slowing of the exchange rather than a topic shift.",
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/",
@@ -1897,7 +1901,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0918",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Gesture Language",
+        "@value": "Gesture Language",
         "@language": "en"
       },
       "skos:notation": "AUG-0918",
@@ -1922,13 +1926,17 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0918.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Gesture Language",
+        "@language": "en"
       }
     },
     {
       "@id": "https://augmanitai.com/terms/AUG-0975",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Vigilance Rhythm",
+        "@value": "Vigilance Rhythm",
         "@language": "en"
       },
       "skos:notation": "AUG-0975",
@@ -1937,10 +1945,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/",
-      "skos:altLabel": {
-        "@value": "Der Aufmerksamkeits-Rhythmus",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Vigilance Rhythm",
+          "@language": "en"
+        },
+        {
+          "@value": "Der Aufmerksamkeits-Rhythmus",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
       },
@@ -2958,7 +2972,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0204",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Conversational Afterimage",
+        "@value": "Conversational Afterimage",
         "@language": "en"
       },
       "skos:notation": "AUG-0204",
@@ -2983,6 +2997,10 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0204.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Conversational Afterimage",
+        "@language": "en"
       }
     },
     {
@@ -3020,7 +3038,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0345",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Capability-Limit Encounter",
+        "@value": "Capability-Limit Encounter",
         "@language": "en"
       },
       "skos:notation": "AUG-0345",
@@ -3136,7 +3154,7 @@
       },
       "skos:notation": "AUG-1021",
       "skos:definition": {
-        "@value": "A small, friendly affirmation from the AI that gives the user a brief lift in energy or motivation without creating performance pressure or implying an obligation to perform.",
+        "@value": "A small, friendly affirmation from the AI that the user reports as a brief lift in energy or motivation, without creating performance pressure or implying an obligation to perform.",
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/",
@@ -3359,7 +3377,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0089",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Pattern Sharpening",
+        "@value": "Pattern Sharpening",
         "@language": "en"
       },
       "skos:notation": "AUG-0089",
@@ -3384,13 +3402,17 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0089.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Pattern Sharpening",
+        "@language": "en"
       }
     },
     {
       "@id": "https://augmanitai.com/terms/AUG-0422",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Calibrated Trust",
+        "@value": "Calibrated Trust",
         "@language": "en"
       },
       "skos:notation": "AUG-0422",
@@ -3399,10 +3421,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/",
-      "skos:altLabel": {
-        "@value": "Das Kalibrierte Vertrauen",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Calibrated Trust",
+          "@language": "en"
+        },
+        {
+          "@value": "Das Kalibrierte Vertrauen",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
       },
@@ -3425,7 +3453,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0614",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Synthetic Spotting",
+        "@value": "Synthetic Spotting",
         "@language": "en"
       },
       "skos:notation": "AUG-0614",
@@ -3450,13 +3478,17 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0614.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Synthetic Spotting",
+        "@language": "en"
       }
     },
     {
       "@id": "https://augmanitai.com/terms/AUG-0775",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The AI Abstention Zone",
+        "@value": "AI Abstention Zone",
         "@language": "en"
       },
       "skos:notation": "AUG-0775",
@@ -3491,7 +3523,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0260",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Narrative Divergence Prompt",
+        "@value": "Narrative Divergence Prompt",
         "@language": "en"
       },
       "skos:notation": "AUG-0260",
@@ -3526,7 +3558,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0370",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Animal-Care Query",
+        "@value": "Animal-Care Query",
         "@language": "en"
       },
       "skos:notation": "AUG-0370",
@@ -3561,7 +3593,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0430",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Workflow Reversion",
+        "@value": "Workflow Reversion",
         "@language": "en"
       },
       "skos:notation": "AUG-0430",
@@ -3596,7 +3628,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0534",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Novel-Perspective Surfacing",
+        "@value": "Novel-Perspective Surfacing",
         "@language": "en"
       },
       "skos:notation": "AUG-0534",
@@ -3631,7 +3663,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0639",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Duplicate Notice",
+        "@value": "Duplicate Notice",
         "@language": "en"
       },
       "skos:notation": "AUG-0639",
@@ -3656,13 +3688,17 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0639.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Duplicate Notice",
+        "@language": "en"
       }
     },
     {
       "@id": "https://augmanitai.com/terms/AUG-0675",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Role-Aware Input",
+        "@value": "Role-Aware Input",
         "@language": "en"
       },
       "skos:notation": "AUG-0675",
@@ -3687,13 +3723,17 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0675.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Role-Aware Input",
+        "@language": "en"
       }
     },
     {
       "@id": "https://augmanitai.com/terms/AUG-0711",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Accent Persistence",
+        "@value": "Accent Persistence",
         "@language": "en"
       },
       "skos:notation": "AUG-0711",
@@ -3718,13 +3758,17 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0711.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Accent Persistence",
+        "@language": "en"
       }
     },
     {
       "@id": "https://augmanitai.com/terms/AUG-0901",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Emergent Coordination",
+        "@value": "Emergent Coordination",
         "@language": "en"
       },
       "skos:notation": "AUG-0901",
@@ -3749,6 +3793,10 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0901.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Emergent Coordination",
+        "@language": "en"
       }
     },
     {
@@ -3786,7 +3834,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0005",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Integrated Operator",
+        "@value": "Integrated Operator",
         "@language": "en"
       },
       "skos:notation": "AUG-0005",
@@ -3811,6 +3859,10 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0005.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Integrated Operator",
+        "@language": "en"
       }
     },
     {
@@ -3852,7 +3904,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0047",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Post-Affirmation Advocacy",
+        "@value": "Post-Affirmation Advocacy",
         "@language": "en"
       },
       "skos:notation": "AUG-0047",
@@ -3918,7 +3970,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0999",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Forward Assessment",
+        "@value": "Forward Assessment",
         "@language": "en"
       },
       "skos:notation": "AUG-0999",
@@ -3943,13 +3995,17 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0999.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Forward Assessment",
+        "@language": "en"
       }
     },
     {
       "@id": "https://augmanitai.com/terms/AUG-0041",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Tangential-Output Serendipity",
+        "@value": "Tangential-Output Serendipity",
         "@language": "en"
       },
       "skos:notation": "AUG-0041",
@@ -3984,7 +4040,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0194",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Positive Surprise",
+        "@value": "Positive Surprise",
         "@language": "en"
       },
       "skos:notation": "AUG-0194",
@@ -4009,6 +4065,10 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0194.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Positive Surprise",
+        "@language": "en"
       }
     },
     {
@@ -4050,7 +4110,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0305",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Seasonal User",
+        "@value": "Seasonal User",
         "@language": "en"
       },
       "skos:notation": "AUG-0305",
@@ -4075,13 +4135,17 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0305.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Seasonal User",
+        "@language": "en"
       }
     },
     {
       "@id": "https://augmanitai.com/terms/AUG-0330",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Source Curiosity",
+        "@value": "Source Curiosity",
         "@language": "en"
       },
       "skos:notation": "AUG-0330",
@@ -4090,10 +4154,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/",
-      "skos:altLabel": {
-        "@value": "Die Quellen-Neugier",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Source Curiosity",
+          "@language": "en"
+        },
+        {
+          "@value": "Die Quellen-Neugier",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
       },
@@ -4116,7 +4186,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0435",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Meal-Planning Query",
+        "@value": "Meal-Planning Query",
         "@language": "en"
       },
       "skos:notation": "AUG-0435",
@@ -4151,7 +4221,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0520",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Inquiry Chain Cascade",
+        "@value": "Inquiry Chain Cascade",
         "@language": "en"
       },
       "skos:notation": "AUG-0520",
@@ -4186,7 +4256,7 @@
       "@id": "https://augmanitai.com/terms/AUG-0565",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Balance Filter",
+        "@value": "Balance Filter",
         "@language": "en"
       },
       "skos:notation": "AUG-0565",
@@ -4211,13 +4281,17 @@
       ],
       "rdfs:seeAlso": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/terms/AUG-0565.html"
+      },
+      "skos:altLabel": {
+        "@value": "The Balance Filter",
+        "@language": "en"
       }
     },
     {
       "@id": "https://augmanitai.com/terms/AUG-0981",
       "@type": "skos:Concept",
       "skos:prefLabel": {
-        "@value": "The Companion Pattern",
+        "@value": "Companion Pattern",
         "@language": "en"
       },
       "skos:notation": "AUG-0981",
@@ -4226,10 +4300,16 @@
         "@language": "en"
       },
       "skos:inScheme": "https://augmanitai.com/terms/",
-      "skos:altLabel": {
-        "@value": "Das Begleiter-Muster",
-        "@language": "de"
-      },
+      "skos:altLabel": [
+        {
+          "@value": "The Companion Pattern",
+          "@language": "en"
+        },
+        {
+          "@value": "Das Begleiter-Muster",
+          "@language": "de"
+        }
+      ],
       "skos:broader": {
         "@id": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/#topic-general-phenomenology"
       },

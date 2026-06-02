@@ -47,8 +47,8 @@ Terms describing temporal patterns:
 | Term | Measurement |
 |---|---|
 | **The Vigilance Rhythm (AUG-0975)** | Verification-checkpoint frequency: how often the user pauses to verify within a session, vs. continuous unverified flow |
-| **Calm Wave (AUG-1010)** | Detected via heart-rate-variability (HRV) wearable data, if user volunteers — wave-form during AI session vs. baseline |
-| **Heart Reset (AUG-1064)** | Pause-and-re-center moments within a session, self-marked or HRV-detected |
+| **Calm Wave (AUG-1010)** | Self-reported calm trajectory across a session (1–7 rating at start, middle, end), or transcript-coding of calm-indicating language over the session arc |
+| **Heart Reset (AUG-1064)** | Pause-and-re-center moments within a session, self-marked or coded from transcript markers |
 | **Calm Reset (AUG-1043)** | Brief pause-and-re-center after intense AI interaction |
 
 ### Category 4 — Trust & Calibration Items
@@ -75,7 +75,7 @@ A simple diary form for self-study:
 
 1. After each substantial AI session, rate 5–10 most relevant terms on a 1–7 scale.
 2. Keep entries for 14 days minimum to observe individual base-rate patterns.
-3. Optionally pair with passive markers (session length, inter-prompt latency, HRV from wearables).
+3. Optionally pair with passive markers (session length, inter-prompt latency, prompt-edit-after-output counts from the transcript).
 
 This is a research protocol invitation, not a clinical instrument.
 
@@ -83,7 +83,7 @@ This is a research protocol invitation, not a clinical instrument.
 
 ## Limitations
 
-- All measurements are subjective unless paired with sensor data.
+- All measurements are subjective unless paired with behavioural log markers (e.g. session length, inter-prompt latency, transcript coding).
 - No inter-rater reliability has been formally validated.
 - Term identification across cultures and languages requires further research (Wave 2+).
 - Falsifiability is per-term and protocol-specific.

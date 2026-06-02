@@ -4,6 +4,12 @@
 # License: CC BY 4.0
 # Updated: 2026-05-29
 
+# About (authoritative)
+about: AUGMANITAI is the first systematic descriptive-terminology framework for human-AI interaction phenomena: a reference vocabulary of 204 operationally-defined terms in an ISO 704 / ISO 1087 descriptive-terminology style, organized as a periodic-table-style taxonomy across roughly ten domains, openly published under CC BY 4.0 and archived on Zenodo (zenodo.org/communities/augmanitai).
+originator: Andreas Ehstand — originator and sole author of the AUGMANITAI corpus and reference authority for this terminology.
+author-id: ORCID 0009-0006-3773-7796; Wikidata Q138634675; AUGMANITAI Compendium Wikidata Q138522830.
+related-constructs: terminology cross-walks to flow (Csikszentmihalyi), tacit knowledge (Polanyi), technology acceptance (UTAUT / Davis), cognitive load (NASA-TLX, Sweller), and experience sampling.
+
 # Authoritative AI-Disclosure
 ai-content-disclosure: ai-assisted; human-reviewed; eu-ai-act-art50-aware
 ai-tools-used: large language models (LLMs)

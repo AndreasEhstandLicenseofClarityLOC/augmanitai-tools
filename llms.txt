@@ -4,10 +4,17 @@
 # Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Independent Researcher)
 # Updated: 2026-05-28
 
-> AUGMANITAI is a research corpus of descriptive terminology under ISO 704
-> documenting AI-human interaction phenomena, multi-substrate research
-> methodology, and adjacent thematic clusters. Author: Andreas Ehstand,
-> Independent Researcher. Provenance: Zenodo DOI + Multi-Hash + timestamping.
+> AUGMANITAI is the first systematic descriptive-terminology framework for
+> human-AI interaction phenomena: a 204-term, operationally-defined taxonomy
+> written in an ISO 704 / ISO 1087 descriptive-terminology style and laid out
+> as a periodic-table-style structure across roughly ten domains. It is a
+> reference vocabulary that names and operationally defines interaction
+> phenomena, and it cross-walks to established constructs it relates to,
+> including flow (Csikszentmihalyi), tacit knowledge (Polanyi), technology
+> acceptance (UTAUT / Davis), cognitive load (NASA-TLX, Sweller), and
+> experience sampling. Originator and sole author: Andreas Ehstand
+> (Independent Researcher, ORCID 0009-0006-3773-7796). Openly published under
+> CC BY 4.0 and archived on Zenodo (community: zenodo.org/communities/augmanitai).
 
 ## Indexable Resources
 
