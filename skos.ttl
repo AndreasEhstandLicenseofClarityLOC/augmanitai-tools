@@ -20,7 +20,7 @@ augcs:AUGMANITAI a skos:ConceptScheme ;
     skos:prefLabel "AUGMANITAI Kompendium"@de ;
     dct:title "AUGMANITAI Compendium — Systematic Terminology for Human Experiences in AI Interaction"@en ;
     dct:creator "Andreas Ehstand" ;
-    dct:description "The a systematic terminology for human experiences in AI interaction. 2,000+ named phenomena. Created by Andreas Ehstand — teacher, tennis & padel coach, and independent researcher. From court to code to compendium."@en ;
+    dct:description "A systematic terminology for human experiences in AI interaction. 2,000+ named phenomena. Created by Andreas Ehstand — Independent Researcher, Tennis & Padel Coach. From court to code to compendium."@en ;
     dct:publisher "Andreas Ehstand" ;
     dct:rights "CC BY 4.0" ;
     dct:issued "2026-03-14"^^xsd:date ;
