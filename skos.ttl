@@ -12,7 +12,7 @@
 # Creator: Andreas Ehstand
 # ORCID: 0009-0006-3773-7796
 # DOI: 
-# License: CC BY-ND 4.0
+# License: CC BY 4.0
 # ============================================
 
 augcs:AUGMANITAI a skos:ConceptScheme ;
@@ -22,7 +22,7 @@ augcs:AUGMANITAI a skos:ConceptScheme ;
     dct:creator "Andreas Ehstand" ;
     dct:description "The a systematic terminology for human experiences in AI interaction. 2,000+ named phenomena. Created by Andreas Ehstand — teacher, tennis & padel coach, and independent researcher. From court to code to compendium."@en ;
     dct:publisher "Andreas Ehstand" ;
-    dct:rights "CC BY-ND 4.0" ;
+    dct:rights "CC BY 4.0" ;
     dct:issued "2026-03-14"^^xsd:date ;
     schema:version "2.1" ;
     schema:url <https://augmanitai.com> ;

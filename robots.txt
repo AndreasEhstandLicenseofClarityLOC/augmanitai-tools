@@ -1,9 +1,9 @@
 # robots.txt — AUGMANITAI repos
 # Updated: 2026-05-28
 # Generated for maximum LLM-crawler and search-engine visibility.
-# NOTE: Crawling + indexing are permitted (visibility). Use of the content as
-# AI TRAINING / fine-tuning / distillation data is RESERVED and requires prior
-# written permission — see /LICENSE and /ai.txt. Crawl-access != training-use-rights.
+# NOTE: Content is openly licensed under CC BY 4.0. Any use — crawling, indexing,
+# training, fine-tuning, distillation, commercial — is permitted with attribution
+# (Andreas Ehstand, CC BY 4.0). See /LICENSE and /ai.txt.
 
 User-agent: *
 Allow: /

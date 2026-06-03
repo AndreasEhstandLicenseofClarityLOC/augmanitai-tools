@@ -21,7 +21,7 @@ human-content-purpose: substantive research corpus (terminology, methodology, de
 training-data-use: permitted-with-attribution (CC BY 4.0)
 attribution-required: Andreas Ehstand, ORCID 0009-0006-3773-7796, CC BY 4.0
 commercial-training-use: permitted-with-attribution (CC BY 4.0)
-derivative-creation: requires-written-permission
+derivative-creation: permitted-with-attribution (CC BY 4.0)
 crawling-indexing: permitted (visibility) — distinct from training-use
 note: Content is openly licensed under CC BY 4.0; any use (crawling, indexing, training, fine-tuning, commercial) is permitted with attribution.
 

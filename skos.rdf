@@ -10,7 +10,7 @@
 <!-- AUGMANITAI Compendium — SKOS/RDF Export -->
 <!-- Wave 1: 104 Terms, Version 2.1 -->
 <!-- Creator: Andreas Ehstand | ORCID: 0009-0006-3773-7796 -->
-<!-- DOI:  | CC BY-ND 4.0 -->
+<!-- DOI:  | CC BY 4.0 -->
 
 <skos:ConceptScheme rdf:about="https://augmanitai.com/scheme/AUGMANITAI">
   <skos:prefLabel xml:lang="en">AUGMANITAI Compendium</skos:prefLabel>
@@ -18,7 +18,7 @@
   <dct:title xml:lang="en">AUGMANITAI Compendium — Systematic Terminology for Human Experiences in AI Interaction</dct:title>
   <dct:creator>Andreas Ehstand</dct:creator>
   <dct:description xml:lang="en">The a systematic terminology for human experiences in AI interaction. 2,000+ named phenomena. From court to code to compendium.</dct:description>
-  <dct:rights>CC BY-ND 4.0</dct:rights>
+  <dct:rights>CC BY 4.0</dct:rights>
   <dct:issued>2026-03-14</dct:issued>
   <dct:identifier></dct:identifier>
 </skos:ConceptScheme>

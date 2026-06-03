@@ -33,7 +33,7 @@ Andreas Ehstand (Anschrift wie oben).
 
 Die systematische Anordnung der Terminologie-Sammlung, der Concept-Schemata, der Element-Klassifikationen und der Cross-Reference-Architektur genießt zusätzlich Schutz als Datenbankwerk gemäß §§ 87a ff. UrhG. Der Datenbankhersteller ist Andreas Ehstand. Vervielfältigung oder Nutzung wesentlicher Teile bedarf der schriftlichen Zustimmung.
 
-The systematic arrangement of the terminology collection, concept schemes, element classifications, and cross-reference architecture is additionally protected as a database work under §§ 87a ff. UrhG (German Copyright Act). The database maker is Andreas Ehstand. Reproduction or use of substantial parts requires written permission.
+The systematic arrangement of the terminology collection, concept schemes, element classifications, and cross-reference architecture is additionally protected as a database work under §§ 87a ff. UrhG (German Copyright Act). The database maker is Andreas Ehstand. This database is licensed under CC BY 4.0 — reproduction and reuse of substantial parts are permitted with attribution.
 
 ---
 
