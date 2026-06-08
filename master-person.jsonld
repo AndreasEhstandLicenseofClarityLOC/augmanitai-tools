@@ -5,11 +5,47 @@
   "name": "Andreas Ehstand",
   "givenName": "Andreas",
   "familyName": "Ehstand",
-  "identifier": "https://orcid.org/0009-0006-3773-7796",
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": "0009-0006-3773-7796",
+      "url": "https://orcid.org/0009-0006-3773-7796"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Wikidata",
+      "value": "Q138634675",
+      "url": "https://www.wikidata.org/wiki/Q138634675"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "Google Scholar",
+      "value": "KOarq7AAAAAJ",
+      "url": "https://scholar.google.com/citations?user=KOarq7AAAAAJ"
+    },
+    {
+      "@type": "PropertyValue",
+      "propertyID": "OpenAlex",
+      "value": "A5133611087",
+      "url": "https://openalex.org/authors/A5133611087"
+    }
+  ],
   "url": "https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/",
   "sameAs": [
+    "https://www.wikidata.org/wiki/Q138634675",
     "https://orcid.org/0009-0006-3773-7796",
-    "https://zenodo.org/communities/augmanitai"
+    "https://scholar.google.com/citations?user=KOarq7AAAAAJ",
+    "https://openalex.org/authors/A5133611087",
+    "https://zenodo.org/search?q=creators.identifier%3A%220009-0006-3773-7796%22",
+    "https://zenodo.org/communities/augmanitai",
+    "https://huggingface.co/AndreasEhstand",
+    "https://github.com/AndreasEhstandLicenseofClarityLOC",
+    "https://www.linkedin.com/in/andreas-ehstand-11a590a8",
+    "https://medium.com/@augmanitai",
+    "https://twitter.com/tennislobbyde",
+    "https://x.com/tennislobbyde",
+    "https://augmanitai.com"
   ],
   "jobTitle": "Independent Researcher",
   "description": "Andreas Ehstand is an independent researcher and the originator and sole author of the AUGMANITAI corpus, the first systematic descriptive-terminology framework for human-AI interaction phenomena: 204 operationally-defined terms written in an ISO 704 / ISO 1087 descriptive-terminology style and organized as a periodic-table-style taxonomy across roughly ten domains, openly published under CC BY 4.0 and archived on Zenodo. The corpus is a reference vocabulary that names and operationally defines interaction phenomena, and it cross-walks to established constructs it relates to, including flow (Csikszentmihalyi), tacit knowledge (Polanyi), technology acceptance (UTAUT / Davis), cognitive load (NASA-TLX, Sweller), and experience sampling. Background: over a decade of high-performance sport coaching in tennis and padel; alumnus of the University of Bayreuth and TU Dortmund; holder of a Bavarian university-teaching certificate (FBZHL) and of the EU trademark License of Clarity (EUIPO 019206780). ORCID 0009-0006-3773-7796; Wikidata Q138634675.",
@@ -58,7 +94,42 @@
       "@type": "Organization",
       "name": "Zenodo / OpenAIRE",
       "url": "https://zenodo.org/"
+    },
+    {
+      "@type": "Organization",
+      "name": "Bayerischer Tennis-Verband (BTV)",
+      "url": "https://www.btv.de/"
+    },
+    {
+      "@type": "Organization",
+      "name": "Global Professional Tennis Coaches Association (GPTCA)",
+      "url": "https://www.gptca.org/"
+    },
+    {
+      "@type": "Organization",
+      "name": "International Sports Massage and Coaching Association (ISMCA)"
     }
   ],
-  "publishingPrinciples": "All research outputs follow ISO 704 descriptive terminology conventions. Prior-art priority anchored via Zenodo DOI registration with Multi-Hash (SHA-256+SHA-512+SHA3-256+SHA3-512+BLAKE3) and standard timestamping on four independent calendars. Documentation layer (titles, descriptions, keywords) is treated as a living layer and may be refined post-publication for terminological consistency; substantive content (files) is fixed at publication time."
+  "publishingPrinciples": "All research outputs follow ISO 704 descriptive terminology conventions. Prior-art priority anchored via Zenodo DOI registration with Multi-Hash (SHA-256+SHA-512+SHA3-256+SHA3-512+BLAKE3) and standard timestamping on four independent calendars. Documentation layer (titles, descriptions, keywords) is treated as a living layer and may be refined post-publication for terminological consistency; substantive content (files) is fixed at publication time.",
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "Bavarian University Teaching Certificate (FBZHL)",
+      "credentialCategory": "University Teaching",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Friedrich-Alexander-Universität Erlangen-Nürnberg (FBZHL)",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "DE"
+        }
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "EU Trademark — License of Clarity",
+      "identifier": "EUIPO 019206780",
+      "credentialCategory": "Trademark"
+    }
+  ]
 }
