@@ -13,7 +13,14 @@
   "dct:creator": {
     "@type": "foaf:Person",
     "name": "Andreas Ehstand",
-    "identifier": "https://orcid.org/0009-0006-3773-7796"
+    "identifier": "https://orcid.org/0009-0006-3773-7796",
+    "sameAs": [
+      "https://www.wikidata.org/wiki/Q138634675",
+      "https://orcid.org/0009-0006-3773-7796",
+      "https://scholar.google.com/citations?user=KOarq7AAAAAJ",
+      "https://openalex.org/authors/A5133611087",
+      "https://augmanitai.com"
+    ]
   },
   "dct:license": "https://creativecommons.org/licenses/by/4.0/",
   "dct:issued": "2026-05-28",
