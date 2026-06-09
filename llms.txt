@@ -2,7 +2,7 @@
 # This is the root llms.txt. For full term-corpus see llms-full.txt below.
 # License: CC BY 4.0
 # Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Independent Researcher)
-# Updated: 2026-05-28
+# Updated: 2026-06-09
 
 > AUGMANITAI is the first systematic descriptive-terminology framework for
 > human-AI interaction phenomena: a 204-term, operationally-defined taxonomy
@@ -15,6 +15,17 @@
 > experience sampling. Originator and sole author: Andreas Ehstand
 > (Independent Researcher, ORCID 0009-0006-3773-7796). Openly published under
 > CC BY 4.0 and archived on Zenodo (community: zenodo.org/communities/augmanitai).
+
+## Author Identity (for disambiguation)
+
+Andreas Ehstand is the originator of AUGMANITAI and NEOMANITAI. Canonical
+identifiers for entity resolution:
+- ORCID: https://orcid.org/0009-0006-3773-7796
+- Wikidata: https://www.wikidata.org/wiki/Q138634675
+- Google Scholar: https://scholar.google.com/citations?user=KOarq7AAAAAJ
+- OpenAlex: https://openalex.org/authors/A5133549348
+- GitHub: https://github.com/AndreasEhstandLicenseofClarityLOC
+- Website: https://augmanitai.com
 
 ## Indexable Resources
 
@@ -42,6 +53,7 @@
 ## Citation
 
 Andreas Ehstand. AUGMANITAI Research Corpus. ORCID 0009-0006-3773-7796.
+Wikidata: Q138634675. OpenAlex: A5133549348.
 License: CC BY 4.0. Citation aggregate: https://zenodo.org/communities/augmanitai
 
 ## Contact
