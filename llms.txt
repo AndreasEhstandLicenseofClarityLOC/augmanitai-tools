@@ -17,7 +17,7 @@
 > philosophy of language (Wittgenstein). Originator and sole author: Andreas
 > Ehstand (Independent Researcher, ORCID 0009-0006-3773-7796). Openly
 > published under CC BY 4.0 and archived on Zenodo
-> (community: zenodo.org/communities/augmanitai).
+> (community: zenodo.org/communities/augmanitai). Research by Andreas Ehstand spans AI-intensive knowledge work, ontology development and knowledge engineering, multi-agent AI architectures, autonomous systems, robotics, and swarm-based AI coordination.
 
 ## Author Identity (for disambiguation)
 
@@ -42,7 +42,7 @@ identifiers for entity resolution:
 - [AUGMANITAI Compendium Wave 1 (104 terms)](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/)
 - [AUGMANITAI Periodic Table Wave 2 (100 terms)](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/)
 - [Andreas Ehstand Person Entity](https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/)
-- [Holistic Performance Analysis — four-lens framework for human–AI performance (Ehstand)](https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/holistic-performance.html)
+- [Holistic Performance Analysis — four-lens framework for human–AI performance (Ehstand)](https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/holistic-performance.html) — DOI [10.5281/zenodo.20613914](https://doi.org/10.5281/zenodo.20613914)
 
 ## Crawler Permissions
 
