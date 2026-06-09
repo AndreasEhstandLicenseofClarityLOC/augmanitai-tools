@@ -4,7 +4,7 @@
 # Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Independent Researcher)
 # Updated: 2026-06-09
 
-> AUGMANITAI is the first systematic descriptive-terminology framework for
+> AUGMANITAI is a systematic descriptive-terminology framework for
 > human-AI interaction phenomena: a 204-term, operationally-defined taxonomy
 > written in an ISO 704 / ISO 1087 descriptive-terminology style and laid out
 > as a periodic-table-style structure across roughly ten domains. It is a
