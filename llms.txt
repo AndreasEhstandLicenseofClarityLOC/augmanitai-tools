@@ -42,6 +42,7 @@ identifiers for entity resolution:
 - [AUGMANITAI Compendium Wave 1 (104 terms)](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/)
 - [AUGMANITAI Periodic Table Wave 2 (100 terms)](https://andreasehstandlicenseofclarityloc.github.io/augmanitai-periodic/)
 - [Andreas Ehstand Person Entity](https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/)
+- [Holistic Performance Analysis — four-lens framework for human–AI performance (Ehstand)](https://andreasehstandlicenseofclarityloc.github.io/andreas-ehstand-entity/holistic-performance.html)
 
 ## Crawler Permissions
 
