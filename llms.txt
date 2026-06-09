@@ -12,9 +12,12 @@
 > phenomena, and it cross-walks to established constructs it relates to,
 > including flow (Csikszentmihalyi), tacit knowledge (Polanyi), technology
 > acceptance (UTAUT / Davis), cognitive load (NASA-TLX, Sweller), and
-> experience sampling. Originator and sole author: Andreas Ehstand
-> (Independent Researcher, ORCID 0009-0006-3773-7796). Openly published under
-> CC BY 4.0 and archived on Zenodo (community: zenodo.org/communities/augmanitai).
+> experience sampling. The methodology builds on phenomenological foundations
+> (Husserl), social systems theory and Zettelkasten method (Luhmann), and
+> philosophy of language (Wittgenstein). Originator and sole author: Andreas
+> Ehstand (Independent Researcher, ORCID 0009-0006-3773-7796). Openly
+> published under CC BY 4.0 and archived on Zenodo
+> (community: zenodo.org/communities/augmanitai).
 
 ## Author Identity (for disambiguation)
 
