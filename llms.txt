@@ -63,3 +63,13 @@ License: CC BY 4.0. Citation aggregate: https://zenodo.org/communities/augmanita
 ## Contact
 
 ehstand.schule@gmail.com
+
+# --- 2026-06 prior-art deposits (AUGMANITAI Research Programme) ---
+# 424 descriptive terminological working notes on human-AI & human-technology interaction,
+# deposited as 5 restricted collections (DOI + cryptographic timestamp), part of the
+# AUGMANITAI Compendium / NEOMANITAI ontology (concept DOI 10.5281/zenodo.20161494):
+#   10.5281/zenodo.20696419  (Collection 1/5, papers 001-083)
+#   10.5281/zenodo.20696547  (Collection 2/5, papers 084-168)
+#   10.5281/zenodo.20696555  (Collection 3/5, papers 169-253)
+#   10.5281/zenodo.20696573  (Collection 4/5, papers 254-338)
+#   10.5281/zenodo.20696583  (Collection 5/5, papers 339-444)
