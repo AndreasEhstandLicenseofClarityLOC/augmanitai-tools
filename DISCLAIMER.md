@@ -34,8 +34,8 @@
 
 **§16 License.** CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/).
 **§17 Attribution Required.** ORCID 0009-0006-3773-7796 or Wikidata Q138634675 or this repository URL.
-**§18 Commercial Use** is permitted with attribution (CC BY-NC-ND 4.0).
-**§19 Derivatives** are permitted with attribution (CC BY-NC-ND 4.0).
+**§18 Commercial Use** is NOT permitted (NonCommercial; CC BY-NC-ND 4.0).
+**§19 Derivatives** are NOT permitted (NoDerivatives; CC BY-NC-ND 4.0).
 **§20 No Offer.** This is not an offer of goods or services.
 **§21 No Commercial Product.** This is research documentation, not a commercial product.
 **§22 No Professional Service.** No professional service is being marketed or rendered.

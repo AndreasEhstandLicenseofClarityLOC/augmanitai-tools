@@ -14,7 +14,7 @@ The full legal text is in the [`LICENSE`](LICENSE) file.
 ## Under one condition
 - **Attribution** — you must give appropriate credit, provide a link to the license, and indicate if changes were made.
 
-Any use (crawling, indexing, training, fine-tuning, commercial) is permitted with attribution.
+Any use (crawling, indexing, training, fine-tuning, commercial use) requires prior written permission.
 
 ## Required attribution
 > Andreas Ehstand — ORCID [0009-0006-3773-7796](https://orcid.org/0009-0006-3773-7796) — Wikidata [Q138634675](https://www.wikidata.org/wiki/Q138634675) — https://github.com/AndreasEhstandLicenseofClarityLOC/augmanitai-tools

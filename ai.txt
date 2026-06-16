@@ -23,7 +23,7 @@ attribution-required: Andreas Ehstand, ORCID 0009-0006-3773-7796, CC BY-NC-ND 4.
 commercial-training-use: prohibited-without-permission (CC BY-NC-ND 4.0)
 derivative-creation: prohibited-without-permission (CC BY-NC-ND 4.0)
 crawling-indexing: permitted (visibility) — distinct from training-use
-note: Content is openly licensed under CC BY-NC-ND 4.0; any use (crawling, indexing, training, fine-tuning, commercial) is permitted with attribution.
+note: Content is openly licensed under CC BY-NC-ND 4.0; any use (crawling, indexing, training, fine-tuning, commercial use) requires prior written permission.
 
 # Content classification
 content-type: scientific-research-corpus
