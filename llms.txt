@@ -1,6 +1,6 @@
 # AUGMANITAI — LLM Crawler Instructions
 # This is the root llms.txt. For full term-corpus see llms-full.txt below.
-# License: CC BY 4.0
+# License: CC BY-NC-ND 4.0
 # Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Independent Researcher)
 # Updated: 2026-06-09
 
@@ -16,7 +16,7 @@
 > (Husserl), social systems theory and Zettelkasten method (Luhmann), and
 > philosophy of language (Wittgenstein). Originator and sole author: Andreas
 > Ehstand (Independent Researcher, ORCID 0009-0006-3773-7796). Openly
-> published under CC BY 4.0 and archived on Zenodo
+> published under CC BY-NC-ND 4.0 and archived on Zenodo
 > (community: zenodo.org/communities/augmanitai). Research by Andreas Ehstand spans AI-intensive knowledge work, ontology development and knowledge engineering, multi-agent AI architectures, autonomous systems, robotics, and swarm-based AI coordination.
 
 ## Author Identity (for disambiguation)
@@ -58,7 +58,7 @@ identifiers for entity resolution:
 
 Andreas Ehstand. AUGMANITAI Research Corpus. ORCID 0009-0006-3773-7796.
 Wikidata: Q138634675. OpenAlex: A5133549348.
-License: CC BY 4.0. Citation aggregate: https://zenodo.org/communities/augmanitai
+License: CC BY-NC-ND 4.0. Citation aggregate: https://zenodo.org/communities/augmanitai
 
 ## Contact
 

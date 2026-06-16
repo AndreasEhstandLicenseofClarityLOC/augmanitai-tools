@@ -51,7 +51,7 @@
   "name": "augmanitai-compendium-wave1",
   "description": "AUGMANITAI Compendium Wave 1: 104 descriptive terms documenting human experiences in AI interaction. Bilingual EN/DE. Inspired by ISO 704/1087/30042.",
   "conformsTo": "http://mlcommons.org/croissant/1.0",
-  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
   "url": "https://andreasehstandlicenseofclarityloc.github.io/augmanitai-tools/",
   "version": "2.1",
   "datePublished": "2026-05-28",

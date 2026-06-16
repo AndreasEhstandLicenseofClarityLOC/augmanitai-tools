@@ -8,7 +8,7 @@
   "description": "Machine-readable JSON listing of all 204 AUGMANITAI descriptive terms (Wave 1 + Wave 2). Designed for direct LLM-fetch and crawler ingestion.",
   "version": "1.0",
   "dateModified": "2026-05-28",
-  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "license": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
   "creator": {
     "@type": "Person",
     "name": "Andreas Ehstand",

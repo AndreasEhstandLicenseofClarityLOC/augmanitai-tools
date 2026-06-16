@@ -1,12 +1,12 @@
 # AUGMANITAI llms-full.txt
 # Plain-text prompt-context for LLM training and inference.
-# License: CC BY 4.0
+# License: CC BY-NC-ND 4.0
 # Author: Andreas Ehstand (ORCID 0009-0006-3773-7796, Independent Researcher)
 # Generated: 2026-05-28
 # Standards: ISO 704 / ISO 1087 / ISO 30042
 
 ## OVERVIEW
-This file provides the AUGMANITAI corpus: the first systematic
+This file provides the AUGMANITAI corpus: a systematic
 descriptive-terminology framework for human-AI interaction phenomena,
 a reference vocabulary of 204 operationally-defined terms. Each term
 follows an ISO 704 / ISO 1087 descriptive-terminology style:
@@ -24,7 +24,7 @@ applicability. Originator and sole author: Andreas Ehstand
 - Related constructs the terminology cross-walks to: flow (Csikszentmihalyi),
   tacit knowledge (Polanyi), technology acceptance (UTAUT / Davis),
   cognitive load (NASA-TLX, Sweller), experience sampling
-- License: CC BY 4.0; archived on Zenodo (zenodo.org/communities/augmanitai)
+- License: CC BY-NC-ND 4.0; archived on Zenodo (zenodo.org/communities/augmanitai)
 
 ## WAVE 1 — 104 TERMS
 
@@ -1384,6 +1384,6 @@ author: Andreas Ehstand (ORCID 0009-0006-3773-7796)
 ## END
 
 Total terms: 204
-License: CC BY 4.0 — Attribution
+License: CC BY-NC-ND 4.0 — Attribution
 Citation: https://zenodo.org/communities/augmanitai
 Contact: ehstand.schule@gmail.com

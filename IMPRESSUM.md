@@ -1,8 +1,8 @@
 # Impressum / Legal Notice
 
-> **Living Document** — refinable within the Refinement Window (Disclaimer V6 §31). Definitions stable under CC BY 4.0. This file is part of one observer's research artefact; readers are invited to build their own.
+> **Living Document** — refinable within the Refinement Window (Disclaimer V6 §31). Definitions stable under CC BY-NC-ND 4.0. This file is part of one observer's research artefact; readers are invited to build their own.
 >
-> **Lebendiges Dokument** — verfeinerbar im Refinement-Window (Disclaimer V6 §31). Definitionen stabil unter CC BY 4.0.
+> **Lebendiges Dokument** — verfeinerbar im Refinement-Window (Disclaimer V6 §31). Definitionen stabil unter CC BY-NC-ND 4.0.
 
 ---
 
@@ -33,7 +33,7 @@ Andreas Ehstand (Anschrift wie oben).
 
 Die systematische Anordnung der Terminologie-Sammlung, der Concept-Schemata, der Element-Klassifikationen und der Cross-Reference-Architektur genießt zusätzlich Schutz als Datenbankwerk gemäß §§ 87a ff. UrhG. Der Datenbankhersteller ist Andreas Ehstand. Vervielfältigung oder Nutzung wesentlicher Teile bedarf der schriftlichen Zustimmung.
 
-The systematic arrangement of the terminology collection, concept schemes, element classifications, and cross-reference architecture is additionally protected as a database work under §§ 87a ff. UrhG (German Copyright Act). The database maker is Andreas Ehstand. This database is licensed under CC BY 4.0 — reproduction and reuse of substantial parts are permitted with attribution.
+The systematic arrangement of the terminology collection, concept schemes, element classifications, and cross-reference architecture is additionally protected as a database work under §§ 87a ff. UrhG (German Copyright Act). The database maker is Andreas Ehstand. This database is licensed under CC BY-NC-ND 4.0 — reproduction and reuse of substantial parts are permitted with attribution.
 
 ---
 
@@ -53,9 +53,9 @@ Despite careful content review, no warranty is given for the correctness, comple
 
 ## Urheberrecht / Copyright
 
-Inhalte unter [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — Bearbeitung und Weiterverbreitung mit Quellenangabe erlaubt.
+Inhalte unter [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) — Bearbeitung und Weiterverbreitung mit Quellenangabe erlaubt.
 
-Content licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) — derivatives and redistribution permitted with attribution.
+Content licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) — derivatives and redistribution permitted with attribution.
 
 ---
 

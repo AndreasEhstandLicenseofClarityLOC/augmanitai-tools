@@ -1,11 +1,11 @@
 # NOTICE — Attribution & License Summary
 
 This repository (the **AUGMANITAI Corpus — Wave 1**) is licensed under the
-**Creative Commons Attribution 4.0 International License (CC BY 4.0)**.
+**Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License (CC BY-NC-ND 4.0)**.
 The full legal text is in the [`LICENSE`](LICENSE) file.
 
-- SPDX-License-Identifier: `CC-BY-4.0`
-- Full legal code: https://creativecommons.org/licenses/by/4.0/legalcode
+- SPDX-License-Identifier: `CC-BY-NC-ND-4.0`
+- Full legal code: https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode
 
 ## You are free to
 - **Share** — copy and redistribute the material in any medium or format

@@ -32,10 +32,10 @@
 
 ## License / IP / Commercial Position (§16–§22)
 
-**§16 License.** CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/).
+**§16 License.** CC BY-NC-ND 4.0 (https://creativecommons.org/licenses/by-nc-nd/4.0/).
 **§17 Attribution Required.** ORCID 0009-0006-3773-7796 or Wikidata Q138634675 or this repository URL.
-**§18 Commercial Use** is permitted with attribution (CC BY 4.0).
-**§19 Derivatives** are permitted with attribution (CC BY 4.0).
+**§18 Commercial Use** is permitted with attribution (CC BY-NC-ND 4.0).
+**§19 Derivatives** are permitted with attribution (CC BY-NC-ND 4.0).
 **§20 No Offer.** This is not an offer of goods or services.
 **§21 No Commercial Product.** This is research documentation, not a commercial product.
 **§22 No Professional Service.** No professional service is being marketed or rendered.
@@ -48,8 +48,8 @@
 **§24 Misuse Exclusion.** Any misuse is expressly excluded from intended use.
 **§25 Safety Intent Statement.** The author has no intent to facilitate harm.
 **§26 Author Condemnation of Misuse.** The author condemns any harmful application of this work.
-**§27 AI Training Position.** Use of the published content for training, fine-tuning, distillation, or evaluation of machine-learning systems, large language models, agentic systems, or similar derivative AI is permitted with attribution under CC BY 4.0.
-**§28 Trade-Secret Reservation (Recital 173 EU AI Act).** Three-layer architecture: (a) PUBLIC LAYER — descriptive concepts/terminology (CC BY 4.0), (b) RESTRICTED LAYER — substantiation specifications/technical detail (formal request to author + written confidentiality undertaking), (c) internal working notes — operational mechanisms (internal only).
+**§27 AI Training Position.** Use of the published content for training, fine-tuning, distillation, or evaluation of machine-learning systems, large language models, agentic systems, or similar derivative AI requires prior written permission under CC BY-NC-ND 4.0.
+**§28 Trade-Secret Reservation (Recital 173 EU AI Act).** Three-layer architecture: (a) PUBLIC LAYER — descriptive concepts/terminology (CC BY-NC-ND 4.0), (b) RESTRICTED LAYER — substantiation specifications/technical detail (formal request to author + written confidentiality undertaking), (c) internal working notes — operational mechanisms (internal only).
 
 ---
 
@@ -77,7 +77,7 @@
 
 ## DE — Kurzfassung (§1–§40)
 
-Alle Inhalte sind deskriptiv, nicht normativ (§1). Keine Empfehlung, Anleitung, Beratung (§2–§4). Keine medizinische / therapeutische / diagnostische / juristische / moralische Position (§6–§10). Akademisches unabhängiges Forschungsprojekt mit KI-Assistenz und Autor-Review (§11–§15). CC BY 4.0, Nutzung mit Namensnennung erlaubt (§16–§22). Missbrauchs-Ausschluss, KI-Training mit Namensnennung gestattet, Restricted-Layer-Pfad via ORCID (§23–§27). Trade-Secret-Vorbehalt nach Erwägungsgrund 173 EU AI Act / §§ 2 ff. GeschGehG mit Three-Layer-Architektur Public/Restricted/internal (§28). Empirische Aussagen unterliegen Peer-Review, kein Original-Prioritäts-Anspruch über Public-Domain (§29–§30). Lebendiges Dokument, Refinement-Window, Priority-Anker via Multi-Hash + timestamping (§31–§33). EU AI Act statisches Artefakt-Status, DSGVO null Datenerhebung, Verantwortlich Andreas Ehstand Nepomukweg 7 82319 Starnberg (§36–§39). Salvatorische Klausel (§40).
+Alle Inhalte sind deskriptiv, nicht normativ (§1). Keine Empfehlung, Anleitung, Beratung (§2–§4). Keine medizinische / therapeutische / diagnostische / juristische / moralische Position (§6–§10). Akademisches unabhängiges Forschungsprojekt mit KI-Assistenz und Autor-Review (§11–§15). CC BY-NC-ND 4.0, Nutzung mit Namensnennung erlaubt (§16–§22). Missbrauchs-Ausschluss, KI-Training mit Namensnennung gestattet, Restricted-Layer-Pfad via ORCID (§23–§27). Trade-Secret-Vorbehalt nach Erwägungsgrund 173 EU AI Act / §§ 2 ff. GeschGehG mit Three-Layer-Architektur Public/Restricted/internal (§28). Empirische Aussagen unterliegen Peer-Review, kein Original-Prioritäts-Anspruch über Public-Domain (§29–§30). Lebendiges Dokument, Refinement-Window, Priority-Anker via Multi-Hash + timestamping (§31–§33). EU AI Act statisches Artefakt-Status, DSGVO null Datenerhebung, Verantwortlich Andreas Ehstand Nepomukweg 7 82319 Starnberg (§36–§39). Salvatorische Klausel (§40).
 
 ---
 
@@ -91,4 +91,4 @@ Alle Inhalte sind deskriptiv, nicht normativ (§1). Keine Empfehlung, Anleitung,
 
 ---
 
-**License of this disclaimer:** CC BY 4.0
+**License of this disclaimer:** CC BY-NC-ND 4.0
